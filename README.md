@@ -37,6 +37,20 @@ Concretely, the question sets used:
 1. **RQ1's final pipeline** = baseline + query decomposition for multi-metric questions (`retrieve_decomposed`/`retrieve_auto` - splitting a bundled multi-metric query into per-metric sub-questions, since bundling dilutes term-overlap scoring per metric) + cross-encoder reranking (base model **`cross-encoder/ms-marco-MiniLM-L-6-v2`**, fine-tuned via RankNetLoss on domain-informed hard negatives - the pipeline's own top-ranked *wrong* answers, not random negatives - on 591 questions / 3,682 question-document pairs, 5 epochs) + beta-blending (`beta=1.0` for same-distribution deployment, `beta=0.3` as the dual-distribution-safe default).
 2. **RQ2's final model** = baseline + a from-scratch coverage-aware LambdaMART (custom Δcoverage@k gradient, generalizing the standard ΔNDCG LambdaRank gradient to a different, exactly-computable target metric), built entirely on features with no prior fine-tuning history - a cheaper alternative to the cross-encoder when it isn't available, not a per-question routing choice when it is.
 
+### Beta-blending (how much to trust a reranker's score)
+
+Rather than fully replacing stage 1's ranking with the reranker's own order, the two are blended via a tunable `beta`:
+
+```
+final_score = beta * reranker_score_norm + (1 - beta) * stage1_rank_score
+```
+
+`beta=1.0` ignores stage 1's order entirely (pure reranker order); `beta=0.0` returns stage 1's candidates unchanged. This exists as a safety mechanism, not a tuning nicety: an earlier fine-tuned checkpoint had a completely normal-looking loss curve but *inverted* score preferences on direct inspection, so blending in some amount of the (dumber, but never catastrophically wrong) stage-1 order limits the damage a bad reranker checkpoint can do, without giving up all of the good one's benefit.
+
+Swept over `{0.0, 0.3, 0.5, 0.7, 1.0}`, this surfaced a genuine, reproducible finding: `beta=1.0` (full trust) is monotonically the best choice on same-distribution held-out data (the 185-set), but *regresses* performance on cross-distribution, analytically-phrased natural FinanceBench questions - the same checkpoint helps substantially in one regime and actively hurts in the other. `beta=0.3` is positive on every evaluation set tested (smaller gains on the 185-set, but no regression anywhere), which is why it's recommended as the default when the deployed query mix is uncertain, with `beta=1.0` reserved for when it's known to match the training distribution.
+
+The same score-blending idea was tried between the cross-encoder and LambdaMART directly (`final_score = beta * ce_score + (1-beta) * lambdamart_score`, swept the same way, on the 32-question redundant-hop set) - and here the result was unambiguous in the other direction: every metric improved *monotonically* with `beta` all the way to 1.0 (pure cross-encoder). There was no intermediate blend that beat the cross-encoder alone, even on the redundant-hop questions LambdaMART was specifically built for - which is why the two final models are deployed separately (§ above) rather than combined.
+
 ### The RankNetLoss objective (RQ1's cross-encoder fine-tuning)
 
 For a pair of candidates (i, j) retrieved for the same question, where i is truly more relevant than j (i is gold, j is a mined hard negative), the cross-encoder produces a raw scalar score for each - `s_i`, `s_j` - from its joint (query, passage) self-attention forward pass. RankNetLoss (Burges et al., 2005) converts the score difference into a predicted probability that i should outrank j, via a sigmoid, and minimizes ordinary binary cross-entropy against the true target (1, since i genuinely should rank above j here):
