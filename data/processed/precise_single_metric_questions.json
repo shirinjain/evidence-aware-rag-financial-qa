@@ -1,0 +1,5051 @@
+[
+  {
+    "question": "What was 3M's revenue in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "revenue",
+    "value": "$ 32,765",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block369__row0"
+    ],
+    "precise_id": "precise_single_001"
+  },
+  {
+    "question": "What was 3M's operating income in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "operating income",
+    "value": "7,207",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block369__row7"
+    ],
+    "precise_id": "precise_single_002"
+  },
+  {
+    "question": "What was 3M's cost of sales in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "cost of sales",
+    "value": "16,682",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block369__row2"
+    ],
+    "precise_id": "precise_single_003"
+  },
+  {
+    "question": "What was 3M's total assets in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "total assets",
+    "value": "$ 36,500",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row19"
+    ],
+    "precise_id": "precise_single_004"
+  },
+  {
+    "question": "What was 3M's total liabilities in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "total liabilities",
+    "value": "$ 26,652",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row31"
+    ],
+    "precise_id": "precise_single_005"
+  },
+  {
+    "question": "What was 3M's cash and cash equivalents in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "cash and cash equivalents",
+    "value": "$ 2,853",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row2"
+    ],
+    "precise_id": "precise_single_006"
+  },
+  {
+    "question": "What was 3M's total current assets in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "total current assets",
+    "value": "13,709",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row12"
+    ],
+    "precise_id": "precise_single_007"
+  },
+  {
+    "question": "What was 3M's total current liabilities in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "total current liabilities",
+    "value": "7,244",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row27"
+    ],
+    "precise_id": "precise_single_008"
+  },
+  {
+    "question": "What was 3M's long-term debt in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "long-term debt",
+    "value": "13,411",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row28"
+    ],
+    "precise_id": "precise_single_009"
+  },
+  {
+    "question": "What was 3M's capital expenditures in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "capital expenditures",
+    "value": "(1,577)",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block377__row17"
+    ],
+    "precise_id": "precise_single_010"
+  },
+  {
+    "question": "What was 3M's depreciation and amortization in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "depreciation and amortization",
+    "value": "1,488",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block377__row3"
+    ],
+    "precise_id": "precise_single_011"
+  },
+  {
+    "question": "What was 3M's revenue in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "revenue",
+    "value": "$ 34,229",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block308__row0"
+    ],
+    "precise_id": "precise_single_012"
+  },
+  {
+    "question": "What was 3M's operating income in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "operating income",
+    "value": "6,539",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block308__row8"
+    ],
+    "precise_id": "precise_single_013"
+  },
+  {
+    "question": "What was 3M's cost of sales in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "cost of sales",
+    "value": "19,232",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block308__row2"
+    ],
+    "precise_id": "precise_single_014"
+  },
+  {
+    "question": "What was 3M's total assets in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "total assets",
+    "value": "46,455",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block312__row20"
+    ],
+    "precise_id": "precise_single_015"
+  },
+  {
+    "question": "What was 3M's total liabilities in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "total liabilities",
+    "value": "31,685",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block312__row34"
+    ],
+    "precise_id": "precise_single_016"
+  },
+  {
+    "question": "What was 3M's cash and cash equivalents in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "cash and cash equivalents",
+    "value": "3,655",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block312__row2"
+    ],
+    "precise_id": "precise_single_017"
+  },
+  {
+    "question": "What was 3M's total current assets in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "total current assets",
+    "value": "14,688",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block312__row12"
+    ],
+    "precise_id": "precise_single_018"
+  },
+  {
+    "question": "What was 3M's total current liabilities in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "total current liabilities",
+    "value": "9,523",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block312__row29"
+    ],
+    "precise_id": "precise_single_019"
+  },
+  {
+    "question": "What was 3M's long-term debt in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "long-term debt",
+    "value": "14,001",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block312__row30"
+    ],
+    "precise_id": "precise_single_020"
+  },
+  {
+    "question": "What was 3M's capital expenditures in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "capital expenditures",
+    "value": "(1,749)",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block316__row19"
+    ],
+    "precise_id": "precise_single_021"
+  },
+  {
+    "question": "What was 3M's depreciation and amortization in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "depreciation and amortization",
+    "value": "1,831",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block316__row3"
+    ],
+    "precise_id": "precise_single_022"
+  },
+  {
+    "question": "What was AES Corporation's net income in FY2022?",
+    "company": "AES Corporation",
+    "fiscal_period": 2022,
+    "metric": "net income",
+    "value": "(505)",
+    "gold_chunk_ids": [
+      "AES_2022_10K__block893__row25"
+    ],
+    "precise_id": "precise_single_023"
+  },
+  {
+    "question": "What was AES Corporation's total assets in FY2022?",
+    "company": "AES Corporation",
+    "fiscal_period": 2022,
+    "metric": "total assets",
+    "value": "$ 38,363",
+    "gold_chunk_ids": [
+      "AES_2022_10K__block890__row28"
+    ],
+    "precise_id": "precise_single_024"
+  },
+  {
+    "question": "What was AES Corporation's cash and cash equivalents in FY2022?",
+    "company": "AES Corporation",
+    "fiscal_period": 2022,
+    "metric": "cash and cash equivalents",
+    "value": "$ 1,374",
+    "gold_chunk_ids": [
+      "AES_2022_10K__block890__row2"
+    ],
+    "precise_id": "precise_single_025"
+  },
+  {
+    "question": "What was AES Corporation's total current assets in FY2022?",
+    "company": "AES Corporation",
+    "fiscal_period": 2022,
+    "metric": "total current assets",
+    "value": "7,643",
+    "gold_chunk_ids": [
+      "AES_2022_10K__block890__row10"
+    ],
+    "precise_id": "precise_single_026"
+  },
+  {
+    "question": "What was AES Corporation's total current liabilities in FY2022?",
+    "company": "AES Corporation",
+    "fiscal_period": 2022,
+    "metric": "total current liabilities",
+    "value": "6,491",
+    "gold_chunk_ids": [
+      "AES_2022_10K__block890__row37"
+    ],
+    "precise_id": "precise_single_027"
+  },
+  {
+    "question": "What was AES Corporation's capital expenditures in FY2022?",
+    "company": "AES Corporation",
+    "fiscal_period": 2022,
+    "metric": "capital expenditures",
+    "value": "(4,551)",
+    "gold_chunk_ids": [
+      "AES_2022_10K__block905__row23"
+    ],
+    "precise_id": "precise_single_028"
+  },
+  {
+    "question": "What was AES Corporation's operating cash flow in FY2022?",
+    "company": "AES Corporation",
+    "fiscal_period": 2022,
+    "metric": "operating cash flow",
+    "value": "2,715",
+    "gold_chunk_ids": [
+      "AES_2022_10K__block905__row21"
+    ],
+    "precise_id": "precise_single_029"
+  },
+  {
+    "question": "What was AMD's operating income in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "operating income",
+    "value": "(481)",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block415__row9"
+    ],
+    "precise_id": "precise_single_030"
+  },
+  {
+    "question": "What was AMD's cost of sales in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "cost of sales",
+    "value": "2,911",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block415__row1"
+    ],
+    "precise_id": "precise_single_031"
+  },
+  {
+    "question": "What was AMD's total assets in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "total assets",
+    "value": "$ 3,109",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block419__row14"
+    ],
+    "precise_id": "precise_single_032"
+  },
+  {
+    "question": "What was AMD's cash and cash equivalents in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "cash and cash equivalents",
+    "value": "$ 785",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block419__row2"
+    ],
+    "precise_id": "precise_single_033"
+  },
+  {
+    "question": "What was AMD's total current assets in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "total current assets",
+    "value": "2,320",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block419__row9"
+    ],
+    "precise_id": "precise_single_034"
+  },
+  {
+    "question": "What was AMD's total current liabilities in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "total current liabilities",
+    "value": "1,403",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block419__row23"
+    ],
+    "precise_id": "precise_single_035"
+  },
+  {
+    "question": "What was AMD's long-term debt in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "long-term debt",
+    "value": "2,032",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block419__row24"
+    ],
+    "precise_id": "precise_single_036"
+  },
+  {
+    "question": "What was AMD's capital expenditures in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "capital expenditures",
+    "value": "(96)",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block423__row21"
+    ],
+    "precise_id": "precise_single_037"
+  },
+  {
+    "question": "What was AMD's depreciation and amortization in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "depreciation and amortization",
+    "value": "167",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block423__row3"
+    ],
+    "precise_id": "precise_single_038"
+  },
+  {
+    "question": "What was AMD's net income in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "net income",
+    "value": "$ 1,320",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block332__row15"
+    ],
+    "precise_id": "precise_single_039"
+  },
+  {
+    "question": "What was AMD's gross profit in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "gross profit",
+    "value": "10,603",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block332__row4"
+    ],
+    "precise_id": "precise_single_040"
+  },
+  {
+    "question": "What was AMD's operating income in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "operating income",
+    "value": "1,264",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block332__row9"
+    ],
+    "precise_id": "precise_single_041"
+  },
+  {
+    "question": "What was AMD's cost of sales in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "cost of sales",
+    "value": "11,550",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block332__row1"
+    ],
+    "precise_id": "precise_single_042"
+  },
+  {
+    "question": "What was AMD's total assets in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "total assets",
+    "value": "$ 67,580",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block336__row16"
+    ],
+    "precise_id": "precise_single_043"
+  },
+  {
+    "question": "What was AMD's cash and cash equivalents in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "cash and cash equivalents",
+    "value": "$ 4,835",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block336__row2"
+    ],
+    "precise_id": "precise_single_044"
+  },
+  {
+    "question": "What was AMD's total current assets in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "total current assets",
+    "value": "15,019",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block336__row8"
+    ],
+    "precise_id": "precise_single_045"
+  },
+  {
+    "question": "What was AMD's total current liabilities in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "total current liabilities",
+    "value": "6,369",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block336__row24"
+    ],
+    "precise_id": "precise_single_046"
+  },
+  {
+    "question": "What was AMD's inventories in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "inventories",
+    "value": "3,771",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block336__row5"
+    ],
+    "precise_id": "precise_single_047"
+  },
+  {
+    "question": "What was AMD's operating cash flow in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "operating cash flow",
+    "value": "3,565",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block340__row21"
+    ],
+    "precise_id": "precise_single_048"
+  },
+  {
+    "question": "What was AMD's depreciation and amortization in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "depreciation and amortization",
+    "value": "4,174",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block340__row3"
+    ],
+    "precise_id": "precise_single_049"
+  },
+  {
+    "question": "What was Activision Blizzard's net income in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "net income",
+    "value": "$ 1,503",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block231__row21"
+    ],
+    "precise_id": "precise_single_050"
+  },
+  {
+    "question": "What was Activision Blizzard's operating income in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "operating income",
+    "value": "1,607",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block231__row16"
+    ],
+    "precise_id": "precise_single_051"
+  },
+  {
+    "question": "What was Activision Blizzard's income tax expense in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "income tax expense",
+    "value": "130",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block231__row20"
+    ],
+    "precise_id": "precise_single_052"
+  },
+  {
+    "question": "What was Activision Blizzard's total assets in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "total assets",
+    "value": "$ 19,845",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row13"
+    ],
+    "precise_id": "precise_single_053"
+  },
+  {
+    "question": "What was Activision Blizzard's total liabilities in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "total liabilities",
+    "value": "7,040",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row23"
+    ],
+    "precise_id": "precise_single_054"
+  },
+  {
+    "question": "What was Activision Blizzard's cash and cash equivalents in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "cash and cash equivalents",
+    "value": "$ 5,794",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row1"
+    ],
+    "precise_id": "precise_single_055"
+  },
+  {
+    "question": "What was Activision Blizzard's total current assets in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "total current assets",
+    "value": "7,292",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row6"
+    ],
+    "precise_id": "precise_single_056"
+  },
+  {
+    "question": "What was Activision Blizzard's total current liabilities in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "total current liabilities",
+    "value": "2,915",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row19"
+    ],
+    "precise_id": "precise_single_057"
+  },
+  {
+    "question": "What was Activision Blizzard's capital expenditures in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "capital expenditures",
+    "value": "(116)",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block465__row24"
+    ],
+    "precise_id": "precise_single_058"
+  },
+  {
+    "question": "What was Activision Blizzard's operating cash flow in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "operating cash flow",
+    "value": "1,831",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block465__row20"
+    ],
+    "precise_id": "precise_single_059"
+  },
+  {
+    "question": "What was Activision Blizzard's depreciation and amortization in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "depreciation and amortization",
+    "value": "328",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block465__row6"
+    ],
+    "precise_id": "precise_single_060"
+  },
+  {
+    "question": "What was Activision Blizzard's dividends paid in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "dividends paid",
+    "value": "(283)",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block465__row30"
+    ],
+    "precise_id": "precise_single_061"
+  },
+  {
+    "question": "What was Amazon's total assets in FY2017?",
+    "company": "Amazon",
+    "fiscal_period": 2017,
+    "metric": "total assets",
+    "value": "$ 83,402",
+    "gold_chunk_ids": [
+      "AMAZON_2017_10K__block246__row10"
+    ],
+    "precise_id": "precise_single_062"
+  },
+  {
+    "question": "What was Amazon's cash and cash equivalents in FY2017?",
+    "company": "Amazon",
+    "fiscal_period": 2017,
+    "metric": "cash and cash equivalents",
+    "value": "$ 19,334",
+    "gold_chunk_ids": [
+      "AMAZON_2017_10K__block246__row2"
+    ],
+    "precise_id": "precise_single_063"
+  },
+  {
+    "question": "What was Amazon's total current assets in FY2017?",
+    "company": "Amazon",
+    "fiscal_period": 2017,
+    "metric": "total current assets",
+    "value": "45,781",
+    "gold_chunk_ids": [
+      "AMAZON_2017_10K__block246__row6"
+    ],
+    "precise_id": "precise_single_064"
+  },
+  {
+    "question": "What was Amazon's total current liabilities in FY2017?",
+    "company": "Amazon",
+    "fiscal_period": 2017,
+    "metric": "total current liabilities",
+    "value": "43,816",
+    "gold_chunk_ids": [
+      "AMAZON_2017_10K__block246__row16"
+    ],
+    "precise_id": "precise_single_065"
+  },
+  {
+    "question": "What was Amazon's long-term debt in FY2017?",
+    "company": "Amazon",
+    "fiscal_period": 2017,
+    "metric": "long-term debt",
+    "value": "7,694",
+    "gold_chunk_ids": [
+      "AMAZON_2017_10K__block246__row17"
+    ],
+    "precise_id": "precise_single_066"
+  },
+  {
+    "question": "What was Amazon's inventories in FY2017?",
+    "company": "Amazon",
+    "fiscal_period": 2017,
+    "metric": "inventories",
+    "value": "11,461",
+    "gold_chunk_ids": [
+      "AMAZON_2017_10K__block246__row4"
+    ],
+    "precise_id": "precise_single_067"
+  },
+  {
+    "question": "What was Amazon's total assets in FY2019?",
+    "company": "Amazon",
+    "fiscal_period": 2019,
+    "metric": "total assets",
+    "value": "$ 162,648",
+    "gold_chunk_ids": [
+      "AMAZON_2019_10K__block245__row11"
+    ],
+    "precise_id": "precise_single_068"
+  },
+  {
+    "question": "What was Amazon's cash and cash equivalents in FY2019?",
+    "company": "Amazon",
+    "fiscal_period": 2019,
+    "metric": "cash and cash equivalents",
+    "value": "$ 31,750",
+    "gold_chunk_ids": [
+      "AMAZON_2019_10K__block245__row2"
+    ],
+    "precise_id": "precise_single_069"
+  },
+  {
+    "question": "What was Amazon's total current assets in FY2019?",
+    "company": "Amazon",
+    "fiscal_period": 2019,
+    "metric": "total current assets",
+    "value": "75,101",
+    "gold_chunk_ids": [
+      "AMAZON_2019_10K__block245__row6"
+    ],
+    "precise_id": "precise_single_070"
+  },
+  {
+    "question": "What was Amazon's total current liabilities in FY2019?",
+    "company": "Amazon",
+    "fiscal_period": 2019,
+    "metric": "total current liabilities",
+    "value": "68,391",
+    "gold_chunk_ids": [
+      "AMAZON_2019_10K__block245__row17"
+    ],
+    "precise_id": "precise_single_071"
+  },
+  {
+    "question": "What was Amazon's long-term debt in FY2019?",
+    "company": "Amazon",
+    "fiscal_period": 2019,
+    "metric": "long-term debt",
+    "value": "23,495",
+    "gold_chunk_ids": [
+      "AMAZON_2019_10K__block245__row19"
+    ],
+    "precise_id": "precise_single_072"
+  },
+  {
+    "question": "What was Amazon's inventories in FY2019?",
+    "company": "Amazon",
+    "fiscal_period": 2019,
+    "metric": "inventories",
+    "value": "17,174",
+    "gold_chunk_ids": [
+      "AMAZON_2019_10K__block245__row4"
+    ],
+    "precise_id": "precise_single_073"
+  },
+  {
+    "question": "What was Amcor's revenue in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "revenue",
+    "value": "$ 12,467.5",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block298__row0"
+    ],
+    "precise_id": "precise_single_074"
+  },
+  {
+    "question": "What was Amcor's net income in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "net income",
+    "value": "$ 616.6",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block298__row17"
+    ],
+    "precise_id": "precise_single_075"
+  },
+  {
+    "question": "What was Amcor's gross profit in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "gross profit",
+    "value": "2,535.5",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block298__row2"
+    ],
+    "precise_id": "precise_single_076"
+  },
+  {
+    "question": "What was Amcor's operating income in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "operating income",
+    "value": "994.0",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block298__row8"
+    ],
+    "precise_id": "precise_single_077"
+  },
+  {
+    "question": "What was Amcor's cost of sales in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "cost of sales",
+    "value": "(9,932.0)",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block298__row1"
+    ],
+    "precise_id": "precise_single_078"
+  },
+  {
+    "question": "What was Amcor's income tax expense in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "income tax expense",
+    "value": "(186.9)",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block298__row13"
+    ],
+    "precise_id": "precise_single_079"
+  },
+  {
+    "question": "What was Amcor's total assets in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "total assets",
+    "value": "$ 16,442.1",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block302__row18"
+    ],
+    "precise_id": "precise_single_080"
+  },
+  {
+    "question": "What was Amcor's total liabilities in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "total liabilities",
+    "value": "11,755.0",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block302__row35"
+    ],
+    "precise_id": "precise_single_081"
+  },
+  {
+    "question": "What was Amcor's cash and cash equivalents in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "cash and cash equivalents",
+    "value": "$ 742.6",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block302__row2"
+    ],
+    "precise_id": "precise_single_082"
+  },
+  {
+    "question": "What was Amcor's total current assets in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "total current assets",
+    "value": "4,534.7",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block302__row7"
+    ],
+    "precise_id": "precise_single_083"
+  },
+  {
+    "question": "What was Amcor's total current liabilities in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "total current liabilities",
+    "value": "3,973.6",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block302__row27"
+    ],
+    "precise_id": "precise_single_084"
+  },
+  {
+    "question": "What was Amcor's operating cash flow in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "operating cash flow",
+    "value": "1,384.2",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block304__row25"
+    ],
+    "precise_id": "precise_single_085"
+  },
+  {
+    "question": "What was Amcor's dividends paid in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "dividends paid",
+    "value": "(761.1)",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block304__row45"
+    ],
+    "precise_id": "precise_single_086"
+  },
+  {
+    "question": "What was Amcor's revenue in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "revenue",
+    "value": "$ 14,694",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block293__row0"
+    ],
+    "precise_id": "precise_single_087"
+  },
+  {
+    "question": "What was Amcor's net income in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "net income",
+    "value": "$ 1,058",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block293__row14"
+    ],
+    "precise_id": "precise_single_088"
+  },
+  {
+    "question": "What was Amcor's gross profit in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "gross profit",
+    "value": "2,725",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block293__row2"
+    ],
+    "precise_id": "precise_single_089"
+  },
+  {
+    "question": "What was Amcor's operating income in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "operating income",
+    "value": "1,508",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block293__row7"
+    ],
+    "precise_id": "precise_single_090"
+  },
+  {
+    "question": "What was Amcor's cost of sales in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "cost of sales",
+    "value": "(11,969)",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block293__row1"
+    ],
+    "precise_id": "precise_single_091"
+  },
+  {
+    "question": "What was Amcor's income tax expense in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "income tax expense",
+    "value": "(193)",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block293__row12"
+    ],
+    "precise_id": "precise_single_092"
+  },
+  {
+    "question": "What was Amcor's total assets in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "total assets",
+    "value": "$ 13,952",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block636__row14"
+    ],
+    "precise_id": "precise_single_093"
+  },
+  {
+    "question": "What was Amcor's total liabilities in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "total liabilities",
+    "value": "1,147",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block636__row25"
+    ],
+    "precise_id": "precise_single_094"
+  },
+  {
+    "question": "What was Amcor's cash and cash equivalents in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "cash and cash equivalents",
+    "value": "$ 54",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block636__row2"
+    ],
+    "precise_id": "precise_single_095"
+  },
+  {
+    "question": "What was Amcor's total current assets in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "total current assets",
+    "value": "477",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block636__row6"
+    ],
+    "precise_id": "precise_single_096"
+  },
+  {
+    "question": "What was Amcor's total current liabilities in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "total current liabilities",
+    "value": "1,145",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block636__row21"
+    ],
+    "precise_id": "precise_single_097"
+  },
+  {
+    "question": "What was Amcor's inventories in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "inventories",
+    "value": "60",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block636__row4"
+    ],
+    "precise_id": "precise_single_098"
+  },
+  {
+    "question": "What was Amcor's operating cash flow in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "operating cash flow",
+    "value": "1,261",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block299__row25"
+    ],
+    "precise_id": "precise_single_099"
+  },
+  {
+    "question": "What was Amcor's dividends paid in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "dividends paid",
+    "value": "(723)",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block299__row44"
+    ],
+    "precise_id": "precise_single_100"
+  },
+  {
+    "question": "What was American Express's net income in FY2022?",
+    "company": "American Express",
+    "fiscal_period": 2022,
+    "metric": "net income",
+    "value": "$ 7,514",
+    "gold_chunk_ids": [
+      "AMERICANEXPRESS_2022_10K__block635__row34"
+    ],
+    "precise_id": "precise_single_101"
+  },
+  {
+    "question": "What was American Express's total assets in FY2022?",
+    "company": "American Express",
+    "fiscal_period": 2022,
+    "metric": "total assets",
+    "value": "$ 228,354",
+    "gold_chunk_ids": [
+      "AMERICANEXPRESS_2022_10K__block640__row12"
+    ],
+    "precise_id": "precise_single_102"
+  },
+  {
+    "question": "What was American Express's total liabilities in FY2022?",
+    "company": "American Express",
+    "fiscal_period": 2022,
+    "metric": "total liabilities",
+    "value": "$ 203,643",
+    "gold_chunk_ids": [
+      "AMERICANEXPRESS_2022_10K__block640__row20"
+    ],
+    "precise_id": "precise_single_103"
+  },
+  {
+    "question": "What was American Express's long-term debt in FY2022?",
+    "company": "American Express",
+    "fiscal_period": 2022,
+    "metric": "long-term debt",
+    "value": "42,573",
+    "gold_chunk_ids": [
+      "AMERICANEXPRESS_2022_10K__block640__row18"
+    ],
+    "precise_id": "precise_single_104"
+  },
+  {
+    "question": "What was American Express's operating cash flow in FY2022?",
+    "company": "American Express",
+    "fiscal_period": 2022,
+    "metric": "operating cash flow",
+    "value": "21,079",
+    "gold_chunk_ids": [
+      "AMERICANEXPRESS_2022_10K__block642__row13"
+    ],
+    "precise_id": "precise_single_105"
+  },
+  {
+    "question": "What was American Express's depreciation and amortization in FY2022?",
+    "company": "American Express",
+    "fiscal_period": 2022,
+    "metric": "depreciation and amortization",
+    "value": "1,626",
+    "gold_chunk_ids": [
+      "AMERICANEXPRESS_2022_10K__block642__row4"
+    ],
+    "precise_id": "precise_single_106"
+  },
+  {
+    "question": "What was American Express's dividends paid in FY2022?",
+    "company": "American Express",
+    "fiscal_period": 2022,
+    "metric": "dividends paid",
+    "value": "(1,565)",
+    "gold_chunk_ids": [
+      "AMERICANEXPRESS_2022_10K__block642__row32"
+    ],
+    "precise_id": "precise_single_107"
+  },
+  {
+    "question": "What was American Water Works's operating income in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "operating income",
+    "value": "1,248",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block486__row8"
+    ],
+    "precise_id": "precise_single_108"
+  },
+  {
+    "question": "What was American Water Works's total assets in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "total assets",
+    "value": "$ 24,766",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block481__row21"
+    ],
+    "precise_id": "precise_single_109"
+  },
+  {
+    "question": "What was American Water Works's cash and cash equivalents in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "cash and cash equivalents",
+    "value": "547",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block481__row5"
+    ],
+    "precise_id": "precise_single_110"
+  },
+  {
+    "question": "What was American Water Works's total current assets in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "total current assets",
+    "value": "1,906",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block481__row12"
+    ],
+    "precise_id": "precise_single_111"
+  },
+  {
+    "question": "What was American Water Works's total current liabilities in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "total current liabilities",
+    "value": "2,881",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block484__row21"
+    ],
+    "precise_id": "precise_single_112"
+  },
+  {
+    "question": "What was American Water Works's long-term debt in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "long-term debt",
+    "value": "9,329",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block484__row8"
+    ],
+    "precise_id": "precise_single_113"
+  },
+  {
+    "question": "What was American Water Works's capital expenditures in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "capital expenditures",
+    "value": "(1,822)",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block491__row18"
+    ],
+    "precise_id": "precise_single_114"
+  },
+  {
+    "question": "What was American Water Works's operating cash flow in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "operating cash flow",
+    "value": "1,426",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block491__row16"
+    ],
+    "precise_id": "precise_single_115"
+  },
+  {
+    "question": "What was American Water Works's depreciation and amortization in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "depreciation and amortization",
+    "value": "604",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block491__row3"
+    ],
+    "precise_id": "precise_single_116"
+  },
+  {
+    "question": "What was American Water Works's dividends paid in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "dividends paid",
+    "value": "(389)",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block491__row32"
+    ],
+    "precise_id": "precise_single_117"
+  },
+  {
+    "question": "What was American Water Works's operating income in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "operating income",
+    "value": "1,196",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block515__row7"
+    ],
+    "precise_id": "precise_single_118"
+  },
+  {
+    "question": "What was American Water Works's total assets in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "total assets",
+    "value": "$ 26,075",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block510__row22"
+    ],
+    "precise_id": "precise_single_119"
+  },
+  {
+    "question": "What was American Water Works's cash and cash equivalents in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "cash and cash equivalents",
+    "value": "116",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block510__row5"
+    ],
+    "precise_id": "precise_single_120"
+  },
+  {
+    "question": "What was American Water Works's total current assets in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "total current assets",
+    "value": "1,554",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block510__row12"
+    ],
+    "precise_id": "precise_single_121"
+  },
+  {
+    "question": "What was American Water Works's total current liabilities in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "total current liabilities",
+    "value": "2,141",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block513__row21"
+    ],
+    "precise_id": "precise_single_122"
+  },
+  {
+    "question": "What was American Water Works's long-term debt in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "long-term debt",
+    "value": "10,341",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block513__row8"
+    ],
+    "precise_id": "precise_single_123"
+  },
+  {
+    "question": "What was American Water Works's capital expenditures in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "capital expenditures",
+    "value": "(1,764)",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block520__row16"
+    ],
+    "precise_id": "precise_single_124"
+  },
+  {
+    "question": "What was American Water Works's operating cash flow in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "operating cash flow",
+    "value": "1,441",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block520__row14"
+    ],
+    "precise_id": "precise_single_125"
+  },
+  {
+    "question": "What was American Water Works's depreciation and amortization in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "depreciation and amortization",
+    "value": "636",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block520__row3"
+    ],
+    "precise_id": "precise_single_126"
+  },
+  {
+    "question": "What was American Water Works's dividends paid in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "dividends paid",
+    "value": "(428)",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block520__row29"
+    ],
+    "precise_id": "precise_single_127"
+  },
+  {
+    "question": "What was American Water Works's operating income in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "operating income",
+    "value": "1,273",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block503__row6"
+    ],
+    "precise_id": "precise_single_128"
+  },
+  {
+    "question": "What was American Water Works's total assets in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "total assets",
+    "value": "$ 27,787",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block498__row22"
+    ],
+    "precise_id": "precise_single_129"
+  },
+  {
+    "question": "What was American Water Works's cash and cash equivalents in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "cash and cash equivalents",
+    "value": "85",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block498__row5"
+    ],
+    "precise_id": "precise_single_130"
+  },
+  {
+    "question": "What was American Water Works's total current assets in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "total current assets",
+    "value": "1,250",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block498__row13"
+    ],
+    "precise_id": "precise_single_131"
+  },
+  {
+    "question": "What was American Water Works's total current liabilities in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "total current liabilities",
+    "value": "2,811",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block501__row21"
+    ],
+    "precise_id": "precise_single_132"
+  },
+  {
+    "question": "What was American Water Works's long-term debt in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "long-term debt",
+    "value": "10,926",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block501__row8"
+    ],
+    "precise_id": "precise_single_133"
+  },
+  {
+    "question": "What was American Water Works's capital expenditures in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "capital expenditures",
+    "value": "(2,297)",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block508__row18"
+    ],
+    "precise_id": "precise_single_134"
+  },
+  {
+    "question": "What was American Water Works's operating cash flow in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "operating cash flow",
+    "value": "1,108",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block508__row16"
+    ],
+    "precise_id": "precise_single_135"
+  },
+  {
+    "question": "What was American Water Works's depreciation and amortization in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "depreciation and amortization",
+    "value": "649",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block508__row3"
+    ],
+    "precise_id": "precise_single_136"
+  },
+  {
+    "question": "What was American Water Works's dividends paid in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "dividends paid",
+    "value": "(467)",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block508__row30"
+    ],
+    "precise_id": "precise_single_137"
+  },
+  {
+    "question": "What was Best Buy's total assets in FY2017?",
+    "company": "Best Buy",
+    "fiscal_period": 2017,
+    "metric": "total assets",
+    "value": "$ 13,856",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block400__row18"
+    ],
+    "precise_id": "precise_single_138"
+  },
+  {
+    "question": "What was Best Buy's cash and cash equivalents in FY2017?",
+    "company": "Best Buy",
+    "fiscal_period": 2017,
+    "metric": "cash and cash equivalents",
+    "value": "$ 2,240",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block400__row1"
+    ],
+    "precise_id": "precise_single_139"
+  },
+  {
+    "question": "What was Best Buy's total current assets in FY2017?",
+    "company": "Best Buy",
+    "fiscal_period": 2017,
+    "metric": "total current assets",
+    "value": "10,516",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block400__row6"
+    ],
+    "precise_id": "precise_single_140"
+  },
+  {
+    "question": "What was Best Buy's total current liabilities in FY2017?",
+    "company": "Best Buy",
+    "fiscal_period": 2017,
+    "metric": "total current liabilities",
+    "value": "7,122",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block400__row28"
+    ],
+    "precise_id": "precise_single_141"
+  },
+  {
+    "question": "What was Best Buy's long-term debt in FY2017?",
+    "company": "Best Buy",
+    "fiscal_period": 2017,
+    "metric": "long-term debt",
+    "value": "1,321",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block400__row30"
+    ],
+    "precise_id": "precise_single_142"
+  },
+  {
+    "question": "What was Best Buy's dividends paid in FY2017?",
+    "company": "Best Buy",
+    "fiscal_period": 2017,
+    "metric": "dividends paid",
+    "value": "(505)",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block407__row30"
+    ],
+    "precise_id": "precise_single_143"
+  },
+  {
+    "question": "What was Best Buy's total assets in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "total assets",
+    "value": "$ 12,901",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block377__row17"
+    ],
+    "precise_id": "precise_single_144"
+  },
+  {
+    "question": "What was Best Buy's cash and cash equivalents in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "cash and cash equivalents",
+    "value": "$ 1,980",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block377__row1"
+    ],
+    "precise_id": "precise_single_145"
+  },
+  {
+    "question": "What was Best Buy's total current assets in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "total current assets",
+    "value": "8,870",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block377__row6"
+    ],
+    "precise_id": "precise_single_146"
+  },
+  {
+    "question": "What was Best Buy's total current liabilities in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "total current liabilities",
+    "value": "7,513",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block377__row26"
+    ],
+    "precise_id": "precise_single_147"
+  },
+  {
+    "question": "What was Best Buy's long-term debt in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "long-term debt",
+    "value": "1,332",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block377__row28"
+    ],
+    "precise_id": "precise_single_148"
+  },
+  {
+    "question": "What was Best Buy's depreciation and amortization in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "depreciation and amortization",
+    "value": "770",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block384__row3"
+    ],
+    "precise_id": "precise_single_149"
+  },
+  {
+    "question": "What was Best Buy's dividends paid in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "dividends paid",
+    "value": "(497)",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block384__row26"
+    ],
+    "precise_id": "precise_single_150"
+  },
+  {
+    "question": "What was Best Buy's total assets in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "total assets",
+    "value": "$ 15,803",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block340__row18"
+    ],
+    "precise_id": "precise_single_151"
+  },
+  {
+    "question": "What was Best Buy's cash and cash equivalents in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "cash and cash equivalents",
+    "value": "$ 1,874",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block340__row2"
+    ],
+    "precise_id": "precise_single_152"
+  },
+  {
+    "question": "What was Best Buy's total current assets in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "total current assets",
+    "value": "8,802",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block340__row6"
+    ],
+    "precise_id": "precise_single_153"
+  },
+  {
+    "question": "What was Best Buy's total current liabilities in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "total current liabilities",
+    "value": "8,979",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block340__row28"
+    ],
+    "precise_id": "precise_single_154"
+  },
+  {
+    "question": "What was Best Buy's long-term debt in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "long-term debt",
+    "value": "1,160",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block340__row31"
+    ],
+    "precise_id": "precise_single_155"
+  },
+  {
+    "question": "What was Best Buy's depreciation and amortization in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "depreciation and amortization",
+    "value": "918",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block347__row3"
+    ],
+    "precise_id": "precise_single_156"
+  },
+  {
+    "question": "What was Best Buy's dividends paid in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "dividends paid",
+    "value": "(789)",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block347__row26"
+    ],
+    "precise_id": "precise_single_157"
+  },
+  {
+    "question": "What was Block's revenue in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "revenue",
+    "value": "1,708,721",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block429__row5"
+    ],
+    "precise_id": "precise_single_158"
+  },
+  {
+    "question": "What was Block's gross profit in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "gross profit",
+    "value": "576,038",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block429__row13"
+    ],
+    "precise_id": "precise_single_159"
+  },
+  {
+    "question": "What was Block's total assets in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "total assets",
+    "value": "$ 1,211,362",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block427__row17"
+    ],
+    "precise_id": "precise_single_160"
+  },
+  {
+    "question": "What was Block's total liabilities in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "total liabilities",
+    "value": "635,209",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block427__row29"
+    ],
+    "precise_id": "precise_single_161"
+  },
+  {
+    "question": "What was Block's cash and cash equivalents in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "cash and cash equivalents",
+    "value": "$ 452,030",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block427__row2"
+    ],
+    "precise_id": "precise_single_162"
+  },
+  {
+    "question": "What was Block's total current assets in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "total current assets",
+    "value": "1,001,425",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block427__row10"
+    ],
+    "precise_id": "precise_single_163"
+  },
+  {
+    "question": "What was Block's total current liabilities in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "total current liabilities",
+    "value": "577,464",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block427__row26"
+    ],
+    "precise_id": "precise_single_164"
+  },
+  {
+    "question": "What was Block's depreciation and amortization in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "depreciation and amortization",
+    "value": "37,745",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block437__row3"
+    ],
+    "precise_id": "precise_single_165"
+  },
+  {
+    "question": "What was Block's revenue in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "revenue",
+    "value": "9,497,578",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block466__row5"
+    ],
+    "precise_id": "precise_single_166"
+  },
+  {
+    "question": "What was Block's net income in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "net income",
+    "value": "$ 213,105",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block466__row27"
+    ],
+    "precise_id": "precise_single_167"
+  },
+  {
+    "question": "What was Block's gross profit in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "gross profit",
+    "value": "2,733,409",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block466__row13"
+    ],
+    "precise_id": "precise_single_168"
+  },
+  {
+    "question": "What was Block's operating income in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "operating income",
+    "value": "(18,815)",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block466__row21"
+    ],
+    "precise_id": "precise_single_169"
+  },
+  {
+    "question": "What was Block's total assets in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "total assets",
+    "value": "$ 9,869,550",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block464__row15"
+    ],
+    "precise_id": "precise_single_170"
+  },
+  {
+    "question": "What was Block's total liabilities in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "total liabilities",
+    "value": "7,187,981",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block464__row27"
+    ],
+    "precise_id": "precise_single_171"
+  },
+  {
+    "question": "What was Block's cash and cash equivalents in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "cash and cash equivalents",
+    "value": "$ 3,158,058",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block464__row2"
+    ],
+    "precise_id": "precise_single_172"
+  },
+  {
+    "question": "What was Block's total current assets in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "total current assets",
+    "value": "7,761,629",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block464__row8"
+    ],
+    "precise_id": "precise_single_173"
+  },
+  {
+    "question": "What was Block's total current liabilities in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "total current liabilities",
+    "value": "4,126,104",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block464__row23"
+    ],
+    "precise_id": "precise_single_174"
+  },
+  {
+    "question": "What was Block's long-term debt in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "long-term debt",
+    "value": "2,586,924",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block464__row24"
+    ],
+    "precise_id": "precise_single_175"
+  },
+  {
+    "question": "What was Block's operating cash flow in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "operating cash flow",
+    "value": "381,603",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block474__row22"
+    ],
+    "precise_id": "precise_single_176"
+  },
+  {
+    "question": "What was Block's depreciation and amortization in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "depreciation and amortization",
+    "value": "84,212",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block474__row3"
+    ],
+    "precise_id": "precise_single_177"
+  },
+  {
+    "question": "What was Boeing's revenue in FY2018?",
+    "company": "Boeing",
+    "fiscal_period": 2018,
+    "metric": "revenue",
+    "value": "101,127",
+    "gold_chunk_ids": [
+      "BOEING_2018_10K__block308__row2"
+    ],
+    "precise_id": "precise_single_178"
+  },
+  {
+    "question": "What was Boeing's income tax expense in FY2018?",
+    "company": "Boeing",
+    "fiscal_period": 2018,
+    "metric": "income tax expense",
+    "value": "(1,144)",
+    "gold_chunk_ids": [
+      "BOEING_2018_10K__block308__row16"
+    ],
+    "precise_id": "precise_single_179"
+  },
+  {
+    "question": "What was Boeing's operating cash flow in FY2018?",
+    "company": "Boeing",
+    "fiscal_period": 2018,
+    "metric": "operating cash flow",
+    "value": "15,322",
+    "gold_chunk_ids": [
+      "BOEING_2018_10K__block315__row23"
+    ],
+    "precise_id": "precise_single_180"
+  },
+  {
+    "question": "What was Boeing's depreciation and amortization in FY2018?",
+    "company": "Boeing",
+    "fiscal_period": 2018,
+    "metric": "depreciation and amortization",
+    "value": "2,114",
+    "gold_chunk_ids": [
+      "BOEING_2018_10K__block315__row5"
+    ],
+    "precise_id": "precise_single_181"
+  },
+  {
+    "question": "What was Boeing's dividends paid in FY2018?",
+    "company": "Boeing",
+    "fiscal_period": 2018,
+    "metric": "dividends paid",
+    "value": "(3,946)",
+    "gold_chunk_ids": [
+      "BOEING_2018_10K__block315__row41"
+    ],
+    "precise_id": "precise_single_182"
+  },
+  {
+    "question": "What was Boeing's revenue in FY2022?",
+    "company": "Boeing",
+    "fiscal_period": 2022,
+    "metric": "revenue",
+    "value": "66,608",
+    "gold_chunk_ids": [
+      "BOEING_2022_10K__block305__row2"
+    ],
+    "precise_id": "precise_single_183"
+  },
+  {
+    "question": "What was CVS Health's revenue in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "revenue",
+    "value": "194,579",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1535__row5"
+    ],
+    "precise_id": "precise_single_184"
+  },
+  {
+    "question": "What was CVS Health's net income in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "net income",
+    "value": "(596)",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1535__row20"
+    ],
+    "precise_id": "precise_single_185"
+  },
+  {
+    "question": "What was CVS Health's operating income in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "operating income",
+    "value": "4,021",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1535__row12"
+    ],
+    "precise_id": "precise_single_186"
+  },
+  {
+    "question": "What was CVS Health's total assets in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "total assets",
+    "value": "$ 196,456",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1539__row13"
+    ],
+    "precise_id": "precise_single_187"
+  },
+  {
+    "question": "What was CVS Health's total liabilities in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "total liabilities",
+    "value": "137,913",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1539__row29"
+    ],
+    "precise_id": "precise_single_188"
+  },
+  {
+    "question": "What was CVS Health's cash and cash equivalents in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "cash and cash equivalents",
+    "value": "$ 4,059",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1539__row1"
+    ],
+    "precise_id": "precise_single_189"
+  },
+  {
+    "question": "What was CVS Health's total current assets in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "total current assets",
+    "value": "45,243",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1539__row6"
+    ],
+    "precise_id": "precise_single_190"
+  },
+  {
+    "question": "What was CVS Health's total current liabilities in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "total current liabilities",
+    "value": "44,009",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1539__row23"
+    ],
+    "precise_id": "precise_single_191"
+  },
+  {
+    "question": "What was CVS Health's long-term debt in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "long-term debt",
+    "value": "71,444",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1539__row24"
+    ],
+    "precise_id": "precise_single_192"
+  },
+  {
+    "question": "What was CVS Health's inventories in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "inventories",
+    "value": "16,450",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1539__row4"
+    ],
+    "precise_id": "precise_single_193"
+  },
+  {
+    "question": "What was CVS Health's operating cash flow in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "operating cash flow",
+    "value": "8,865",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1541__row8"
+    ],
+    "precise_id": "precise_single_194"
+  },
+  {
+    "question": "What was CVS Health's depreciation and amortization in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "depreciation and amortization",
+    "value": "2,718",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1542__row3"
+    ],
+    "precise_id": "precise_single_195"
+  },
+  {
+    "question": "What was CVS Health's dividends paid in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "dividends paid",
+    "value": "(2,038)",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1541__row26"
+    ],
+    "precise_id": "precise_single_196"
+  },
+  {
+    "question": "What was CVS Health's revenue in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "revenue",
+    "value": "322,467",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block665__row5"
+    ],
+    "precise_id": "precise_single_197"
+  },
+  {
+    "question": "What was CVS Health's net income in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "net income",
+    "value": "4,165",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block665__row23"
+    ],
+    "precise_id": "precise_single_198"
+  },
+  {
+    "question": "What was CVS Health's operating income in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "operating income",
+    "value": "7,746",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block665__row15"
+    ],
+    "precise_id": "precise_single_199"
+  },
+  {
+    "question": "What was CVS Health's total assets in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "total assets",
+    "value": "$ 228,275",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block669__row15"
+    ],
+    "precise_id": "precise_single_200"
+  },
+  {
+    "question": "What was CVS Health's total liabilities in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "total liabilities",
+    "value": "156,960",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block669__row33"
+    ],
+    "precise_id": "precise_single_201"
+  },
+  {
+    "question": "What was CVS Health's cash and cash equivalents in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "cash and cash equivalents",
+    "value": "$ 12,945",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block669__row1"
+    ],
+    "precise_id": "precise_single_202"
+  },
+  {
+    "question": "What was CVS Health's total current assets in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "total current assets",
+    "value": "65,682",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block669__row7"
+    ],
+    "precise_id": "precise_single_203"
+  },
+  {
+    "question": "What was CVS Health's total current liabilities in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "total current liabilities",
+    "value": "69,736",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block669__row26"
+    ],
+    "precise_id": "precise_single_204"
+  },
+  {
+    "question": "What was CVS Health's long-term debt in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "long-term debt",
+    "value": "50,476",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block669__row28"
+    ],
+    "precise_id": "precise_single_205"
+  },
+  {
+    "question": "What was CVS Health's inventories in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "inventories",
+    "value": "19,090",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block669__row4"
+    ],
+    "precise_id": "precise_single_206"
+  },
+  {
+    "question": "What was CVS Health's operating cash flow in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "operating cash flow",
+    "value": "16,177",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block671__row8"
+    ],
+    "precise_id": "precise_single_207"
+  },
+  {
+    "question": "What was CVS Health's depreciation and amortization in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "depreciation and amortization",
+    "value": "4,247",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block672__row3"
+    ],
+    "precise_id": "precise_single_208"
+  },
+  {
+    "question": "What was CVS Health's dividends paid in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "dividends paid",
+    "value": "(2,907)",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block671__row23"
+    ],
+    "precise_id": "precise_single_209"
+  },
+  {
+    "question": "What was Coca-Cola's gross profit in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "gross profit",
+    "value": "22,154",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block348__row3"
+    ],
+    "precise_id": "precise_single_210"
+  },
+  {
+    "question": "What was Coca-Cola's operating income in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "operating income",
+    "value": "7,501",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block348__row7"
+    ],
+    "precise_id": "precise_single_211"
+  },
+  {
+    "question": "What was Coca-Cola's cost of sales in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "cost of sales",
+    "value": "13,256",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block348__row2"
+    ],
+    "precise_id": "precise_single_212"
+  },
+  {
+    "question": "What was Coca-Cola's total assets in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "total assets",
+    "value": "$ 87,896",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block543__row21"
+    ],
+    "precise_id": "precise_single_213"
+  },
+  {
+    "question": "What was Coca-Cola's cash and cash equivalents in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "cash and cash equivalents",
+    "value": "$ 6,006",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block543__row3"
+    ],
+    "precise_id": "precise_single_214"
+  },
+  {
+    "question": "What was Coca-Cola's total current assets in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "total current assets",
+    "value": "36,545",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block543__row12"
+    ],
+    "precise_id": "precise_single_215"
+  },
+  {
+    "question": "What was Coca-Cola's total current liabilities in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "total current liabilities",
+    "value": "27,194",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block543__row30"
+    ],
+    "precise_id": "precise_single_216"
+  },
+  {
+    "question": "What was Coca-Cola's long-term debt in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "long-term debt",
+    "value": "31,182",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block543__row31"
+    ],
+    "precise_id": "precise_single_217"
+  },
+  {
+    "question": "What was Coca-Cola's inventories in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "inventories",
+    "value": "2,655",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block543__row8"
+    ],
+    "precise_id": "precise_single_218"
+  },
+  {
+    "question": "What was Coca-Cola's capital expenditures in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "capital expenditures",
+    "value": "(1,675)",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block545__row20"
+    ],
+    "precise_id": "precise_single_219"
+  },
+  {
+    "question": "What was Coca-Cola's operating cash flow in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "operating cash flow",
+    "value": "6,995",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block545__row14"
+    ],
+    "precise_id": "precise_single_220"
+  },
+  {
+    "question": "What was Coca-Cola's depreciation and amortization in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "depreciation and amortization",
+    "value": "1,260",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block545__row5"
+    ],
+    "precise_id": "precise_single_221"
+  },
+  {
+    "question": "What was Coca-Cola's gross profit in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "gross profit",
+    "value": "23,298",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block441__row2"
+    ],
+    "precise_id": "precise_single_222"
+  },
+  {
+    "question": "What was Coca-Cola's operating income in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "operating income",
+    "value": "10,308",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block441__row5"
+    ],
+    "precise_id": "precise_single_223"
+  },
+  {
+    "question": "What was Coca-Cola's cost of sales in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "cost of sales",
+    "value": "15,357",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block441__row1"
+    ],
+    "precise_id": "precise_single_224"
+  },
+  {
+    "question": "What was Coca-Cola's total assets in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "total assets",
+    "value": "$ 94,354",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block446__row18"
+    ],
+    "precise_id": "precise_single_225"
+  },
+  {
+    "question": "What was Coca-Cola's cash and cash equivalents in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "cash and cash equivalents",
+    "value": "$ 9,684",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block446__row2"
+    ],
+    "precise_id": "precise_single_226"
+  },
+  {
+    "question": "What was Coca-Cola's total current assets in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "total current assets",
+    "value": "22,545",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block446__row9"
+    ],
+    "precise_id": "precise_single_227"
+  },
+  {
+    "question": "What was Coca-Cola's total current liabilities in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "total current liabilities",
+    "value": "19,950",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block446__row25"
+    ],
+    "precise_id": "precise_single_228"
+  },
+  {
+    "question": "What was Coca-Cola's long-term debt in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "long-term debt",
+    "value": "38,116",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block446__row26"
+    ],
+    "precise_id": "precise_single_229"
+  },
+  {
+    "question": "What was Coca-Cola's inventories in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "inventories",
+    "value": "3,414",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block446__row7"
+    ],
+    "precise_id": "precise_single_230"
+  },
+  {
+    "question": "What was Coca-Cola's capital expenditures in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "capital expenditures",
+    "value": "(1,367)",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block448__row17"
+    ],
+    "precise_id": "precise_single_231"
+  },
+  {
+    "question": "What was Coca-Cola's operating cash flow in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "operating cash flow",
+    "value": "12,625",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block448__row11"
+    ],
+    "precise_id": "precise_single_232"
+  },
+  {
+    "question": "What was Coca-Cola's depreciation and amortization in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "depreciation and amortization",
+    "value": "1,452",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block448__row2"
+    ],
+    "precise_id": "precise_single_233"
+  },
+  {
+    "question": "What was Coca-Cola's gross profit in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "gross profit",
+    "value": "25,004",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block437__row2"
+    ],
+    "precise_id": "precise_single_234"
+  },
+  {
+    "question": "What was Coca-Cola's operating income in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "operating income",
+    "value": "10,909",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block437__row5"
+    ],
+    "precise_id": "precise_single_235"
+  },
+  {
+    "question": "What was Coca-Cola's cost of sales in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "cost of sales",
+    "value": "18,000",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block437__row1"
+    ],
+    "precise_id": "precise_single_236"
+  },
+  {
+    "question": "What was Coca-Cola's total assets in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "total assets",
+    "value": "$ 92,763",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block442__row18"
+    ],
+    "precise_id": "precise_single_237"
+  },
+  {
+    "question": "What was Coca-Cola's cash and cash equivalents in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "cash and cash equivalents",
+    "value": "$ 9,519",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block442__row2"
+    ],
+    "precise_id": "precise_single_238"
+  },
+  {
+    "question": "What was Coca-Cola's total current assets in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "total current assets",
+    "value": "22,591",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block442__row9"
+    ],
+    "precise_id": "precise_single_239"
+  },
+  {
+    "question": "What was Coca-Cola's total current liabilities in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "total current liabilities",
+    "value": "19,724",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block442__row25"
+    ],
+    "precise_id": "precise_single_240"
+  },
+  {
+    "question": "What was Coca-Cola's long-term debt in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "long-term debt",
+    "value": "36,377",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block442__row26"
+    ],
+    "precise_id": "precise_single_241"
+  },
+  {
+    "question": "What was Coca-Cola's inventories in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "inventories",
+    "value": "4,233",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block442__row7"
+    ],
+    "precise_id": "precise_single_242"
+  },
+  {
+    "question": "What was Coca-Cola's capital expenditures in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "capital expenditures",
+    "value": "(1,484)",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block444__row17"
+    ],
+    "precise_id": "precise_single_243"
+  },
+  {
+    "question": "What was Coca-Cola's operating cash flow in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "operating cash flow",
+    "value": "11,018",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block444__row11"
+    ],
+    "precise_id": "precise_single_244"
+  },
+  {
+    "question": "What was Coca-Cola's depreciation and amortization in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "depreciation and amortization",
+    "value": "1,260",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block444__row2"
+    ],
+    "precise_id": "precise_single_245"
+  },
+  {
+    "question": "What was JPMorgan's revenue in FY2022?",
+    "company": "JPMorgan",
+    "fiscal_period": 2022,
+    "metric": "revenue",
+    "value": "128,695",
+    "gold_chunk_ids": [
+      "JPMORGAN_2022_10K__block1442__row13"
+    ],
+    "precise_id": "precise_single_246"
+  },
+  {
+    "question": "What was JPMorgan's net income in FY2022?",
+    "company": "JPMorgan",
+    "fiscal_period": 2022,
+    "metric": "net income",
+    "value": "$ 37,676",
+    "gold_chunk_ids": [
+      "JPMORGAN_2022_10K__block1442__row25"
+    ],
+    "precise_id": "precise_single_247"
+  },
+  {
+    "question": "What was JPMorgan's income tax expense in FY2022?",
+    "company": "JPMorgan",
+    "fiscal_period": 2022,
+    "metric": "income tax expense",
+    "value": "8,490",
+    "gold_chunk_ids": [
+      "JPMORGAN_2022_10K__block1442__row24"
+    ],
+    "precise_id": "precise_single_248"
+  },
+  {
+    "question": "What was JPMorgan's total assets in FY2022?",
+    "company": "JPMorgan",
+    "fiscal_period": 2022,
+    "metric": "total assets",
+    "value": "$ 3,665,743",
+    "gold_chunk_ids": [
+      "JPMORGAN_2022_10K__block516__row16"
+    ],
+    "precise_id": "precise_single_249"
+  },
+  {
+    "question": "What was JPMorgan's total liabilities in FY2022?",
+    "company": "JPMorgan",
+    "fiscal_period": 2022,
+    "metric": "total liabilities",
+    "value": "3,373,411",
+    "gold_chunk_ids": [
+      "JPMORGAN_2022_10K__block540__row8"
+    ],
+    "precise_id": "precise_single_250"
+  },
+  {
+    "question": "What was JPMorgan's long-term debt in FY2022?",
+    "company": "JPMorgan",
+    "fiscal_period": 2022,
+    "metric": "long-term debt",
+    "value": "295,865",
+    "gold_chunk_ids": [
+      "JPMORGAN_2022_10K__block540__row7"
+    ],
+    "precise_id": "precise_single_251"
+  },
+  {
+    "question": "What was JPMorgan's depreciation and amortization in FY2022?",
+    "company": "JPMorgan",
+    "fiscal_period": 2022,
+    "metric": "depreciation and amortization",
+    "value": "7,051",
+    "gold_chunk_ids": [
+      "JPMORGAN_2022_10K__block1453__row4"
+    ],
+    "precise_id": "precise_single_252"
+  },
+  {
+    "question": "What was JPMorgan's dividends paid in FY2022?",
+    "company": "JPMorgan",
+    "fiscal_period": 2022,
+    "metric": "dividends paid",
+    "value": "(13,562)",
+    "gold_chunk_ids": [
+      "JPMORGAN_2022_10K__block1453__row43"
+    ],
+    "precise_id": "precise_single_253"
+  },
+  {
+    "question": "What was Kraft Heinz's revenue in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "revenue",
+    "value": "$ 24,977",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block320__row0"
+    ],
+    "precise_id": "precise_single_254"
+  },
+  {
+    "question": "What was Kraft Heinz's gross profit in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "gross profit",
+    "value": "8,147",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block320__row2"
+    ],
+    "precise_id": "precise_single_255"
+  },
+  {
+    "question": "What was Kraft Heinz's total assets in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "total assets",
+    "value": "$ 101,450",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block324__row13"
+    ],
+    "precise_id": "precise_single_256"
+  },
+  {
+    "question": "What was Kraft Heinz's total liabilities in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "total liabilities",
+    "value": "49,701",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block324__row27"
+    ],
+    "precise_id": "precise_single_257"
+  },
+  {
+    "question": "What was Kraft Heinz's cash and cash equivalents in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "cash and cash equivalents",
+    "value": "$ 2,279",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block324__row1"
+    ],
+    "precise_id": "precise_single_258"
+  },
+  {
+    "question": "What was Kraft Heinz's total current assets in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "total current assets",
+    "value": "8,097",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block324__row8"
+    ],
+    "precise_id": "precise_single_259"
+  },
+  {
+    "question": "What was Kraft Heinz's total current liabilities in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "total current liabilities",
+    "value": "7,875",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block324__row22"
+    ],
+    "precise_id": "precise_single_260"
+  },
+  {
+    "question": "What was Kraft Heinz's long-term debt in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "long-term debt",
+    "value": "28,216",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block324__row23"
+    ],
+    "precise_id": "precise_single_261"
+  },
+  {
+    "question": "What was Kraft Heinz's inventories in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "inventories",
+    "value": "2,721",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block324__row4"
+    ],
+    "precise_id": "precise_single_262"
+  },
+  {
+    "question": "What was Kraft Heinz's capital expenditures in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "capital expenditures",
+    "value": "(768)",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block328__row21"
+    ],
+    "precise_id": "precise_single_263"
+  },
+  {
+    "question": "What was Kraft Heinz's depreciation and amortization in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "depreciation and amortization",
+    "value": "994",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block328__row3"
+    ],
+    "precise_id": "precise_single_264"
+  },
+  {
+    "question": "What was Kraft Heinz's dividends paid in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "dividends paid",
+    "value": "(1,953)",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block328__row33"
+    ],
+    "precise_id": "precise_single_265"
+  },
+  {
+    "question": "What was Lockheed Martin's total assets in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "total assets",
+    "value": "$ 50,710",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block448__row13"
+    ],
+    "precise_id": "precise_single_266"
+  },
+  {
+    "question": "What was Lockheed Martin's total liabilities in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "total liabilities",
+    "value": "44,672",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block448__row25"
+    ],
+    "precise_id": "precise_single_267"
+  },
+  {
+    "question": "What was Lockheed Martin's cash and cash equivalents in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "cash and cash equivalents",
+    "value": "$ 3,160",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block448__row2"
+    ],
+    "precise_id": "precise_single_268"
+  },
+  {
+    "question": "What was Lockheed Martin's total current assets in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "total current assets",
+    "value": "19,378",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block448__row7"
+    ],
+    "precise_id": "precise_single_269"
+  },
+  {
+    "question": "What was Lockheed Martin's total current liabilities in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "total current liabilities",
+    "value": "13,933",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block448__row21"
+    ],
+    "precise_id": "precise_single_270"
+  },
+  {
+    "question": "What was Lockheed Martin's inventories in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "inventories",
+    "value": "3,545",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block448__row5"
+    ],
+    "precise_id": "precise_single_271"
+  },
+  {
+    "question": "What was Lockheed Martin's capital expenditures in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "capital expenditures",
+    "value": "(1,766)",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block450__row21"
+    ],
+    "precise_id": "precise_single_272"
+  },
+  {
+    "question": "What was Lockheed Martin's operating cash flow in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "operating cash flow",
+    "value": "8,183",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block450__row19"
+    ],
+    "precise_id": "precise_single_273"
+  },
+  {
+    "question": "What was Lockheed Martin's depreciation and amortization in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "depreciation and amortization",
+    "value": "1,290",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block450__row3"
+    ],
+    "precise_id": "precise_single_274"
+  },
+  {
+    "question": "What was Lockheed Martin's dividends paid in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "dividends paid",
+    "value": "(2,764)",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block450__row27"
+    ],
+    "precise_id": "precise_single_275"
+  },
+  {
+    "question": "What was Lockheed Martin's total assets in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "total assets",
+    "value": "$ 50,873",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block403__row13"
+    ],
+    "precise_id": "precise_single_276"
+  },
+  {
+    "question": "What was Lockheed Martin's total liabilities in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "total liabilities",
+    "value": "39,914",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block403__row25"
+    ],
+    "precise_id": "precise_single_277"
+  },
+  {
+    "question": "What was Lockheed Martin's cash and cash equivalents in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "cash and cash equivalents",
+    "value": "$ 3,604",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block403__row2"
+    ],
+    "precise_id": "precise_single_278"
+  },
+  {
+    "question": "What was Lockheed Martin's total current assets in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "total current assets",
+    "value": "19,815",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block403__row7"
+    ],
+    "precise_id": "precise_single_279"
+  },
+  {
+    "question": "What was Lockheed Martin's total current liabilities in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "total current liabilities",
+    "value": "13,997",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block403__row21"
+    ],
+    "precise_id": "precise_single_280"
+  },
+  {
+    "question": "What was Lockheed Martin's inventories in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "inventories",
+    "value": "2,981",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block403__row5"
+    ],
+    "precise_id": "precise_single_281"
+  },
+  {
+    "question": "What was Lockheed Martin's capital expenditures in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "capital expenditures",
+    "value": "(1,522)",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block405__row22"
+    ],
+    "precise_id": "precise_single_282"
+  },
+  {
+    "question": "What was Lockheed Martin's operating cash flow in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "operating cash flow",
+    "value": "9,221",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block405__row20"
+    ],
+    "precise_id": "precise_single_283"
+  },
+  {
+    "question": "What was Lockheed Martin's depreciation and amortization in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "depreciation and amortization",
+    "value": "1,364",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block405__row3"
+    ],
+    "precise_id": "precise_single_284"
+  },
+  {
+    "question": "What was Lockheed Martin's dividends paid in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "dividends paid",
+    "value": "(2,940)",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block405__row31"
+    ],
+    "precise_id": "precise_single_285"
+  },
+  {
+    "question": "What was Lockheed Martin's total assets in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "total assets",
+    "value": "$ 52,880",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block409__row13"
+    ],
+    "precise_id": "precise_single_286"
+  },
+  {
+    "question": "What was Lockheed Martin's total liabilities in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "total liabilities",
+    "value": "43,614",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block409__row24"
+    ],
+    "precise_id": "precise_single_287"
+  },
+  {
+    "question": "What was Lockheed Martin's cash and cash equivalents in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "cash and cash equivalents",
+    "value": "$ 2,547",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block409__row2"
+    ],
+    "precise_id": "precise_single_288"
+  },
+  {
+    "question": "What was Lockheed Martin's total current assets in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "total current assets",
+    "value": "20,991",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block409__row7"
+    ],
+    "precise_id": "precise_single_289"
+  },
+  {
+    "question": "What was Lockheed Martin's total current liabilities in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "total current liabilities",
+    "value": "15,887",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block409__row20"
+    ],
+    "precise_id": "precise_single_290"
+  },
+  {
+    "question": "What was Lockheed Martin's inventories in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "inventories",
+    "value": "3,088",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block409__row5"
+    ],
+    "precise_id": "precise_single_291"
+  },
+  {
+    "question": "What was Lockheed Martin's capital expenditures in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "capital expenditures",
+    "value": "(1,670)",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block411__row21"
+    ],
+    "precise_id": "precise_single_292"
+  },
+  {
+    "question": "What was Lockheed Martin's operating cash flow in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "operating cash flow",
+    "value": "7,802",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block411__row19"
+    ],
+    "precise_id": "precise_single_293"
+  },
+  {
+    "question": "What was Lockheed Martin's depreciation and amortization in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "depreciation and amortization",
+    "value": "1,404",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block411__row3"
+    ],
+    "precise_id": "precise_single_294"
+  },
+  {
+    "question": "What was Lockheed Martin's dividends paid in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "dividends paid",
+    "value": "(3,016)",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block411__row28"
+    ],
+    "precise_id": "precise_single_295"
+  },
+  {
+    "question": "What was MGM Resorts's net income in FY2018?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2018,
+    "metric": "net income",
+    "value": "583,894",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2018_10K__block363__row30"
+    ],
+    "precise_id": "precise_single_296"
+  },
+  {
+    "question": "What was MGM Resorts's operating income in FY2018?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2018,
+    "metric": "operating income",
+    "value": "1,469,486",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2018_10K__block363__row22"
+    ],
+    "precise_id": "precise_single_297"
+  },
+  {
+    "question": "What was MGM Resorts's cash and cash equivalents in FY2018?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2018,
+    "metric": "cash and cash equivalents",
+    "value": "$ 1,526,762",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2018_10K__block361__row2"
+    ],
+    "precise_id": "precise_single_298"
+  },
+  {
+    "question": "What was MGM Resorts's total current assets in FY2018?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2018,
+    "metric": "total current assets",
+    "value": "2,526,778",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2018_10K__block361__row7"
+    ],
+    "precise_id": "precise_single_299"
+  },
+  {
+    "question": "What was MGM Resorts's total current liabilities in FY2018?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2018,
+    "metric": "total current liabilities",
+    "value": "2,948,882",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2018_10K__block361__row23"
+    ],
+    "precise_id": "precise_single_300"
+  },
+  {
+    "question": "What was MGM Resorts's inventories in FY2018?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2018,
+    "metric": "inventories",
+    "value": "110,831",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2018_10K__block361__row4"
+    ],
+    "precise_id": "precise_single_301"
+  },
+  {
+    "question": "What was MGM Resorts's operating cash flow in FY2018?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2018,
+    "metric": "operating cash flow",
+    "value": "1,722,539",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2018_10K__block367__row21"
+    ],
+    "precise_id": "precise_single_302"
+  },
+  {
+    "question": "What was MGM Resorts's depreciation and amortization in FY2018?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2018,
+    "metric": "depreciation and amortization",
+    "value": "224,682",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2018_10K__block925__row3"
+    ],
+    "precise_id": "precise_single_303"
+  },
+  {
+    "question": "What was MGM Resorts's net income in FY2020?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2020,
+    "metric": "net income",
+    "value": "(1,319,907)",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2020_10K__block412__row29"
+    ],
+    "precise_id": "precise_single_304"
+  },
+  {
+    "question": "What was MGM Resorts's operating income in FY2020?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2020,
+    "metric": "operating income",
+    "value": "(642,434)",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2020_10K__block412__row21"
+    ],
+    "precise_id": "precise_single_305"
+  },
+  {
+    "question": "What was MGM Resorts's cash and cash equivalents in FY2020?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2020,
+    "metric": "cash and cash equivalents",
+    "value": "$ 5,101,637",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2020_10K__block410__row2"
+    ],
+    "precise_id": "precise_single_306"
+  },
+  {
+    "question": "What was MGM Resorts's total current assets in FY2020?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2020,
+    "metric": "total current assets",
+    "value": "5,950,659",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2020_10K__block410__row8"
+    ],
+    "precise_id": "precise_single_307"
+  },
+  {
+    "question": "What was MGM Resorts's total current liabilities in FY2020?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2020,
+    "metric": "total current liabilities",
+    "value": "1,856,583",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2020_10K__block410__row25"
+    ],
+    "precise_id": "precise_single_308"
+  },
+  {
+    "question": "What was MGM Resorts's inventories in FY2020?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2020,
+    "metric": "inventories",
+    "value": "88,323",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2020_10K__block410__row4"
+    ],
+    "precise_id": "precise_single_309"
+  },
+  {
+    "question": "What was MGM Resorts's net income in FY2022?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2022,
+    "metric": "net income",
+    "value": "206,731",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2022_10K__block389__row30"
+    ],
+    "precise_id": "precise_single_310"
+  },
+  {
+    "question": "What was MGM Resorts's operating income in FY2022?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2022,
+    "metric": "operating income",
+    "value": "1,439,372",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2022_10K__block389__row22"
+    ],
+    "precise_id": "precise_single_311"
+  },
+  {
+    "question": "What was MGM Resorts's cash and cash equivalents in FY2022?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2022,
+    "metric": "cash and cash equivalents",
+    "value": "$ 5,911,893",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2022_10K__block387__row2"
+    ],
+    "precise_id": "precise_single_312"
+  },
+  {
+    "question": "What was MGM Resorts's total current assets in FY2022?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2022,
+    "metric": "total current assets",
+    "value": "8,154,692",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2022_10K__block387__row9"
+    ],
+    "precise_id": "precise_single_313"
+  },
+  {
+    "question": "What was MGM Resorts's total current liabilities in FY2022?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2022,
+    "metric": "total current liabilities",
+    "value": "4,515,892",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2022_10K__block387__row26"
+    ],
+    "precise_id": "precise_single_314"
+  },
+  {
+    "question": "What was MGM Resorts's inventories in FY2022?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2022,
+    "metric": "inventories",
+    "value": "126,065",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2022_10K__block387__row5"
+    ],
+    "precise_id": "precise_single_315"
+  },
+  {
+    "question": "What was MGM Resorts's capital expenditures in FY2022?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2022,
+    "metric": "capital expenditures",
+    "value": "(765,067)",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2022_10K__block393__row25"
+    ],
+    "precise_id": "precise_single_316"
+  },
+  {
+    "question": "What was MGM Resorts's depreciation and amortization in FY2022?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2022,
+    "metric": "depreciation and amortization",
+    "value": "3,482,050",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2022_10K__block393__row3"
+    ],
+    "precise_id": "precise_single_317"
+  },
+  {
+    "question": "What was Netflix's net income in FY2015?",
+    "company": "Netflix",
+    "fiscal_period": 2015,
+    "metric": "net income",
+    "value": "122,641",
+    "gold_chunk_ids": [
+      "NETFLIX_2015_10K__block105__row2"
+    ],
+    "precise_id": "precise_single_318"
+  },
+  {
+    "question": "What was Netflix's operating income in FY2015?",
+    "company": "Netflix",
+    "fiscal_period": 2015,
+    "metric": "operating income",
+    "value": "305,826",
+    "gold_chunk_ids": [
+      "NETFLIX_2015_10K__block105__row1"
+    ],
+    "precise_id": "precise_single_319"
+  },
+  {
+    "question": "What was Netflix's total assets in FY2015?",
+    "company": "Netflix",
+    "fiscal_period": 2015,
+    "metric": "total assets",
+    "value": "10,202,871",
+    "gold_chunk_ids": [
+      "NETFLIX_2015_10K__block108__row3"
+    ],
+    "precise_id": "precise_single_320"
+  },
+  {
+    "question": "What was Netflix's total liabilities in FY2015?",
+    "company": "Netflix",
+    "fiscal_period": 2015,
+    "metric": "total liabilities",
+    "value": "7,979,445",
+    "gold_chunk_ids": [
+      "NETFLIX_2015_10K__block266__row21"
+    ],
+    "precise_id": "precise_single_321"
+  },
+  {
+    "question": "What was Netflix's cash and cash equivalents in FY2015?",
+    "company": "Netflix",
+    "fiscal_period": 2015,
+    "metric": "cash and cash equivalents",
+    "value": "$ 1,809,330",
+    "gold_chunk_ids": [
+      "NETFLIX_2015_10K__block266__row2"
+    ],
+    "precise_id": "precise_single_322"
+  },
+  {
+    "question": "What was Netflix's total current assets in FY2015?",
+    "company": "Netflix",
+    "fiscal_period": 2015,
+    "metric": "total current assets",
+    "value": "5,431,840",
+    "gold_chunk_ids": [
+      "NETFLIX_2015_10K__block266__row6"
+    ],
+    "precise_id": "precise_single_323"
+  },
+  {
+    "question": "What was Netflix's total current liabilities in FY2015?",
+    "company": "Netflix",
+    "fiscal_period": 2015,
+    "metric": "total current liabilities",
+    "value": "3,529,624",
+    "gold_chunk_ids": [
+      "NETFLIX_2015_10K__block266__row17"
+    ],
+    "precise_id": "precise_single_324"
+  },
+  {
+    "question": "What was Netflix's long-term debt in FY2015?",
+    "company": "Netflix",
+    "fiscal_period": 2015,
+    "metric": "long-term debt",
+    "value": "2,371,362",
+    "gold_chunk_ids": [
+      "NETFLIX_2015_10K__block108__row4"
+    ],
+    "precise_id": "precise_single_325"
+  },
+  {
+    "question": "What was Netflix's net income in FY2017?",
+    "company": "Netflix",
+    "fiscal_period": 2017,
+    "metric": "net income",
+    "value": "558,929",
+    "gold_chunk_ids": [
+      "NETFLIX_2017_10K__block113__row2"
+    ],
+    "precise_id": "precise_single_326"
+  },
+  {
+    "question": "What was Netflix's operating income in FY2017?",
+    "company": "Netflix",
+    "fiscal_period": 2017,
+    "metric": "operating income",
+    "value": "838,679",
+    "gold_chunk_ids": [
+      "NETFLIX_2017_10K__block113__row1"
+    ],
+    "precise_id": "precise_single_327"
+  },
+  {
+    "question": "What was Netflix's total assets in FY2017?",
+    "company": "Netflix",
+    "fiscal_period": 2017,
+    "metric": "total assets",
+    "value": "19,012,742",
+    "gold_chunk_ids": [
+      "NETFLIX_2017_10K__block116__row3"
+    ],
+    "precise_id": "precise_single_328"
+  },
+  {
+    "question": "What was Netflix's total liabilities in FY2017?",
+    "company": "Netflix",
+    "fiscal_period": 2017,
+    "metric": "total liabilities",
+    "value": "15,430,786",
+    "gold_chunk_ids": [
+      "NETFLIX_2017_10K__block261__row21"
+    ],
+    "precise_id": "precise_single_329"
+  },
+  {
+    "question": "What was Netflix's cash and cash equivalents in FY2017?",
+    "company": "Netflix",
+    "fiscal_period": 2017,
+    "metric": "cash and cash equivalents",
+    "value": "$ 2,822,795",
+    "gold_chunk_ids": [
+      "NETFLIX_2017_10K__block261__row2"
+    ],
+    "precise_id": "precise_single_330"
+  },
+  {
+    "question": "What was Netflix's total current assets in FY2017?",
+    "company": "Netflix",
+    "fiscal_period": 2017,
+    "metric": "total current assets",
+    "value": "7,669,974",
+    "gold_chunk_ids": [
+      "NETFLIX_2017_10K__block261__row6"
+    ],
+    "precise_id": "precise_single_331"
+  },
+  {
+    "question": "What was Netflix's total current liabilities in FY2017?",
+    "company": "Netflix",
+    "fiscal_period": 2017,
+    "metric": "total current liabilities",
+    "value": "5,466,312",
+    "gold_chunk_ids": [
+      "NETFLIX_2017_10K__block261__row17"
+    ],
+    "precise_id": "precise_single_332"
+  },
+  {
+    "question": "What was Netflix's long-term debt in FY2017?",
+    "company": "Netflix",
+    "fiscal_period": 2017,
+    "metric": "long-term debt",
+    "value": "6,499,432",
+    "gold_chunk_ids": [
+      "NETFLIX_2017_10K__block116__row4"
+    ],
+    "precise_id": "precise_single_333"
+  },
+  {
+    "question": "What was Nike's net income in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "net income",
+    "value": "$ 1,933",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block367__row10"
+    ],
+    "precise_id": "precise_single_334"
+  },
+  {
+    "question": "What was Nike's gross profit in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "gross profit",
+    "value": "15,956",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block367__row2"
+    ],
+    "precise_id": "precise_single_335"
+  },
+  {
+    "question": "What was Nike's cost of sales in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "cost of sales",
+    "value": "20,441",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block367__row1"
+    ],
+    "precise_id": "precise_single_336"
+  },
+  {
+    "question": "What was Nike's income tax expense in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "income tax expense",
+    "value": "2,392",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block367__row9"
+    ],
+    "precise_id": "precise_single_337"
+  },
+  {
+    "question": "What was Nike's total assets in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "total assets",
+    "value": "$ 22,536",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block371__row12"
+    ],
+    "precise_id": "precise_single_338"
+  },
+  {
+    "question": "What was Nike's total current assets in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "total current assets",
+    "value": "15,134",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block371__row7"
+    ],
+    "precise_id": "precise_single_339"
+  },
+  {
+    "question": "What was Nike's total current liabilities in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "total current liabilities",
+    "value": "6,040",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block371__row20"
+    ],
+    "precise_id": "precise_single_340"
+  },
+  {
+    "question": "What was Nike's long-term debt in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "long-term debt",
+    "value": "3,468",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block371__row21"
+    ],
+    "precise_id": "precise_single_341"
+  },
+  {
+    "question": "What was Nike's inventories in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "inventories",
+    "value": "5,261",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block371__row5"
+    ],
+    "precise_id": "precise_single_342"
+  },
+  {
+    "question": "What was Nike's net income in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "net income",
+    "value": "$ 4,029",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block338__row10"
+    ],
+    "precise_id": "precise_single_343"
+  },
+  {
+    "question": "What was Nike's gross profit in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "gross profit",
+    "value": "17,474",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block338__row2"
+    ],
+    "precise_id": "precise_single_344"
+  },
+  {
+    "question": "What was Nike's cost of sales in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "cost of sales",
+    "value": "21,643",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block338__row1"
+    ],
+    "precise_id": "precise_single_345"
+  },
+  {
+    "question": "What was Nike's income tax expense in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "income tax expense",
+    "value": "772",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block338__row9"
+    ],
+    "precise_id": "precise_single_346"
+  },
+  {
+    "question": "What was Nike's total assets in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "total assets",
+    "value": "$ 23,717",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block342__row12"
+    ],
+    "precise_id": "precise_single_347"
+  },
+  {
+    "question": "What was Nike's total current assets in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "total current assets",
+    "value": "16,525",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block342__row7"
+    ],
+    "precise_id": "precise_single_348"
+  },
+  {
+    "question": "What was Nike's total current liabilities in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "total current liabilities",
+    "value": "7,866",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block342__row20"
+    ],
+    "precise_id": "precise_single_349"
+  },
+  {
+    "question": "What was Nike's long-term debt in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "long-term debt",
+    "value": "3,464",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block342__row21"
+    ],
+    "precise_id": "precise_single_350"
+  },
+  {
+    "question": "What was Nike's inventories in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "inventories",
+    "value": "5,622",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block342__row5"
+    ],
+    "precise_id": "precise_single_351"
+  },
+  {
+    "question": "What was Nike's net income in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "net income",
+    "value": "$ 5,727",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block373__row10"
+    ],
+    "precise_id": "precise_single_352"
+  },
+  {
+    "question": "What was Nike's gross profit in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "gross profit",
+    "value": "19,962",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block373__row2"
+    ],
+    "precise_id": "precise_single_353"
+  },
+  {
+    "question": "What was Nike's cost of sales in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "cost of sales",
+    "value": "24,576",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block373__row1"
+    ],
+    "precise_id": "precise_single_354"
+  },
+  {
+    "question": "What was Nike's income tax expense in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "income tax expense",
+    "value": "934",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block373__row9"
+    ],
+    "precise_id": "precise_single_355"
+  },
+  {
+    "question": "What was Nike's total assets in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "total assets",
+    "value": "$ 37,740",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block377__row13"
+    ],
+    "precise_id": "precise_single_356"
+  },
+  {
+    "question": "What was Nike's total current assets in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "total current assets",
+    "value": "26,291",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block377__row7"
+    ],
+    "precise_id": "precise_single_357"
+  },
+  {
+    "question": "What was Nike's total current liabilities in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "total current liabilities",
+    "value": "9,674",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block377__row22"
+    ],
+    "precise_id": "precise_single_358"
+  },
+  {
+    "question": "What was Nike's long-term debt in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "long-term debt",
+    "value": "9,413",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block377__row23"
+    ],
+    "precise_id": "precise_single_359"
+  },
+  {
+    "question": "What was Nike's inventories in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "inventories",
+    "value": "6,854",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block377__row5"
+    ],
+    "precise_id": "precise_single_360"
+  },
+  {
+    "question": "What was Nike's net income in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "net income",
+    "value": "$ 5,070",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block343__row10"
+    ],
+    "precise_id": "precise_single_361"
+  },
+  {
+    "question": "What was Nike's gross profit in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "gross profit",
+    "value": "22,292",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block343__row2"
+    ],
+    "precise_id": "precise_single_362"
+  },
+  {
+    "question": "What was Nike's cost of sales in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "cost of sales",
+    "value": "28,925",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block343__row1"
+    ],
+    "precise_id": "precise_single_363"
+  },
+  {
+    "question": "What was Nike's income tax expense in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "income tax expense",
+    "value": "1,131",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block343__row9"
+    ],
+    "precise_id": "precise_single_364"
+  },
+  {
+    "question": "What was Nike's total assets in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "total assets",
+    "value": "$ 37,531",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block347__row13"
+    ],
+    "precise_id": "precise_single_365"
+  },
+  {
+    "question": "What was Nike's total current assets in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "total current assets",
+    "value": "25,202",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block347__row7"
+    ],
+    "precise_id": "precise_single_366"
+  },
+  {
+    "question": "What was Nike's total current liabilities in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "total current liabilities",
+    "value": "9,256",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block347__row22"
+    ],
+    "precise_id": "precise_single_367"
+  },
+  {
+    "question": "What was Nike's long-term debt in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "long-term debt",
+    "value": "8,927",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block347__row23"
+    ],
+    "precise_id": "precise_single_368"
+  },
+  {
+    "question": "What was Nike's inventories in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "inventories",
+    "value": "8,454",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block347__row5"
+    ],
+    "precise_id": "precise_single_369"
+  },
+  {
+    "question": "What was Paypal's revenue in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "revenue",
+    "value": "$ 27,518",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block383__row0"
+    ],
+    "precise_id": "precise_single_370"
+  },
+  {
+    "question": "What was Paypal's net income in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "net income",
+    "value": "$ 2,419",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block383__row14"
+    ],
+    "precise_id": "precise_single_371"
+  },
+  {
+    "question": "What was Paypal's operating income in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "operating income",
+    "value": "3,837",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block383__row10"
+    ],
+    "precise_id": "precise_single_372"
+  },
+  {
+    "question": "What was Paypal's income tax expense in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "income tax expense",
+    "value": "947",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block383__row13"
+    ],
+    "precise_id": "precise_single_373"
+  },
+  {
+    "question": "What was Paypal's total assets in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "total assets",
+    "value": "$ 78,717",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block381__row14"
+    ],
+    "precise_id": "precise_single_374"
+  },
+  {
+    "question": "What was Paypal's total liabilities in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "total liabilities",
+    "value": "58,443",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block381__row24"
+    ],
+    "precise_id": "precise_single_375"
+  },
+  {
+    "question": "What was Paypal's cash and cash equivalents in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "cash and cash equivalents",
+    "value": "$ 7,776",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block381__row2"
+    ],
+    "precise_id": "precise_single_376"
+  },
+  {
+    "question": "What was Paypal's total current assets in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "total current assets",
+    "value": "57,517",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block381__row8"
+    ],
+    "precise_id": "precise_single_377"
+  },
+  {
+    "question": "What was Paypal's total current liabilities in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "total current liabilities",
+    "value": "45,101",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block381__row21"
+    ],
+    "precise_id": "precise_single_378"
+  },
+  {
+    "question": "What was Paypal's long-term debt in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "long-term debt",
+    "value": "10,417",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block381__row23"
+    ],
+    "precise_id": "precise_single_379"
+  },
+  {
+    "question": "What was Paypal's operating cash flow in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "operating cash flow",
+    "value": "5,813",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block389__row16"
+    ],
+    "precise_id": "precise_single_380"
+  },
+  {
+    "question": "What was Paypal's depreciation and amortization in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "depreciation and amortization",
+    "value": "1,317",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block389__row4"
+    ],
+    "precise_id": "precise_single_381"
+  },
+  {
+    "question": "What was PepsiCo's net income in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "net income",
+    "value": "7,679",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block336__row9"
+    ],
+    "precise_id": "precise_single_382"
+  },
+  {
+    "question": "What was PepsiCo's gross profit in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "gross profit",
+    "value": "42,399",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block336__row2"
+    ],
+    "precise_id": "precise_single_383"
+  },
+  {
+    "question": "What was PepsiCo's cost of sales in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "cost of sales",
+    "value": "37,075",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block336__row1"
+    ],
+    "precise_id": "precise_single_384"
+  },
+  {
+    "question": "What was PepsiCo's total assets in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "total assets",
+    "value": "$ 92,377",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block348__row16"
+    ],
+    "precise_id": "precise_single_385"
+  },
+  {
+    "question": "What was PepsiCo's total liabilities in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "total liabilities",
+    "value": "76,226",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block348__row26"
+    ],
+    "precise_id": "precise_single_386"
+  },
+  {
+    "question": "What was PepsiCo's cash and cash equivalents in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "cash and cash equivalents",
+    "value": "$ 5,596",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block348__row2"
+    ],
+    "precise_id": "precise_single_387"
+  },
+  {
+    "question": "What was PepsiCo's total current assets in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "total current assets",
+    "value": "21,783",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block348__row8"
+    ],
+    "precise_id": "precise_single_388"
+  },
+  {
+    "question": "What was PepsiCo's total current liabilities in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "total current liabilities",
+    "value": "26,220",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block348__row22"
+    ],
+    "precise_id": "precise_single_389"
+  },
+  {
+    "question": "What was PepsiCo's inventories in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "inventories",
+    "value": "4,347",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block348__row5"
+    ],
+    "precise_id": "precise_single_390"
+  },
+  {
+    "question": "What was PepsiCo's operating cash flow in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "operating cash flow",
+    "value": "11,616",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block343__row21"
+    ],
+    "precise_id": "precise_single_391"
+  },
+  {
+    "question": "What was PepsiCo's depreciation and amortization in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "depreciation and amortization",
+    "value": "2,710",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block343__row2"
+    ],
+    "precise_id": "precise_single_392"
+  },
+  {
+    "question": "What was PepsiCo's net income in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "net income",
+    "value": "8,978",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block345__row11"
+    ],
+    "precise_id": "precise_single_393"
+  },
+  {
+    "question": "What was PepsiCo's gross profit in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "gross profit",
+    "value": "45,816",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block345__row2"
+    ],
+    "precise_id": "precise_single_394"
+  },
+  {
+    "question": "What was PepsiCo's cost of sales in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "cost of sales",
+    "value": "40,576",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block345__row1"
+    ],
+    "precise_id": "precise_single_395"
+  },
+  {
+    "question": "What was PepsiCo's total assets in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "total assets",
+    "value": "$ 92,187",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block355__row16"
+    ],
+    "precise_id": "precise_single_396"
+  },
+  {
+    "question": "What was PepsiCo's total liabilities in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "total liabilities",
+    "value": "74,914",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block355__row26"
+    ],
+    "precise_id": "precise_single_397"
+  },
+  {
+    "question": "What was PepsiCo's cash and cash equivalents in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "cash and cash equivalents",
+    "value": "$ 4,954",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block355__row2"
+    ],
+    "precise_id": "precise_single_398"
+  },
+  {
+    "question": "What was PepsiCo's total current assets in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "total current assets",
+    "value": "21,539",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block355__row8"
+    ],
+    "precise_id": "precise_single_399"
+  },
+  {
+    "question": "What was PepsiCo's total current liabilities in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "total current liabilities",
+    "value": "26,785",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block355__row22"
+    ],
+    "precise_id": "precise_single_400"
+  },
+  {
+    "question": "What was PepsiCo's inventories in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "inventories",
+    "value": "5,222",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block355__row5"
+    ],
+    "precise_id": "precise_single_401"
+  },
+  {
+    "question": "What was PepsiCo's operating cash flow in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "operating cash flow",
+    "value": "10,811",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block351__row23"
+    ],
+    "precise_id": "precise_single_402"
+  },
+  {
+    "question": "What was PepsiCo's depreciation and amortization in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "depreciation and amortization",
+    "value": "2,763",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block351__row2"
+    ],
+    "precise_id": "precise_single_403"
+  },
+  {
+    "question": "What was Pfizer's capital expenditures in FY2021?",
+    "company": "Pfizer",
+    "fiscal_period": 2021,
+    "metric": "capital expenditures",
+    "value": "(2,711)",
+    "gold_chunk_ids": [
+      "PFIZER_2021_10K__block476__row24"
+    ],
+    "precise_id": "precise_single_404"
+  },
+  {
+    "question": "What was Pfizer's operating cash flow in FY2021?",
+    "company": "Pfizer",
+    "fiscal_period": 2021,
+    "metric": "operating cash flow",
+    "value": "32,580",
+    "gold_chunk_ids": [
+      "PFIZER_2021_10K__block476__row22"
+    ],
+    "precise_id": "precise_single_405"
+  },
+  {
+    "question": "What was Pfizer's depreciation and amortization in FY2021?",
+    "company": "Pfizer",
+    "fiscal_period": 2021,
+    "metric": "depreciation and amortization",
+    "value": "5,191",
+    "gold_chunk_ids": [
+      "PFIZER_2021_10K__block476__row5"
+    ],
+    "precise_id": "precise_single_406"
+  },
+  {
+    "question": "What was Ulta Beauty's revenue in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "revenue",
+    "value": "$ 10,208,580",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block332__row0"
+    ],
+    "precise_id": "precise_single_407"
+  },
+  {
+    "question": "What was Ulta Beauty's net income in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "net income",
+    "value": "$ 1,242,408",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block332__row10"
+    ],
+    "precise_id": "precise_single_408"
+  },
+  {
+    "question": "What was Ulta Beauty's gross profit in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "gross profit",
+    "value": "4,044,510",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block332__row2"
+    ],
+    "precise_id": "precise_single_409"
+  },
+  {
+    "question": "What was Ulta Beauty's operating income in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "operating income",
+    "value": "1,638,610",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block332__row6"
+    ],
+    "precise_id": "precise_single_410"
+  },
+  {
+    "question": "What was Ulta Beauty's cost of sales in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "cost of sales",
+    "value": "6,164,070",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block332__row1"
+    ],
+    "precise_id": "precise_single_411"
+  },
+  {
+    "question": "What was Ulta Beauty's income tax expense in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "income tax expense",
+    "value": "401,136",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block332__row9"
+    ],
+    "precise_id": "precise_single_412"
+  },
+  {
+    "question": "What was Ulta Beauty's total assets in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "total assets",
+    "value": "$ 5,370,411",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block330__row14"
+    ],
+    "precise_id": "precise_single_413"
+  },
+  {
+    "question": "What was Ulta Beauty's total liabilities in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "total liabilities",
+    "value": "3,410,600",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block330__row26"
+    ],
+    "precise_id": "precise_single_414"
+  },
+  {
+    "question": "What was Ulta Beauty's cash and cash equivalents in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "cash and cash equivalents",
+    "value": "$ 737,877",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block330__row2"
+    ],
+    "precise_id": "precise_single_415"
+  },
+  {
+    "question": "What was Ulta Beauty's total current assets in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "total current assets",
+    "value": "2,709,304",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block330__row7"
+    ],
+    "precise_id": "precise_single_416"
+  },
+  {
+    "question": "What was Ulta Beauty's total current liabilities in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "total current liabilities",
+    "value": "1,681,775",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block330__row22"
+    ],
+    "precise_id": "precise_single_417"
+  },
+  {
+    "question": "What was Ulta Beauty's capital expenditures in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "capital expenditures",
+    "value": "(312,126)",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block336__row22"
+    ],
+    "precise_id": "precise_single_418"
+  },
+  {
+    "question": "What was Ulta Beauty's operating cash flow in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "operating cash flow",
+    "value": "1,481,915",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block336__row19"
+    ],
+    "precise_id": "precise_single_419"
+  },
+  {
+    "question": "What was Ulta Beauty's depreciation and amortization in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "depreciation and amortization",
+    "value": "241,372",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block336__row3"
+    ],
+    "precise_id": "precise_single_420"
+  },
+  {
+    "question": "What was Verizon's capital expenditures in FY2022?",
+    "company": "Verizon",
+    "fiscal_period": 2022,
+    "metric": "capital expenditures",
+    "value": "(23,087)",
+    "gold_chunk_ids": [
+      "VERIZON_2022_10K__block459__row16"
+    ],
+    "precise_id": "precise_single_421"
+  },
+  {
+    "question": "What was Verizon's operating cash flow in FY2022?",
+    "company": "Verizon",
+    "fiscal_period": 2022,
+    "metric": "operating cash flow",
+    "value": "37,141",
+    "gold_chunk_ids": [
+      "VERIZON_2022_10K__block459__row14"
+    ],
+    "precise_id": "precise_single_422"
+  },
+  {
+    "question": "What was Verizon's dividends paid in FY2022?",
+    "company": "Verizon",
+    "fiscal_period": 2022,
+    "metric": "dividends paid",
+    "value": "(10,805)",
+    "gold_chunk_ids": [
+      "VERIZON_2022_10K__block459__row29"
+    ],
+    "precise_id": "precise_single_423"
+  },
+  {
+    "question": "What was Walmart's revenue in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "revenue",
+    "value": "$ 495,761",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block402__row1"
+    ],
+    "precise_id": "precise_single_424"
+  },
+  {
+    "question": "What was Walmart's operating income in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "operating income",
+    "value": "20,437",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block402__row7"
+    ],
+    "precise_id": "precise_single_425"
+  },
+  {
+    "question": "What was Walmart's cost of sales in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "cost of sales",
+    "value": "373,396",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block402__row5"
+    ],
+    "precise_id": "precise_single_426"
+  },
+  {
+    "question": "What was Walmart's total assets in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "total assets",
+    "value": "$ 204,522",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block404__row17"
+    ],
+    "precise_id": "precise_single_427"
+  },
+  {
+    "question": "What was Walmart's cash and cash equivalents in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "cash and cash equivalents",
+    "value": "$ 6,756",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block404__row2"
+    ],
+    "precise_id": "precise_single_428"
+  },
+  {
+    "question": "What was Walmart's total current assets in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "total current assets",
+    "value": "59,664",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block404__row6"
+    ],
+    "precise_id": "precise_single_429"
+  },
+  {
+    "question": "What was Walmart's total current liabilities in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "total current liabilities",
+    "value": "78,521",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block404__row26"
+    ],
+    "precise_id": "precise_single_430"
+  },
+  {
+    "question": "What was Walmart's long-term debt in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "long-term debt",
+    "value": "30,045",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block404__row27"
+    ],
+    "precise_id": "precise_single_431"
+  },
+  {
+    "question": "What was Walmart's inventories in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "inventories",
+    "value": "43,783",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block404__row4"
+    ],
+    "precise_id": "precise_single_432"
+  },
+  {
+    "question": "What was Walmart's operating cash flow in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "operating cash flow",
+    "value": "28,337",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block406__row13"
+    ],
+    "precise_id": "precise_single_433"
+  },
+  {
+    "question": "What was Walmart's depreciation and amortization in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "depreciation and amortization",
+    "value": "10,529",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block406__row3"
+    ],
+    "precise_id": "precise_single_434"
+  },
+  {
+    "question": "What was Walmart's dividends paid in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "dividends paid",
+    "value": "(6,124)",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block406__row27"
+    ],
+    "precise_id": "precise_single_435"
+  },
+  {
+    "question": "What was Walmart's revenue in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "revenue",
+    "value": "$ 510,329",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block369__row1"
+    ],
+    "precise_id": "precise_single_436"
+  },
+  {
+    "question": "What was Walmart's operating income in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "operating income",
+    "value": "21,957",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block369__row7"
+    ],
+    "precise_id": "precise_single_437"
+  },
+  {
+    "question": "What was Walmart's cost of sales in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "cost of sales",
+    "value": "385,301",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block369__row5"
+    ],
+    "precise_id": "precise_single_438"
+  },
+  {
+    "question": "What was Walmart's total assets in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "total assets",
+    "value": "$ 219,295",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block371__row17"
+    ],
+    "precise_id": "precise_single_439"
+  },
+  {
+    "question": "What was Walmart's cash and cash equivalents in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "cash and cash equivalents",
+    "value": "$ 7,722",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block371__row2"
+    ],
+    "precise_id": "precise_single_440"
+  },
+  {
+    "question": "What was Walmart's total current assets in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "total current assets",
+    "value": "61,897",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block371__row6"
+    ],
+    "precise_id": "precise_single_441"
+  },
+  {
+    "question": "What was Walmart's total current liabilities in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "total current liabilities",
+    "value": "77,477",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block371__row26"
+    ],
+    "precise_id": "precise_single_442"
+  },
+  {
+    "question": "What was Walmart's long-term debt in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "long-term debt",
+    "value": "43,520",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block371__row27"
+    ],
+    "precise_id": "precise_single_443"
+  },
+  {
+    "question": "What was Walmart's inventories in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "inventories",
+    "value": "44,269",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block371__row4"
+    ],
+    "precise_id": "precise_single_444"
+  },
+  {
+    "question": "What was Walmart's operating cash flow in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "operating cash flow",
+    "value": "27,753",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block373__row15"
+    ],
+    "precise_id": "precise_single_445"
+  },
+  {
+    "question": "What was Walmart's depreciation and amortization in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "depreciation and amortization",
+    "value": "10,678",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block373__row3"
+    ],
+    "precise_id": "precise_single_446"
+  },
+  {
+    "question": "What was Walmart's dividends paid in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "dividends paid",
+    "value": "(6,102)",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block373__row29"
+    ],
+    "precise_id": "precise_single_447"
+  },
+  {
+    "question": "What was Walmart's revenue in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "revenue",
+    "value": "$ 519,926",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block348__row2"
+    ],
+    "precise_id": "precise_single_448"
+  },
+  {
+    "question": "What was Walmart's operating income in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "operating income",
+    "value": "20,568",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block348__row8"
+    ],
+    "precise_id": "precise_single_449"
+  },
+  {
+    "question": "What was Walmart's cost of sales in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "cost of sales",
+    "value": "394,605",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block348__row6"
+    ],
+    "precise_id": "precise_single_450"
+  },
+  {
+    "question": "What was Walmart's total assets in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "total assets",
+    "value": "$ 236,495",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block350__row13"
+    ],
+    "precise_id": "precise_single_451"
+  },
+  {
+    "question": "What was Walmart's cash and cash equivalents in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "cash and cash equivalents",
+    "value": "$ 9,465",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block350__row2"
+    ],
+    "precise_id": "precise_single_452"
+  },
+  {
+    "question": "What was Walmart's total current assets in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "total current assets",
+    "value": "61,806",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block350__row6"
+    ],
+    "precise_id": "precise_single_453"
+  },
+  {
+    "question": "What was Walmart's total current liabilities in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "total current liabilities",
+    "value": "77,790",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block350__row24"
+    ],
+    "precise_id": "precise_single_454"
+  },
+  {
+    "question": "What was Walmart's long-term debt in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "long-term debt",
+    "value": "43,714",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block350__row25"
+    ],
+    "precise_id": "precise_single_455"
+  },
+  {
+    "question": "What was Walmart's inventories in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "inventories",
+    "value": "44,435",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block350__row4"
+    ],
+    "precise_id": "precise_single_456"
+  },
+  {
+    "question": "What was Walmart's operating cash flow in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "operating cash flow",
+    "value": "25,255",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block352__row16"
+    ],
+    "precise_id": "precise_single_457"
+  },
+  {
+    "question": "What was Walmart's depreciation and amortization in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "depreciation and amortization",
+    "value": "10,987",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block352__row3"
+    ],
+    "precise_id": "precise_single_458"
+  },
+  {
+    "question": "What was Walmart's dividends paid in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "dividends paid",
+    "value": "(6,048)",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block352__row29"
+    ],
+    "precise_id": "precise_single_459"
+  }
+]
