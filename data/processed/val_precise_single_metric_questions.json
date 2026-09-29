@@ -1,0 +1,1542 @@
+[
+  {
+    "question": "What was 3M's goodwill in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "goodwill",
+    "value": "10,051",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row16"
+    ],
+    "val_precise_id": "val_precise_single_001"
+  },
+  {
+    "question": "What was 3M's accounts payable in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "accounts payable",
+    "value": "2,266",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row23"
+    ],
+    "val_precise_id": "val_precise_single_002"
+  },
+  {
+    "question": "What was 3M's other assets in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "other assets",
+    "value": "1,345",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row18"
+    ],
+    "val_precise_id": "val_precise_single_003"
+  },
+  {
+    "question": "What was 3M's total equity in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "total equity",
+    "value": "$ 9,848",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row44"
+    ],
+    "val_precise_id": "val_precise_single_004"
+  },
+  {
+    "question": "What was 3M's selling, general and administrative expenses in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "selling, general and administrative expenses",
+    "value": "7,602",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block369__row3"
+    ],
+    "val_precise_id": "val_precise_single_005"
+  },
+  {
+    "question": "What was 3M's total operating expenses in FY2018?",
+    "company": "3M",
+    "fiscal_period": 2018,
+    "metric": "total operating expenses",
+    "value": "25,558",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block369__row6"
+    ],
+    "val_precise_id": "val_precise_single_006"
+  },
+  {
+    "question": "What was 3M's goodwill in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "goodwill",
+    "value": "12,790",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block312__row17"
+    ],
+    "val_precise_id": "val_precise_single_007"
+  },
+  {
+    "question": "What was 3M's accounts payable in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "accounts payable",
+    "value": "3,183",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block312__row24"
+    ],
+    "val_precise_id": "val_precise_single_008"
+  },
+  {
+    "question": "What was 3M's other assets in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "other assets",
+    "value": "4,271",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block312__row19"
+    ],
+    "val_precise_id": "val_precise_single_009"
+  },
+  {
+    "question": "What was 3M's total equity in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "total equity",
+    "value": "14,770",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block312__row47"
+    ],
+    "val_precise_id": "val_precise_single_010"
+  },
+  {
+    "question": "What was 3M's selling, general and administrative expenses in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "selling, general and administrative expenses",
+    "value": "9,049",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block308__row3"
+    ],
+    "val_precise_id": "val_precise_single_011"
+  },
+  {
+    "question": "What was 3M's total operating expenses in FY2022?",
+    "company": "3M",
+    "fiscal_period": 2022,
+    "metric": "total operating expenses",
+    "value": "27,690",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block308__row7"
+    ],
+    "val_precise_id": "val_precise_single_012"
+  },
+  {
+    "question": "What was AES Corporation's goodwill in FY2022?",
+    "company": "AES Corporation",
+    "fiscal_period": 2022,
+    "metric": "goodwill",
+    "value": "362",
+    "gold_chunk_ids": [
+      "AES_2022_10K__block890__row21"
+    ],
+    "val_precise_id": "val_precise_single_013"
+  },
+  {
+    "question": "What was AES Corporation's accounts payable in FY2022?",
+    "company": "AES Corporation",
+    "fiscal_period": 2022,
+    "metric": "accounts payable",
+    "value": "$ 1,730",
+    "gold_chunk_ids": [
+      "AES_2022_10K__block890__row31"
+    ],
+    "val_precise_id": "val_precise_single_014"
+  },
+  {
+    "question": "What was AES Corporation's total equity in FY2022?",
+    "company": "AES Corporation",
+    "fiscal_period": 2022,
+    "metric": "total equity",
+    "value": "4,504",
+    "gold_chunk_ids": [
+      "AES_2022_10K__block890__row57"
+    ],
+    "val_precise_id": "val_precise_single_015"
+  },
+  {
+    "question": "What was AMD's goodwill in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "goodwill",
+    "value": "278",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block419__row12"
+    ],
+    "val_precise_id": "val_precise_single_016"
+  },
+  {
+    "question": "What was AMD's accounts payable in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "accounts payable",
+    "value": "279",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block419__row18"
+    ],
+    "val_precise_id": "val_precise_single_017"
+  },
+  {
+    "question": "What was AMD's other assets in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "other assets",
+    "value": "323",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block419__row13"
+    ],
+    "val_precise_id": "val_precise_single_018"
+  },
+  {
+    "question": "What was AMD's accrued liabilities in FY2015?",
+    "company": "AMD",
+    "fiscal_period": 2015,
+    "metric": "accrued liabilities",
+    "value": "472",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block419__row20"
+    ],
+    "val_precise_id": "val_precise_single_019"
+  },
+  {
+    "question": "What was AMD's goodwill in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "goodwill",
+    "value": "24,177",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block336__row11"
+    ],
+    "val_precise_id": "val_precise_single_020"
+  },
+  {
+    "question": "What was AMD's accounts payable in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "accounts payable",
+    "value": "$ 2,493",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block336__row19"
+    ],
+    "val_precise_id": "val_precise_single_021"
+  },
+  {
+    "question": "What was AMD's accrued liabilities in FY2022?",
+    "company": "AMD",
+    "fiscal_period": 2022,
+    "metric": "accrued liabilities",
+    "value": "3,077",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block336__row21"
+    ],
+    "val_precise_id": "val_precise_single_022"
+  },
+  {
+    "question": "What was Activision Blizzard's goodwill in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "goodwill",
+    "value": "9,764",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row12"
+    ],
+    "val_precise_id": "val_precise_single_023"
+  },
+  {
+    "question": "What was Activision Blizzard's accounts payable in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "accounts payable",
+    "value": "$ 292",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row16"
+    ],
+    "val_precise_id": "val_precise_single_024"
+  },
+  {
+    "question": "What was Activision Blizzard's other assets in FY2019?",
+    "company": "Activision Blizzard",
+    "fiscal_period": 2019,
+    "metric": "other assets",
+    "value": "658",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row10"
+    ],
+    "val_precise_id": "val_precise_single_025"
+  },
+  {
+    "question": "What was Amazon's goodwill in FY2017?",
+    "company": "Amazon",
+    "fiscal_period": 2017,
+    "metric": "goodwill",
+    "value": "3,784",
+    "gold_chunk_ids": [
+      "AMAZON_2017_10K__block246__row8"
+    ],
+    "val_precise_id": "val_precise_single_026"
+  },
+  {
+    "question": "What was Amazon's accounts payable in FY2017?",
+    "company": "Amazon",
+    "fiscal_period": 2017,
+    "metric": "accounts payable",
+    "value": "$ 25,309",
+    "gold_chunk_ids": [
+      "AMAZON_2017_10K__block246__row13"
+    ],
+    "val_precise_id": "val_precise_single_027"
+  },
+  {
+    "question": "What was Amazon's other assets in FY2017?",
+    "company": "Amazon",
+    "fiscal_period": 2017,
+    "metric": "other assets",
+    "value": "4,723",
+    "gold_chunk_ids": [
+      "AMAZON_2017_10K__block246__row9"
+    ],
+    "val_precise_id": "val_precise_single_028"
+  },
+  {
+    "question": "What was Amazon's goodwill in FY2019?",
+    "company": "Amazon",
+    "fiscal_period": 2019,
+    "metric": "goodwill",
+    "value": "14,548",
+    "gold_chunk_ids": [
+      "AMAZON_2019_10K__block245__row9"
+    ],
+    "val_precise_id": "val_precise_single_029"
+  },
+  {
+    "question": "What was Amazon's accounts payable in FY2019?",
+    "company": "Amazon",
+    "fiscal_period": 2019,
+    "metric": "accounts payable",
+    "value": "$ 38,192",
+    "gold_chunk_ids": [
+      "AMAZON_2019_10K__block245__row14"
+    ],
+    "val_precise_id": "val_precise_single_030"
+  },
+  {
+    "question": "What was Amazon's other assets in FY2019?",
+    "company": "Amazon",
+    "fiscal_period": 2019,
+    "metric": "other assets",
+    "value": "11,202",
+    "gold_chunk_ids": [
+      "AMAZON_2019_10K__block245__row10"
+    ],
+    "val_precise_id": "val_precise_single_031"
+  },
+  {
+    "question": "What was Amcor's goodwill in FY2020?",
+    "company": "Amcor",
+    "fiscal_period": 2020,
+    "metric": "goodwill",
+    "value": "5,339.3",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block302__row14"
+    ],
+    "val_precise_id": "val_precise_single_032"
+  },
+  {
+    "question": "What was Amcor's goodwill in FY2023?",
+    "company": "Amcor",
+    "fiscal_period": 2023,
+    "metric": "goodwill",
+    "value": "88",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block636__row11"
+    ],
+    "val_precise_id": "val_precise_single_033"
+  },
+  {
+    "question": "What was American Express's accounts payable in FY2022?",
+    "company": "American Express",
+    "fiscal_period": 2022,
+    "metric": "accounts payable",
+    "value": "12,133",
+    "gold_chunk_ids": [
+      "AMERICANEXPRESS_2022_10K__block640__row16"
+    ],
+    "val_precise_id": "val_precise_single_034"
+  },
+  {
+    "question": "What was American Water Works's goodwill in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "goodwill",
+    "value": "1,504",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block481__row16"
+    ],
+    "val_precise_id": "val_precise_single_035"
+  },
+  {
+    "question": "What was American Water Works's accounts payable in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "accounts payable",
+    "value": "189",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block484__row15"
+    ],
+    "val_precise_id": "val_precise_single_036"
+  },
+  {
+    "question": "What was American Water Works's accrued liabilities in FY2020?",
+    "company": "American Water Works",
+    "fiscal_period": 2020,
+    "metric": "accrued liabilities",
+    "value": "591",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block484__row16"
+    ],
+    "val_precise_id": "val_precise_single_037"
+  },
+  {
+    "question": "What was American Water Works's goodwill in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "goodwill",
+    "value": "1,139",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block510__row17"
+    ],
+    "val_precise_id": "val_precise_single_038"
+  },
+  {
+    "question": "What was American Water Works's accounts payable in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "accounts payable",
+    "value": "235",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block513__row15"
+    ],
+    "val_precise_id": "val_precise_single_039"
+  },
+  {
+    "question": "What was American Water Works's accrued liabilities in FY2021?",
+    "company": "American Water Works",
+    "fiscal_period": 2021,
+    "metric": "accrued liabilities",
+    "value": "701",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block513__row16"
+    ],
+    "val_precise_id": "val_precise_single_040"
+  },
+  {
+    "question": "What was American Water Works's goodwill in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "goodwill",
+    "value": "1,143",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block498__row18"
+    ],
+    "val_precise_id": "val_precise_single_041"
+  },
+  {
+    "question": "What was American Water Works's accounts payable in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "accounts payable",
+    "value": "254",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block501__row15"
+    ],
+    "val_precise_id": "val_precise_single_042"
+  },
+  {
+    "question": "What was American Water Works's accrued liabilities in FY2022?",
+    "company": "American Water Works",
+    "fiscal_period": 2022,
+    "metric": "accrued liabilities",
+    "value": "706",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block501__row16"
+    ],
+    "val_precise_id": "val_precise_single_043"
+  },
+  {
+    "question": "What was Best Buy's goodwill in FY2017?",
+    "company": "Best Buy",
+    "fiscal_period": 2017,
+    "metric": "goodwill",
+    "value": "425",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block400__row15"
+    ],
+    "val_precise_id": "val_precise_single_044"
+  },
+  {
+    "question": "What was Best Buy's accounts payable in FY2017?",
+    "company": "Best Buy",
+    "fiscal_period": 2017,
+    "metric": "accounts payable",
+    "value": "$ 4,984",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block400__row21"
+    ],
+    "val_precise_id": "val_precise_single_045"
+  },
+  {
+    "question": "What was Best Buy's other assets in FY2017?",
+    "company": "Best Buy",
+    "fiscal_period": 2017,
+    "metric": "other assets",
+    "value": "622",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block400__row16"
+    ],
+    "val_precise_id": "val_precise_single_046"
+  },
+  {
+    "question": "What was Best Buy's total equity in FY2017?",
+    "company": "Best Buy",
+    "fiscal_period": 2017,
+    "metric": "total equity",
+    "value": "4,709",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block400__row39"
+    ],
+    "val_precise_id": "val_precise_single_047"
+  },
+  {
+    "question": "What was Best Buy's accrued liabilities in FY2017?",
+    "company": "Best Buy",
+    "fiscal_period": 2017,
+    "metric": "accrued liabilities",
+    "value": "865",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block400__row25"
+    ],
+    "val_precise_id": "val_precise_single_048"
+  },
+  {
+    "question": "What was Best Buy's goodwill in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "goodwill",
+    "value": "915",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block377__row15"
+    ],
+    "val_precise_id": "val_precise_single_049"
+  },
+  {
+    "question": "What was Best Buy's accounts payable in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "accounts payable",
+    "value": "$ 5,257",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block377__row20"
+    ],
+    "val_precise_id": "val_precise_single_050"
+  },
+  {
+    "question": "What was Best Buy's other assets in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "other assets",
+    "value": "606",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block377__row16"
+    ],
+    "val_precise_id": "val_precise_single_051"
+  },
+  {
+    "question": "What was Best Buy's total equity in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "total equity",
+    "value": "3,306",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block377__row37"
+    ],
+    "val_precise_id": "val_precise_single_052"
+  },
+  {
+    "question": "What was Best Buy's accrued liabilities in FY2019?",
+    "company": "Best Buy",
+    "fiscal_period": 2019,
+    "metric": "accrued liabilities",
+    "value": "982",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block377__row24"
+    ],
+    "val_precise_id": "val_precise_single_053"
+  },
+  {
+    "question": "What was Best Buy's goodwill in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "goodwill",
+    "value": "1,383",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block340__row16"
+    ],
+    "val_precise_id": "val_precise_single_054"
+  },
+  {
+    "question": "What was Best Buy's accounts payable in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "accounts payable",
+    "value": "$ 5,687",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block340__row21"
+    ],
+    "val_precise_id": "val_precise_single_055"
+  },
+  {
+    "question": "What was Best Buy's other assets in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "other assets",
+    "value": "520",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block340__row17"
+    ],
+    "val_precise_id": "val_precise_single_056"
+  },
+  {
+    "question": "What was Best Buy's total equity in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "total equity",
+    "value": "2,795",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block340__row40"
+    ],
+    "val_precise_id": "val_precise_single_057"
+  },
+  {
+    "question": "What was Best Buy's accrued liabilities in FY2023?",
+    "company": "Best Buy",
+    "fiscal_period": 2023,
+    "metric": "accrued liabilities",
+    "value": "843",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block340__row25"
+    ],
+    "val_precise_id": "val_precise_single_058"
+  },
+  {
+    "question": "What was Block's goodwill in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "goodwill",
+    "value": "57,173",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block427__row12"
+    ],
+    "val_precise_id": "val_precise_single_059"
+  },
+  {
+    "question": "What was Block's accounts payable in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "accounts payable",
+    "value": "$ 12,602",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block427__row20"
+    ],
+    "val_precise_id": "val_precise_single_060"
+  },
+  {
+    "question": "What was Block's other assets in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "other assets",
+    "value": "3,194",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block427__row16"
+    ],
+    "val_precise_id": "val_precise_single_061"
+  },
+  {
+    "question": "What was Block's total operating expenses in FY2016?",
+    "company": "Block",
+    "fiscal_period": 2016,
+    "metric": "total operating expenses",
+    "value": "746,491",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block429__row20"
+    ],
+    "val_precise_id": "val_precise_single_062"
+  },
+  {
+    "question": "What was Block's goodwill in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "goodwill",
+    "value": "316,701",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block464__row10"
+    ],
+    "val_precise_id": "val_precise_single_063"
+  },
+  {
+    "question": "What was Block's total operating expenses in FY2020?",
+    "company": "Block",
+    "fiscal_period": 2020,
+    "metric": "total operating expenses",
+    "value": "2,752,224",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block466__row20"
+    ],
+    "val_precise_id": "val_precise_single_064"
+  },
+  {
+    "question": "What was CVS Health's goodwill in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "goodwill",
+    "value": "78,678",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1539__row9"
+    ],
+    "val_precise_id": "val_precise_single_065"
+  },
+  {
+    "question": "What was CVS Health's accounts payable in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "accounts payable",
+    "value": "$ 8,925",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1539__row15"
+    ],
+    "val_precise_id": "val_precise_single_066"
+  },
+  {
+    "question": "What was CVS Health's other assets in FY2018?",
+    "company": "CVS Health",
+    "fiscal_period": 2018,
+    "metric": "other assets",
+    "value": "5,046",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1539__row12"
+    ],
+    "val_precise_id": "val_precise_single_067"
+  },
+  {
+    "question": "What was CVS Health's goodwill in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "goodwill",
+    "value": "78,150",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block669__row11"
+    ],
+    "val_precise_id": "val_precise_single_068"
+  },
+  {
+    "question": "What was CVS Health's accounts payable in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "accounts payable",
+    "value": "$ 14,838",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block669__row17"
+    ],
+    "val_precise_id": "val_precise_single_069"
+  },
+  {
+    "question": "What was CVS Health's other assets in FY2022?",
+    "company": "CVS Health",
+    "fiscal_period": 2022,
+    "metric": "other assets",
+    "value": "4,620",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block669__row14"
+    ],
+    "val_precise_id": "val_precise_single_070"
+  },
+  {
+    "question": "What was Coca-Cola's goodwill in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "goodwill",
+    "value": "9,401",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block543__row19"
+    ],
+    "val_precise_id": "val_precise_single_071"
+  },
+  {
+    "question": "What was Coca-Cola's other assets in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "other assets",
+    "value": "4,560",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block543__row15"
+    ],
+    "val_precise_id": "val_precise_single_072"
+  },
+  {
+    "question": "What was Coca-Cola's total equity in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "total equity",
+    "value": "18,977",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block543__row42"
+    ],
+    "val_precise_id": "val_precise_single_073"
+  },
+  {
+    "question": "What was Coca-Cola's selling, general and administrative expenses in FY2017?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2017,
+    "metric": "selling, general and administrative expenses",
+    "value": "12,496",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block348__row5"
+    ],
+    "val_precise_id": "val_precise_single_074"
+  },
+  {
+    "question": "What was Coca-Cola's goodwill in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "goodwill",
+    "value": "19,363",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block446__row16"
+    ],
+    "val_precise_id": "val_precise_single_075"
+  },
+  {
+    "question": "What was Coca-Cola's total equity in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "total equity",
+    "value": "24,860",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block446__row37"
+    ],
+    "val_precise_id": "val_precise_single_076"
+  },
+  {
+    "question": "What was Coca-Cola's selling, general and administrative expenses in FY2021?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2021,
+    "metric": "selling, general and administrative expenses",
+    "value": "12,144",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block441__row3"
+    ],
+    "val_precise_id": "val_precise_single_077"
+  },
+  {
+    "question": "What was Coca-Cola's goodwill in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "goodwill",
+    "value": "18,782",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block442__row16"
+    ],
+    "val_precise_id": "val_precise_single_078"
+  },
+  {
+    "question": "What was Coca-Cola's total equity in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "total equity",
+    "value": "25,826",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block442__row37"
+    ],
+    "val_precise_id": "val_precise_single_079"
+  },
+  {
+    "question": "What was Coca-Cola's selling, general and administrative expenses in FY2022?",
+    "company": "Coca-Cola",
+    "fiscal_period": 2022,
+    "metric": "selling, general and administrative expenses",
+    "value": "12,880",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block437__row3"
+    ],
+    "val_precise_id": "val_precise_single_080"
+  },
+  {
+    "question": "What was JPMorgan's other assets in FY2022?",
+    "company": "JPMorgan",
+    "fiscal_period": 2022,
+    "metric": "other assets",
+    "value": "182,884",
+    "gold_chunk_ids": [
+      "JPMORGAN_2022_10K__block516__row15"
+    ],
+    "val_precise_id": "val_precise_single_081"
+  },
+  {
+    "question": "What was Kraft Heinz's goodwill in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "goodwill",
+    "value": "35,546",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block324__row10"
+    ],
+    "val_precise_id": "val_precise_single_082"
+  },
+  {
+    "question": "What was Kraft Heinz's total equity in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "total equity",
+    "value": "51,749",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block324__row38"
+    ],
+    "val_precise_id": "val_precise_single_083"
+  },
+  {
+    "question": "What was Kraft Heinz's selling, general and administrative expenses in FY2019?",
+    "company": "Kraft Heinz",
+    "fiscal_period": 2019,
+    "metric": "selling, general and administrative expenses",
+    "value": "5,077",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block320__row6"
+    ],
+    "val_precise_id": "val_precise_single_084"
+  },
+  {
+    "question": "What was Lockheed Martin's goodwill in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "goodwill",
+    "value": "10,806",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block448__row9"
+    ],
+    "val_precise_id": "val_precise_single_085"
+  },
+  {
+    "question": "What was Lockheed Martin's accounts payable in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "accounts payable",
+    "value": "$ 880",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block448__row16"
+    ],
+    "val_precise_id": "val_precise_single_086"
+  },
+  {
+    "question": "What was Lockheed Martin's total equity in FY2020?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2020,
+    "metric": "total equity",
+    "value": "6,038",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block448__row33"
+    ],
+    "val_precise_id": "val_precise_single_087"
+  },
+  {
+    "question": "What was Lockheed Martin's goodwill in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "goodwill",
+    "value": "10,813",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block403__row9"
+    ],
+    "val_precise_id": "val_precise_single_088"
+  },
+  {
+    "question": "What was Lockheed Martin's accounts payable in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "accounts payable",
+    "value": "$ 780",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block403__row16"
+    ],
+    "val_precise_id": "val_precise_single_089"
+  },
+  {
+    "question": "What was Lockheed Martin's total equity in FY2021?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2021,
+    "metric": "total equity",
+    "value": "10,959",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block403__row33"
+    ],
+    "val_precise_id": "val_precise_single_090"
+  },
+  {
+    "question": "What was Lockheed Martin's goodwill in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "goodwill",
+    "value": "10,780",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block409__row9"
+    ],
+    "val_precise_id": "val_precise_single_091"
+  },
+  {
+    "question": "What was Lockheed Martin's accounts payable in FY2022?",
+    "company": "Lockheed Martin",
+    "fiscal_period": 2022,
+    "metric": "accounts payable",
+    "value": "$ 2,117",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block409__row16"
+    ],
+    "val_precise_id": "val_precise_single_092"
+  },
+  {
+    "question": "What was MGM Resorts's goodwill in FY2018?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2018,
+    "metric": "goodwill",
+    "value": "1,821,392",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2018_10K__block361__row11"
+    ],
+    "val_precise_id": "val_precise_single_093"
+  },
+  {
+    "question": "What was MGM Resorts's accounts payable in FY2018?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2018,
+    "metric": "accounts payable",
+    "value": "$ 302,578",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2018_10K__block361__row18"
+    ],
+    "val_precise_id": "val_precise_single_094"
+  },
+  {
+    "question": "What was MGM Resorts's goodwill in FY2020?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2020,
+    "metric": "goodwill",
+    "value": "2,091,278",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2020_10K__block410__row12"
+    ],
+    "val_precise_id": "val_precise_single_095"
+  },
+  {
+    "question": "What was MGM Resorts's accounts payable in FY2020?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2020,
+    "metric": "accounts payable",
+    "value": "$ 142,523",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2020_10K__block410__row20"
+    ],
+    "val_precise_id": "val_precise_single_096"
+  },
+  {
+    "question": "What was MGM Resorts's goodwill in FY2022?",
+    "company": "MGM Resorts",
+    "fiscal_period": 2022,
+    "metric": "goodwill",
+    "value": "5,029,312",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2022_10K__block387__row13"
+    ],
+    "val_precise_id": "val_precise_single_097"
+  },
+  {
+    "question": "What was Netflix's accounts payable in FY2015?",
+    "company": "Netflix",
+    "fiscal_period": 2015,
+    "metric": "accounts payable",
+    "value": "253,491",
+    "gold_chunk_ids": [
+      "NETFLIX_2015_10K__block266__row14"
+    ],
+    "val_precise_id": "val_precise_single_098"
+  },
+  {
+    "question": "What was Netflix's accounts payable in FY2017?",
+    "company": "Netflix",
+    "fiscal_period": 2017,
+    "metric": "accounts payable",
+    "value": "359,555",
+    "gold_chunk_ids": [
+      "NETFLIX_2017_10K__block261__row14"
+    ],
+    "val_precise_id": "val_precise_single_099"
+  },
+  {
+    "question": "What was Nike's goodwill in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "goodwill",
+    "value": "154",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block371__row10"
+    ],
+    "val_precise_id": "val_precise_single_100"
+  },
+  {
+    "question": "What was Nike's accounts payable in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "accounts payable",
+    "value": "2,279",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block371__row17"
+    ],
+    "val_precise_id": "val_precise_single_101"
+  },
+  {
+    "question": "What was Nike's accrued liabilities in FY2018?",
+    "company": "Nike",
+    "fiscal_period": 2018,
+    "metric": "accrued liabilities",
+    "value": "3,269",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block371__row18"
+    ],
+    "val_precise_id": "val_precise_single_102"
+  },
+  {
+    "question": "What was Nike's goodwill in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "goodwill",
+    "value": "154",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block342__row10"
+    ],
+    "val_precise_id": "val_precise_single_103"
+  },
+  {
+    "question": "What was Nike's accounts payable in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "accounts payable",
+    "value": "2,612",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block342__row17"
+    ],
+    "val_precise_id": "val_precise_single_104"
+  },
+  {
+    "question": "What was Nike's accrued liabilities in FY2019?",
+    "company": "Nike",
+    "fiscal_period": 2019,
+    "metric": "accrued liabilities",
+    "value": "5,010",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block342__row18"
+    ],
+    "val_precise_id": "val_precise_single_105"
+  },
+  {
+    "question": "What was Nike's goodwill in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "goodwill",
+    "value": "242",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block377__row11"
+    ],
+    "val_precise_id": "val_precise_single_106"
+  },
+  {
+    "question": "What was Nike's accounts payable in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "accounts payable",
+    "value": "2,836",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block377__row18"
+    ],
+    "val_precise_id": "val_precise_single_107"
+  },
+  {
+    "question": "What was Nike's accrued liabilities in FY2021?",
+    "company": "Nike",
+    "fiscal_period": 2021,
+    "metric": "accrued liabilities",
+    "value": "6,063",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block377__row20"
+    ],
+    "val_precise_id": "val_precise_single_108"
+  },
+  {
+    "question": "What was Nike's goodwill in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "goodwill",
+    "value": "281",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block347__row11"
+    ],
+    "val_precise_id": "val_precise_single_109"
+  },
+  {
+    "question": "What was Nike's accounts payable in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "accounts payable",
+    "value": "2,862",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block347__row18"
+    ],
+    "val_precise_id": "val_precise_single_110"
+  },
+  {
+    "question": "What was Nike's accrued liabilities in FY2023?",
+    "company": "Nike",
+    "fiscal_period": 2023,
+    "metric": "accrued liabilities",
+    "value": "5,723",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block347__row20"
+    ],
+    "val_precise_id": "val_precise_single_111"
+  },
+  {
+    "question": "What was Paypal's goodwill in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "goodwill",
+    "value": "11,209",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block381__row11"
+    ],
+    "val_precise_id": "val_precise_single_112"
+  },
+  {
+    "question": "What was Paypal's accounts payable in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "accounts payable",
+    "value": "$ 126",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block381__row17"
+    ],
+    "val_precise_id": "val_precise_single_113"
+  },
+  {
+    "question": "What was Paypal's other assets in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "other assets",
+    "value": "2,455",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block381__row13"
+    ],
+    "val_precise_id": "val_precise_single_114"
+  },
+  {
+    "question": "What was Paypal's total equity in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "total equity",
+    "value": "20,274",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block381__row33"
+    ],
+    "val_precise_id": "val_precise_single_115"
+  },
+  {
+    "question": "What was Paypal's total operating expenses in FY2022?",
+    "company": "Paypal",
+    "fiscal_period": 2022,
+    "metric": "total operating expenses",
+    "value": "23,681",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block383__row9"
+    ],
+    "val_precise_id": "val_precise_single_116"
+  },
+  {
+    "question": "What was PepsiCo's goodwill in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "goodwill",
+    "value": "18,381",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block348__row11"
+    ],
+    "val_precise_id": "val_precise_single_117"
+  },
+  {
+    "question": "What was PepsiCo's other assets in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "other assets",
+    "value": "4,204",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block348__row15"
+    ],
+    "val_precise_id": "val_precise_single_118"
+  },
+  {
+    "question": "What was PepsiCo's total equity in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "total equity",
+    "value": "16,151",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block348__row36"
+    ],
+    "val_precise_id": "val_precise_single_119"
+  },
+  {
+    "question": "What was PepsiCo's selling, general and administrative expenses in FY2021?",
+    "company": "PepsiCo",
+    "fiscal_period": 2021,
+    "metric": "selling, general and administrative expenses",
+    "value": "31,237",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block336__row3"
+    ],
+    "val_precise_id": "val_precise_single_120"
+  },
+  {
+    "question": "What was PepsiCo's goodwill in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "goodwill",
+    "value": "18,202",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block355__row11"
+    ],
+    "val_precise_id": "val_precise_single_121"
+  },
+  {
+    "question": "What was PepsiCo's other assets in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "other assets",
+    "value": "5,292",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block355__row15"
+    ],
+    "val_precise_id": "val_precise_single_122"
+  },
+  {
+    "question": "What was PepsiCo's total equity in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "total equity",
+    "value": "17,273",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block355__row36"
+    ],
+    "val_precise_id": "val_precise_single_123"
+  },
+  {
+    "question": "What was PepsiCo's selling, general and administrative expenses in FY2022?",
+    "company": "PepsiCo",
+    "fiscal_period": 2022,
+    "metric": "selling, general and administrative expenses",
+    "value": "34,459",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block345__row3"
+    ],
+    "val_precise_id": "val_precise_single_124"
+  },
+  {
+    "question": "What was Ulta Beauty's goodwill in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "goodwill",
+    "value": "10,870",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block330__row10"
+    ],
+    "val_precise_id": "val_precise_single_125"
+  },
+  {
+    "question": "What was Ulta Beauty's accounts payable in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "accounts payable",
+    "value": "$ 559,527",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block330__row17"
+    ],
+    "val_precise_id": "val_precise_single_126"
+  },
+  {
+    "question": "What was Ulta Beauty's accrued liabilities in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "accrued liabilities",
+    "value": "444,278",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block330__row18"
+    ],
+    "val_precise_id": "val_precise_single_127"
+  },
+  {
+    "question": "What was Ulta Beauty's selling, general and administrative expenses in FY2023?",
+    "company": "Ulta Beauty",
+    "fiscal_period": 2023,
+    "metric": "selling, general and administrative expenses",
+    "value": "2,395,299",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block332__row3"
+    ],
+    "val_precise_id": "val_precise_single_128"
+  },
+  {
+    "question": "What was Walmart's goodwill in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "goodwill",
+    "value": "18,242",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block404__row15"
+    ],
+    "val_precise_id": "val_precise_single_129"
+  },
+  {
+    "question": "What was Walmart's accounts payable in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "accounts payable",
+    "value": "46,092",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block404__row21"
+    ],
+    "val_precise_id": "val_precise_single_130"
+  },
+  {
+    "question": "What was Walmart's total equity in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "total equity",
+    "value": "80,822",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block404__row38"
+    ],
+    "val_precise_id": "val_precise_single_131"
+  },
+  {
+    "question": "What was Walmart's accrued liabilities in FY2018?",
+    "company": "Walmart",
+    "fiscal_period": 2018,
+    "metric": "accrued liabilities",
+    "value": "22,122",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block404__row22"
+    ],
+    "val_precise_id": "val_precise_single_132"
+  },
+  {
+    "question": "What was Walmart's goodwill in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "goodwill",
+    "value": "31,181",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block371__row15"
+    ],
+    "val_precise_id": "val_precise_single_133"
+  },
+  {
+    "question": "What was Walmart's accounts payable in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "accounts payable",
+    "value": "47,060",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block371__row21"
+    ],
+    "val_precise_id": "val_precise_single_134"
+  },
+  {
+    "question": "What was Walmart's total equity in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "total equity",
+    "value": "79,634",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block371__row38"
+    ],
+    "val_precise_id": "val_precise_single_135"
+  },
+  {
+    "question": "What was Walmart's accrued liabilities in FY2019?",
+    "company": "Walmart",
+    "fiscal_period": 2019,
+    "metric": "accrued liabilities",
+    "value": "22,159",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block371__row22"
+    ],
+    "val_precise_id": "val_precise_single_136"
+  },
+  {
+    "question": "What was Walmart's goodwill in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "goodwill",
+    "value": "31,073",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block350__row11"
+    ],
+    "val_precise_id": "val_precise_single_137"
+  },
+  {
+    "question": "What was Walmart's accounts payable in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "accounts payable",
+    "value": "46,973",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block350__row17"
+    ],
+    "val_precise_id": "val_precise_single_138"
+  },
+  {
+    "question": "What was Walmart's total equity in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "total equity",
+    "value": "81,552",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block350__row38"
+    ],
+    "val_precise_id": "val_precise_single_139"
+  },
+  {
+    "question": "What was Walmart's accrued liabilities in FY2020?",
+    "company": "Walmart",
+    "fiscal_period": 2020,
+    "metric": "accrued liabilities",
+    "value": "22,296",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block350__row18"
+    ],
+    "val_precise_id": "val_precise_single_140"
+  }
+]

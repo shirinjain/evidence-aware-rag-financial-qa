@@ -1,0 +1,115 @@
+[
+  {
+    "financebench_id": "financebench_id_01858",
+    "question": "Does 3M maintain a stable trend of dividend distribution?",
+    "answer": "Yes, not only they distribute the dividends on a routine basis, 3M has also been increasing the per share dividend for consecutive 65 years",
+    "company": "3M",
+    "gold_chunk_ids": [
+      "3M_2023Q2_10Q__block370"
+    ],
+    "gold_tightened": false
+  },
+  {
+    "financebench_id": "financebench_id_01148",
+    "question": "What industry does AMCOR primarily operate in?",
+    "answer": "Amcor is a global leader in packaging production for various use cases.",
+    "company": "Amcor",
+    "gold_chunk_ids": [
+      "AMCOR_2023_10K__block31"
+    ],
+    "gold_tightened": false
+  },
+  {
+    "financebench_id": "financebench_id_00476",
+    "question": "Which debt securities are registered to trade on a national securities exchange under American Express' name as of 2022?",
+    "answer": "There are none",
+    "company": "American Express",
+    "gold_chunk_ids": [
+      "AMERICANEXPRESS_2022_10K__block10",
+      "AMERICANEXPRESS_2022_10K__block8",
+      "AMERICANEXPRESS_2022_10K__block9"
+    ],
+    "gold_tightened": false
+  },
+  {
+    "financebench_id": "financebench_id_01091",
+    "question": "Has Boeing reported any materially important ongoing legal battles from FY2022?",
+    "answer": "Yes. Multiple lawsuits have been filed against Boeing resulting from a 2018 Lion Air crash and a 2019 Ethiopian Airlines crash.",
+    "company": "Boeing",
+    "gold_chunk_ids": [
+      "BOEING_2022_10K__block646"
+    ],
+    "gold_tightened": false
+  },
+  {
+    "financebench_id": "financebench_id_00464",
+    "question": "Is Boeing's business subject to cyclicality?",
+    "answer": "Yes, Boeing's business is subject to cyclicality due to its exposure to the airline industry which is a cyclical industry.",
+    "company": "Boeing",
+    "gold_chunk_ids": [
+      "BOEING_2022_10K__block53"
+    ],
+    "gold_tightened": false
+  },
+  {
+    "financebench_id": "financebench_id_01107",
+    "question": "Has CVS Health reported any materially important ongoing legal battles from 2022, 2021 and 2020?",
+    "answer": "Yes, CVS Health has been involved in multiple ongoing legal battles. Some notable legal dispute areas for CVS are: (1) usual and customary pricing litigation: where it's claimed that CVS\u00e2\u0080\u0099s retail pharmacies overcharged for prescription drugs; (2) PBM litigation and investigations: where it's claimed that that rebate agreements between the drug manufacturers and PBMs caused inflated prices for certain drug products; and (3) controlled substances litigation: legal matters around opioids for which CVS has agreed to pay up to $4.3 billion to claimants in remediation and $625 million to attorneys and fees",
+    "company": "CVS Health",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block1128",
+      "CVSHEALTH_2022_10K__block1133"
+    ],
+    "gold_tightened": false
+  },
+  {
+    "financebench_id": "financebench_id_02119",
+    "question": "If JPM went bankrupted by the end by 2021 Q1 and liquidated all of its assets to pay its shareholders, how much could each shareholder get?",
+    "answer": "They could receive $66.56 per share.",
+    "company": "JPMorgan",
+    "gold_chunk_ids": [
+      "JPMORGAN_2021Q1_10Q__block32"
+    ],
+    "gold_tightened": false
+  },
+  {
+    "financebench_id": "financebench_id_01254",
+    "question": "Has MGM Resorts paid dividends to common shareholders in FY2022?",
+    "answer": "Yes. MGM maintained 0.01$ per share annual dividend through out FY 2022.",
+    "company": "MGM Resorts",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2022_10K__block206"
+    ],
+    "gold_tightened": false
+  },
+  {
+    "financebench_id": "financebench_id_01476",
+    "question": "As of FY2023Q1, by how many percentage points did Pepsico raise full year guidance in respect of core constant currency EPS growth?",
+    "answer": "Pepsico raised full year guidance in respect of core constant currency EPS growth by 1 percentage point.",
+    "company": "PepsiCo",
+    "gold_chunk_ids": [
+      "PEPSICO_2023Q1_EARNINGS__block3"
+    ],
+    "gold_tightened": false
+  },
+  {
+    "financebench_id": "financebench_id_02419",
+    "question": "As of Q2'2023, is Pfizer spinning off any large business segments?",
+    "answer": "Yes, it's spinning off Upjohn.",
+    "company": "Pfizer",
+    "gold_chunk_ids": [
+      "Pfizer_2023Q2_10Q__block272"
+    ],
+    "gold_tightened": false
+  },
+  {
+    "financebench_id": "financebench_id_00605",
+    "question": "What percent of Ulta Beauty's total spend on stock repurchases for FY 2023 occurred in Q4 of FY2023?",
+    "answer": "36%. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.",
+    "company": "Ulta Beauty",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023Q4_EARNINGS__block10"
+    ],
+    "gold_tightened": false
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "question": "Has Boeing reported any materially important ongoing legal battles from FY2022, and has MGM Resorts paid dividends to common shareholders in FY2022?",
+    "type": "narrative_2hop",
+    "hop_groups": {
+      "Boeing: Has Boeing reported any materially important ongoing legal battles from FY2022?": [
+        "BOEING_2022_10K__block646"
+      ],
+      "MGM Resorts: Has MGM Resorts paid dividends to common shareholders in FY2022?": [
+        "MGMRESORTS_2022_10K__block206"
+      ]
+    },
+    "synthetic_id": "synthetic_narrative_2hop_001"
+  },
+  {
+    "question": "What are the major products and services that AMD sells as of FY22, and is Boeing's business subject to cyclicality?",
+    "type": "narrative_2hop",
+    "hop_groups": {
+      "AMD: What are the major products and services that AMD sells as of FY22?": [
+        "AMD_2022_10K__block28",
+        "AMD_2022_10K__block30"
+      ],
+      "Boeing: Is Boeing's business subject to cyclicality?": [
+        "BOEING_2022_10K__block53"
+      ]
+    },
+    "synthetic_id": "synthetic_narrative_2hop_002"
+  },
+  {
+    "question": "Has MGM Resorts paid dividends to common shareholders in FY2022, and as of FY2023Q1, by how many percentage points did Pepsico raise full year guidance in respect of core constant currency EPS growth?",
+    "type": "narrative_2hop",
+    "hop_groups": {
+      "MGM Resorts: Has MGM Resorts paid dividends to common shareholders in FY2022?": [
+        "MGMRESORTS_2022_10K__block206"
+      ],
+      "PepsiCo: As of FY2023Q1, by how many percentage points did Pepsico raise full year guidance in respect of core constant currency EPS growth?": [
+        "PEPSICO_2023Q1_EARNINGS__block3"
+      ]
+    },
+    "synthetic_id": "synthetic_narrative_2hop_003"
+  },
+  {
+    "question": "If JPM went bankrupted by the end by 2021 Q1 and liquidated all of its assets to pay its shareholders, how much could each shareholder get, and as of FY2023Q1, by how many percentage points did Pepsico raise full year guidance in respect of core constant currency EPS growth?",
+    "type": "narrative_2hop",
+    "hop_groups": {
+      "JPMorgan: If JPM went bankrupted by the end by 2021 Q1 and liquidated all of its assets to pay its shareholders, how much could each shareholder get?": [
+        "JPMORGAN_2021Q1_10Q__block32"
+      ],
+      "PepsiCo: As of FY2023Q1, by how many percentage points did Pepsico raise full year guidance in respect of core constant currency EPS growth?": [
+        "PEPSICO_2023Q1_EARNINGS__block3"
+      ]
+    },
+    "synthetic_id": "synthetic_narrative_2hop_004"
+  },
+  {
+    "question": "Is Boeing's business subject to cyclicality, and what percent of Ulta Beauty's total spend on stock repurchases for FY 2023 occurred in Q4 of FY2023?",
+    "type": "narrative_2hop",
+    "hop_groups": {
+      "Boeing: Is Boeing's business subject to cyclicality?": [
+        "BOEING_2022_10K__block53"
+      ],
+      "Ulta Beauty: What percent of Ulta Beauty's total spend on stock repurchases for FY 2023 occurred in Q4 of FY2023?": [
+        "ULTABEAUTY_2023Q4_EARNINGS__block10"
+      ]
+    },
+    "synthetic_id": "synthetic_narrative_2hop_005"
+  },
+  {
+    "question": "Does 3M maintain a stable trend of dividend distribution, and as of FY2023Q1, by how many percentage points did Pepsico raise full year guidance in respect of core constant currency EPS growth?",
+    "type": "narrative_2hop",
+    "hop_groups": {
+      "3M: Does 3M maintain a stable trend of dividend distribution?": [
+        "3M_2023Q2_10Q__block370"
+      ],
+      "PepsiCo: As of FY2023Q1, by how many percentage points did Pepsico raise full year guidance in respect of core constant currency EPS growth?": [
+        "PEPSICO_2023Q1_EARNINGS__block3"
+      ]
+    },
+    "synthetic_id": "synthetic_narrative_2hop_006"
+  },
+  {
+    "question": "Does 3M maintain a stable trend of dividend distribution, and which debt securities are registered to trade on a national securities exchange under American Express' name as of 2022?",
+    "type": "narrative_2hop",
+    "hop_groups": {
+      "3M: Does 3M maintain a stable trend of dividend distribution?": [
+        "3M_2023Q2_10Q__block370"
+      ],
+      "American Express: Which debt securities are registered to trade on a national securities exchange under American Express' name as of 2022?": [
+        "AMERICANEXPRESS_2022_10K__block10",
+        "AMERICANEXPRESS_2022_10K__block8",
+        "AMERICANEXPRESS_2022_10K__block9"
+      ]
+    },
+    "synthetic_id": "synthetic_narrative_2hop_007"
+  }
+]

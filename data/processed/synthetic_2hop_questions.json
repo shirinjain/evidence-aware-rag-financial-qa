@@ -1,0 +1,640 @@
+[
+  {
+    "question": "What was JPMorgan's total revenue in FY2022, and what was 3M's total revenue in FY2018?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "JPMorgan FY2022 revenue": [
+        "JPMORGAN_2022_10K__block1442__row13"
+      ],
+      "3M FY2018 revenue": [
+        "3M_2018_10K__block369__row0"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "JPMorgan",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "128,695",
+        "raw_text": "Total net revenue | 128,695 | 121,649 | 119,951"
+      },
+      {
+        "company": "3M",
+        "year": 2018,
+        "metric": "revenue",
+        "value": "$ 32,765",
+        "raw_text": "Net sales | $ 32,765 | $ 31,657 | $ 30,109"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_001"
+  },
+  {
+    "question": "What was Walmart's total revenue in FY2018, and what was Lockheed Martin's total revenue in FY2022?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "Walmart FY2018 revenue": [
+        "WALMART_2018_10K__block402__row1"
+      ],
+      "Lockheed Martin FY2022 revenue": [
+        "LOCKHEEDMARTIN_2022_10K__block405__row3"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Walmart",
+        "year": 2018,
+        "metric": "revenue",
+        "value": "$ 495,761",
+        "raw_text": "Net sales | $ 495,761 | $ 481,317 | $ 478,614"
+      },
+      {
+        "company": "Lockheed Martin",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "65,984",
+        "raw_text": "Total net sales | 65,984 | 67,044 | 65,398"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_002"
+  },
+  {
+    "question": "What was AMD's total revenue in FY2015, and what was Amcor's total revenue in FY2023?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "AMD FY2015 revenue": [
+        "AMD_2015_10K__block415__row0"
+      ],
+      "Amcor FY2023 revenue": [
+        "AMCOR_2023_10K__block293__row0"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "AMD",
+        "year": 2015,
+        "metric": "revenue",
+        "value": "3,991",
+        "raw_text": "Net revenue | $ | 3,991 $ | 5,506 | $ 5,299"
+      },
+      {
+        "company": "Amcor",
+        "year": 2023,
+        "metric": "revenue",
+        "value": "$ 14,694",
+        "raw_text": "Net sales | $ 14,694 | $ 14,544 | $ 12,861"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_003"
+  },
+  {
+    "question": "What was AMD's total revenue in FY2022, and what was Boeing's total revenue in FY2018?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "AMD FY2022 revenue": [
+        "AMD_2022_10K__block332__row0"
+      ],
+      "Boeing FY2018 revenue": [
+        "BOEING_2018_10K__block308__row2"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "AMD",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "$ 23,601",
+        "raw_text": "Net revenue | $ 23,601 | $ 16,434 | $ 9,763"
+      },
+      {
+        "company": "Boeing",
+        "year": 2018,
+        "metric": "revenue",
+        "value": "101,127",
+        "raw_text": "Total revenues | 101,127 | 94,005 | 93,496"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_004"
+  },
+  {
+    "question": "What was Ulta Beauty's total revenue in FY2023, and what was PepsiCo's total revenue in FY2021?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "Ulta Beauty FY2023 revenue": [
+        "ULTABEAUTY_2023_10K__block332__row0"
+      ],
+      "PepsiCo FY2021 revenue": [
+        "PEPSICO_2021_10K__block336__row0"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Ulta Beauty",
+        "year": 2023,
+        "metric": "revenue",
+        "value": "$ 10,208,580",
+        "raw_text": "Net sales | $ 10,208,580 | $ 8,630,889 | $ 6,151,953"
+      },
+      {
+        "company": "PepsiCo",
+        "year": 2021,
+        "metric": "revenue",
+        "value": "$ 79,474",
+        "raw_text": "Net Revenue | $ 79,474 | $ 70,372 | $ 67,161"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_005"
+  },
+  {
+    "question": "What was Amcor's total revenue in FY2020, and what was Activision Blizzard's total revenue in FY2019?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "Amcor FY2020 revenue": [
+        "AMCOR_2020_10K__block298__row0"
+      ],
+      "Activision Blizzard FY2019 revenue": [
+        "ACTIVISIONBLIZZARD_2019_10K__block231__row3"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Amcor",
+        "year": 2020,
+        "metric": "revenue",
+        "value": "$ 12,467.5",
+        "raw_text": "Net sales | $ 12,467.5 | $ 9,458.2 | $ 9,319.1"
+      },
+      {
+        "company": "Activision Blizzard",
+        "year": 2019,
+        "metric": "revenue",
+        "value": "6,489",
+        "raw_text": "Total net revenues | 6,489 | 100 | 7,500 | 100"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_006"
+  },
+  {
+    "question": "What was PepsiCo's total revenue in FY2022, and what was AES Corporation's total revenue in FY2022?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "PepsiCo FY2022 revenue": [
+        "PEPSICO_2022_10K__block345__row0"
+      ],
+      "AES Corporation FY2022 revenue": [
+        "AES_2022_10K__block893__row3"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "PepsiCo",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "$ 86,392",
+        "raw_text": "Net Revenue | $ 86,392 | $ 79,474 | $ 70,372"
+      },
+      {
+        "company": "AES Corporation",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "12,617",
+        "raw_text": "Total revenue | 12,617 | 11,141 | 9,660"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_007"
+  },
+  {
+    "question": "What was Lockheed Martin's total revenue in FY2021, and what was Boeing's total revenue in FY2022?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "Lockheed Martin FY2021 revenue": [
+        "LOCKHEEDMARTIN_2021_10K__block399__row3"
+      ],
+      "Boeing FY2022 revenue": [
+        "BOEING_2022_10K__block305__row2"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Lockheed Martin",
+        "year": 2021,
+        "metric": "revenue",
+        "value": "67,044",
+        "raw_text": "Total net sales | 67,044 | 65,398 | 59,812"
+      },
+      {
+        "company": "Boeing",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "66,608",
+        "raw_text": "Total revenues | 66,608 | 62,286 | 58,158"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_008"
+  },
+  {
+    "question": "What was Paypal's total revenue in FY2022, and what was Block's total revenue in FY2020?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "Paypal FY2022 revenue": [
+        "PAYPAL_2022_10K__block383__row0"
+      ],
+      "Block FY2020 revenue": [
+        "BLOCK_2020_10K__block466__row5"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Paypal",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "$ 27,518",
+        "raw_text": "Net revenues | $ 27,518 | $ 25,371 | $ 21,454"
+      },
+      {
+        "company": "Block",
+        "year": 2020,
+        "metric": "revenue",
+        "value": "9,497,578",
+        "raw_text": "Total net revenue | 9,497,578 | 4,713,500 | 3,298,177"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_009"
+  },
+  {
+    "question": "What was Walmart's total revenue in FY2020, and what was Kraft Heinz's total revenue in FY2019?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "Walmart FY2020 revenue": [
+        "WALMART_2020_10K__block348__row2"
+      ],
+      "Kraft Heinz FY2019 revenue": [
+        "KRAFTHEINZ_2019_10K__block320__row0"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Walmart",
+        "year": 2020,
+        "metric": "revenue",
+        "value": "$ 519,926",
+        "raw_text": "Net sales | $ 519,926 $ | 510,329 | $ 495,761"
+      },
+      {
+        "company": "Kraft Heinz",
+        "year": 2019,
+        "metric": "revenue",
+        "value": "$ 24,977",
+        "raw_text": "Net sales | $ 24,977 | $ 26,268 | $ 26,076"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_010"
+  },
+  {
+    "question": "What was Lockheed Martin's total revenue in FY2020, and what was Block's total revenue in FY2016?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "Lockheed Martin FY2020 revenue": [
+        "LOCKHEEDMARTIN_2020_10K__block444__row3"
+      ],
+      "Block FY2016 revenue": [
+        "BLOCK_2016_10K__block429__row5"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Lockheed Martin",
+        "year": 2020,
+        "metric": "revenue",
+        "value": "65,398",
+        "raw_text": "Total net sales | 65,398 | 59,812 | 53,762"
+      },
+      {
+        "company": "Block",
+        "year": 2016,
+        "metric": "revenue",
+        "value": "1,708,721",
+        "raw_text": "Total net revenue | 1,708,721 | 1,267,118 | 850,192"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_011"
+  },
+  {
+    "question": "What was 3M's total revenue in FY2022, and what was General Mills's total revenue in FY2022?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "3M FY2022 revenue": [
+        "3M_2022_10K__block308__row0"
+      ],
+      "General Mills FY2022 revenue": [
+        "GENERALMILLS_2022_10K__block365__row0"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "3M",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "$ 34,229",
+        "raw_text": "Net sales | $ 34,229 | $ 35,355 | $ 32,184"
+      },
+      {
+        "company": "General Mills",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "$ 18,992.8",
+        "raw_text": "Net sales | $ 18,992.8 | $ 18,127.0 | $ 17,626.6"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_012"
+  },
+  {
+    "question": "What was Walmart's total revenue in FY2019, and what was CVS Health's total revenue in FY2022?",
+    "type": "revenue_vs_revenue",
+    "hop_groups": {
+      "Walmart FY2019 revenue": [
+        "WALMART_2019_10K__block369__row1"
+      ],
+      "CVS Health FY2022 revenue": [
+        "CVSHEALTH_2022_10K__block665__row5"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Walmart",
+        "year": 2019,
+        "metric": "revenue",
+        "value": "$ 510,329",
+        "raw_text": "Net sales | $ 510,329 | $ 495,761 | $ 481,317"
+      },
+      {
+        "company": "CVS Health",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "322,467",
+        "raw_text": "Total revenues | 322,467 | 292,111 | 268,706"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_013"
+  },
+  {
+    "question": "What was Lockheed Martin's total revenue in FY2020, and what was JPMorgan's total operating expense in FY2022?",
+    "type": "revenue_vs_expense",
+    "hop_groups": {
+      "Lockheed Martin FY2020 revenue": [
+        "LOCKHEEDMARTIN_2020_10K__block444__row3"
+      ],
+      "JPMorgan FY2022 expense": [
+        "JPMORGAN_2022_10K__block1442__row22"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Lockheed Martin",
+        "year": 2020,
+        "metric": "revenue",
+        "value": "65,398",
+        "raw_text": "Total net sales | 65,398 | 59,812 | 53,762"
+      },
+      {
+        "company": "JPMorgan",
+        "year": 2022,
+        "metric": "expense",
+        "value": "76,140",
+        "raw_text": "Total noninterest expense | 76,140 | 71,343 | 66,656"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_014"
+  },
+  {
+    "question": "What was 3M's total revenue in FY2022, and what was Boeing's total operating expense in FY2022?",
+    "type": "revenue_vs_expense",
+    "hop_groups": {
+      "3M FY2022 revenue": [
+        "3M_2022_10K__block308__row0"
+      ],
+      "Boeing FY2022 expense": [
+        "BOEING_2022_10K__block305__row6"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "3M",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "$ 34,229",
+        "raw_text": "Net sales | $ 34,229 | $ 35,355 | $ 32,184"
+      },
+      {
+        "company": "Boeing",
+        "year": 2022,
+        "metric": "expense",
+        "value": "(63,106)",
+        "raw_text": "Total costs and expenses | (63,106) | (59,269) | (63,843)"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_015"
+  },
+  {
+    "question": "What was AMD's total revenue in FY2022, and what was Paypal's total operating expense in FY2022?",
+    "type": "revenue_vs_expense",
+    "hop_groups": {
+      "AMD FY2022 revenue": [
+        "AMD_2022_10K__block332__row0"
+      ],
+      "Paypal FY2022 expense": [
+        "PAYPAL_2022_10K__block383__row9"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "AMD",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "$ 23,601",
+        "raw_text": "Net revenue | $ 23,601 | $ 16,434 | $ 9,763"
+      },
+      {
+        "company": "Paypal",
+        "year": 2022,
+        "metric": "expense",
+        "value": "23,681",
+        "raw_text": "Total operating expenses | 23,681 | 21,109 | 18,165"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_016"
+  },
+  {
+    "question": "What was Walmart's total revenue in FY2020, and what was Activision Blizzard's total operating expense in FY2019?",
+    "type": "revenue_vs_expense",
+    "hop_groups": {
+      "Walmart FY2020 revenue": [
+        "WALMART_2020_10K__block348__row2"
+      ],
+      "Activision Blizzard FY2019 expense": [
+        "ACTIVISIONBLIZZARD_2019_10K__block231__row15"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Walmart",
+        "year": 2020,
+        "metric": "revenue",
+        "value": "$ 519,926",
+        "raw_text": "Net sales | $ 519,926 $ | 510,329 | $ 495,761"
+      },
+      {
+        "company": "Activision Blizzard",
+        "year": 2019,
+        "metric": "expense",
+        "value": "4,882",
+        "raw_text": "Total costs and expenses | 4,882 | 75 | 5,512 | 73"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_017"
+  },
+  {
+    "question": "What was Paypal's total revenue in FY2022, and what was 3M's total operating expense in FY2018?",
+    "type": "revenue_vs_expense",
+    "hop_groups": {
+      "Paypal FY2022 revenue": [
+        "PAYPAL_2022_10K__block383__row0"
+      ],
+      "3M FY2018 expense": [
+        "3M_2018_10K__block369__row6"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Paypal",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "$ 27,518",
+        "raw_text": "Net revenues | $ 27,518 | $ 25,371 | $ 21,454"
+      },
+      {
+        "company": "3M",
+        "year": 2018,
+        "metric": "expense",
+        "value": "25,558",
+        "raw_text": "Total operating expenses | 25,558 | 23,965 | 23,082"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_018"
+  },
+  {
+    "question": "What was Lockheed Martin's total revenue in FY2021, and what was Block's total operating expense in FY2020?",
+    "type": "revenue_vs_expense",
+    "hop_groups": {
+      "Lockheed Martin FY2021 revenue": [
+        "LOCKHEEDMARTIN_2021_10K__block399__row3"
+      ],
+      "Block FY2020 expense": [
+        "BLOCK_2020_10K__block466__row12"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Lockheed Martin",
+        "year": 2021,
+        "metric": "revenue",
+        "value": "67,044",
+        "raw_text": "Total net sales | 67,044 | 65,398 | 59,812"
+      },
+      {
+        "company": "Block",
+        "year": 2020,
+        "metric": "expense",
+        "value": "6,764,169",
+        "raw_text": "Total cost of revenue | 6,764,169 | 2,823,815 | 1,994,477"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_019"
+  },
+  {
+    "question": "What was Paypal's total revenue in FY2022, and what was Block's total operating expense in FY2016?",
+    "type": "revenue_vs_expense",
+    "hop_groups": {
+      "Paypal FY2022 revenue": [
+        "PAYPAL_2022_10K__block383__row0"
+      ],
+      "Block FY2016 expense": [
+        "BLOCK_2016_10K__block429__row12"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Paypal",
+        "year": 2022,
+        "metric": "revenue",
+        "value": "$ 27,518",
+        "raw_text": "Net revenues | $ 27,518 | $ 25,371 | $ 21,454"
+      },
+      {
+        "company": "Block",
+        "year": 2016,
+        "metric": "expense",
+        "value": "1,132,683",
+        "raw_text": "Total cost of revenue | 1,132,683 | 897,088 | 624,118"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_020"
+  },
+  {
+    "question": "What was PepsiCo's total revenue in FY2021, and what was Boeing's total operating expense in FY2018?",
+    "type": "revenue_vs_expense",
+    "hop_groups": {
+      "PepsiCo FY2021 revenue": [
+        "PEPSICO_2021_10K__block336__row0"
+      ],
+      "Boeing FY2018 expense": [
+        "BOEING_2018_10K__block308__row6"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "PepsiCo",
+        "year": 2021,
+        "metric": "revenue",
+        "value": "$ 79,474",
+        "raw_text": "Net Revenue | $ 79,474 | $ 70,372 | $ 67,161"
+      },
+      {
+        "company": "Boeing",
+        "year": 2018,
+        "metric": "expense",
+        "value": "(81,490)",
+        "raw_text": "Total costs and expenses | (81,490) | (76,612) | (79,026)"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_021"
+  },
+  {
+    "question": "What was Walmart's total revenue in FY2018, and what was 3M's total operating expense in FY2022?",
+    "type": "revenue_vs_expense",
+    "hop_groups": {
+      "Walmart FY2018 revenue": [
+        "WALMART_2018_10K__block402__row1"
+      ],
+      "3M FY2022 expense": [
+        "3M_2022_10K__block308__row7"
+      ]
+    },
+    "hop_facts": [
+      {
+        "company": "Walmart",
+        "year": 2018,
+        "metric": "revenue",
+        "value": "$ 495,761",
+        "raw_text": "Net sales | $ 495,761 | $ 481,317 | $ 478,614"
+      },
+      {
+        "company": "3M",
+        "year": 2022,
+        "metric": "expense",
+        "value": "27,690",
+        "raw_text": "Total operating expenses | 27,690 | 27,986 | 25,023"
+      }
+    ],
+    "synthetic_id": "synthetic_2hop_022"
+  }
+]
