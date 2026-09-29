@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Large / regenerable data artifacts (source PDFs, embeddings, chunk stores, model checkpoints)
+data/raw/
+data/interim/
+data/processed/*.npy
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/cross_encoder_checkpoints_v3/
+data/processed/cross_encoder_finetuned_v1_contaminated/
+data/processed/cross_encoder_finetuned_v2/
+data/processed/bm25_index/
+data/processed/bm25_index_coarse/
+data/processed/dense_index/
+

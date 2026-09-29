@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "val_precise_multi_001",
+    "question": "What was 3M's accounts payable, other assets, selling, general and administrative expenses and total operating expenses in FY2018?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row23",
+      "3M_2018_10K__block373__row18",
+      "3M_2018_10K__block369__row3",
+      "3M_2018_10K__block369__row6"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "3M_2018_10K__block373__row23"
+      ],
+      "other assets": [
+        "3M_2018_10K__block373__row18"
+      ],
+      "selling, general and administrative expenses": [
+        "3M_2018_10K__block369__row3"
+      ],
+      "total operating expenses": [
+        "3M_2018_10K__block369__row6"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_002",
+    "question": "What was 3M's goodwill and total equity in FY2018?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "3M_2018_10K__block373__row16",
+      "3M_2018_10K__block373__row44"
+    ],
+    "hop_groups": {
+      "goodwill": [
+        "3M_2018_10K__block373__row16"
+      ],
+      "total equity": [
+        "3M_2018_10K__block373__row44"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_003",
+    "question": "What was 3M's accounts payable, goodwill, other assets and total equity in FY2022?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block312__row24",
+      "3M_2022_10K__block312__row17",
+      "3M_2022_10K__block312__row19",
+      "3M_2022_10K__block312__row47"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "3M_2022_10K__block312__row24"
+      ],
+      "goodwill": [
+        "3M_2022_10K__block312__row17"
+      ],
+      "other assets": [
+        "3M_2022_10K__block312__row19"
+      ],
+      "total equity": [
+        "3M_2022_10K__block312__row47"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_004",
+    "question": "What was 3M's selling, general and administrative expenses and total operating expenses in FY2022?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "3M_2022_10K__block308__row3",
+      "3M_2022_10K__block308__row7"
+    ],
+    "hop_groups": {
+      "selling, general and administrative expenses": [
+        "3M_2022_10K__block308__row3"
+      ],
+      "total operating expenses": [
+        "3M_2022_10K__block308__row7"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_005",
+    "question": "What was AES Corporation's accounts payable, goodwill and total equity in FY2022?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "AES_2022_10K__block890__row31",
+      "AES_2022_10K__block890__row21",
+      "AES_2022_10K__block890__row57"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "AES_2022_10K__block890__row31"
+      ],
+      "goodwill": [
+        "AES_2022_10K__block890__row21"
+      ],
+      "total equity": [
+        "AES_2022_10K__block890__row57"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_006",
+    "question": "What was AMD's accounts payable, accrued liabilities, goodwill and other assets in FY2015?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "AMD_2015_10K__block419__row18",
+      "AMD_2015_10K__block419__row20",
+      "AMD_2015_10K__block419__row12",
+      "AMD_2015_10K__block419__row13"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "AMD_2015_10K__block419__row18"
+      ],
+      "accrued liabilities": [
+        "AMD_2015_10K__block419__row20"
+      ],
+      "goodwill": [
+        "AMD_2015_10K__block419__row12"
+      ],
+      "other assets": [
+        "AMD_2015_10K__block419__row13"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_007",
+    "question": "What was AMD's accounts payable, accrued liabilities and goodwill in FY2022?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "AMD_2022_10K__block336__row19",
+      "AMD_2022_10K__block336__row21",
+      "AMD_2022_10K__block336__row11"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "AMD_2022_10K__block336__row19"
+      ],
+      "accrued liabilities": [
+        "AMD_2022_10K__block336__row21"
+      ],
+      "goodwill": [
+        "AMD_2022_10K__block336__row11"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_008",
+    "question": "What was Activision Blizzard's accounts payable, goodwill and other assets in FY2019?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row16",
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row12",
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row10"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "ACTIVISIONBLIZZARD_2019_10K__block456__row16"
+      ],
+      "goodwill": [
+        "ACTIVISIONBLIZZARD_2019_10K__block456__row12"
+      ],
+      "other assets": [
+        "ACTIVISIONBLIZZARD_2019_10K__block456__row10"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_009",
+    "question": "What was Amazon's accounts payable, goodwill and other assets in FY2017?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "AMAZON_2017_10K__block246__row13",
+      "AMAZON_2017_10K__block246__row8",
+      "AMAZON_2017_10K__block246__row9"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "AMAZON_2017_10K__block246__row13"
+      ],
+      "goodwill": [
+        "AMAZON_2017_10K__block246__row8"
+      ],
+      "other assets": [
+        "AMAZON_2017_10K__block246__row9"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_010",
+    "question": "What was Amazon's accounts payable, goodwill and other assets in FY2019?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "AMAZON_2019_10K__block245__row14",
+      "AMAZON_2019_10K__block245__row9",
+      "AMAZON_2019_10K__block245__row10"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "AMAZON_2019_10K__block245__row14"
+      ],
+      "goodwill": [
+        "AMAZON_2019_10K__block245__row9"
+      ],
+      "other assets": [
+        "AMAZON_2019_10K__block245__row10"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_011",
+    "question": "What was American Water Works's accounts payable, accrued liabilities and goodwill in FY2020?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2020_10K__block484__row15",
+      "AMERICANWATERWORKS_2020_10K__block484__row16",
+      "AMERICANWATERWORKS_2020_10K__block481__row16"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "AMERICANWATERWORKS_2020_10K__block484__row15"
+      ],
+      "accrued liabilities": [
+        "AMERICANWATERWORKS_2020_10K__block484__row16"
+      ],
+      "goodwill": [
+        "AMERICANWATERWORKS_2020_10K__block481__row16"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_012",
+    "question": "What was American Water Works's accounts payable, accrued liabilities and goodwill in FY2021?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2021_10K__block513__row15",
+      "AMERICANWATERWORKS_2021_10K__block513__row16",
+      "AMERICANWATERWORKS_2021_10K__block510__row17"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "AMERICANWATERWORKS_2021_10K__block513__row15"
+      ],
+      "accrued liabilities": [
+        "AMERICANWATERWORKS_2021_10K__block513__row16"
+      ],
+      "goodwill": [
+        "AMERICANWATERWORKS_2021_10K__block510__row17"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_013",
+    "question": "What was American Water Works's accounts payable, accrued liabilities and goodwill in FY2022?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "AMERICANWATERWORKS_2022_10K__block501__row15",
+      "AMERICANWATERWORKS_2022_10K__block501__row16",
+      "AMERICANWATERWORKS_2022_10K__block498__row18"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "AMERICANWATERWORKS_2022_10K__block501__row15"
+      ],
+      "accrued liabilities": [
+        "AMERICANWATERWORKS_2022_10K__block501__row16"
+      ],
+      "goodwill": [
+        "AMERICANWATERWORKS_2022_10K__block498__row18"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_014",
+    "question": "What was Best Buy's accounts payable, accrued liabilities, goodwill and total equity in FY2017?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "BESTBUY_2017_10K__block400__row21",
+      "BESTBUY_2017_10K__block400__row25",
+      "BESTBUY_2017_10K__block400__row15",
+      "BESTBUY_2017_10K__block400__row39"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "BESTBUY_2017_10K__block400__row21"
+      ],
+      "accrued liabilities": [
+        "BESTBUY_2017_10K__block400__row25"
+      ],
+      "goodwill": [
+        "BESTBUY_2017_10K__block400__row15"
+      ],
+      "total equity": [
+        "BESTBUY_2017_10K__block400__row39"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_015",
+    "question": "What was Best Buy's accounts payable, accrued liabilities, goodwill and other assets in FY2019?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "BESTBUY_2019_10K__block377__row20",
+      "BESTBUY_2019_10K__block377__row24",
+      "BESTBUY_2019_10K__block377__row15",
+      "BESTBUY_2019_10K__block377__row16"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "BESTBUY_2019_10K__block377__row20"
+      ],
+      "accrued liabilities": [
+        "BESTBUY_2019_10K__block377__row24"
+      ],
+      "goodwill": [
+        "BESTBUY_2019_10K__block377__row15"
+      ],
+      "other assets": [
+        "BESTBUY_2019_10K__block377__row16"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_016",
+    "question": "What was Best Buy's accounts payable, accrued liabilities, goodwill and other assets in FY2023?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block340__row21",
+      "BESTBUY_2023_10K__block340__row25",
+      "BESTBUY_2023_10K__block340__row16",
+      "BESTBUY_2023_10K__block340__row17"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "BESTBUY_2023_10K__block340__row21"
+      ],
+      "accrued liabilities": [
+        "BESTBUY_2023_10K__block340__row25"
+      ],
+      "goodwill": [
+        "BESTBUY_2023_10K__block340__row16"
+      ],
+      "other assets": [
+        "BESTBUY_2023_10K__block340__row17"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_017",
+    "question": "What was Block's accounts payable, goodwill, other assets and total operating expenses in FY2016?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "BLOCK_2016_10K__block427__row20",
+      "BLOCK_2016_10K__block427__row12",
+      "BLOCK_2016_10K__block427__row16",
+      "BLOCK_2016_10K__block429__row20"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "BLOCK_2016_10K__block427__row20"
+      ],
+      "goodwill": [
+        "BLOCK_2016_10K__block427__row12"
+      ],
+      "other assets": [
+        "BLOCK_2016_10K__block427__row16"
+      ],
+      "total operating expenses": [
+        "BLOCK_2016_10K__block429__row20"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_018",
+    "question": "What was Block's goodwill and total operating expenses in FY2020?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "BLOCK_2020_10K__block464__row10",
+      "BLOCK_2020_10K__block466__row20"
+    ],
+    "hop_groups": {
+      "goodwill": [
+        "BLOCK_2020_10K__block464__row10"
+      ],
+      "total operating expenses": [
+        "BLOCK_2020_10K__block466__row20"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_019",
+    "question": "What was CVS Health's accounts payable, goodwill and other assets in FY2018?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2018_10K__block1539__row15",
+      "CVSHEALTH_2018_10K__block1539__row9",
+      "CVSHEALTH_2018_10K__block1539__row12"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "CVSHEALTH_2018_10K__block1539__row15"
+      ],
+      "goodwill": [
+        "CVSHEALTH_2018_10K__block1539__row9"
+      ],
+      "other assets": [
+        "CVSHEALTH_2018_10K__block1539__row12"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_020",
+    "question": "What was CVS Health's accounts payable, goodwill and other assets in FY2022?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "CVSHEALTH_2022_10K__block669__row17",
+      "CVSHEALTH_2022_10K__block669__row11",
+      "CVSHEALTH_2022_10K__block669__row14"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "CVSHEALTH_2022_10K__block669__row17"
+      ],
+      "goodwill": [
+        "CVSHEALTH_2022_10K__block669__row11"
+      ],
+      "other assets": [
+        "CVSHEALTH_2022_10K__block669__row14"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_021",
+    "question": "What was Coca-Cola's goodwill, other assets, selling, general and administrative expenses and total equity in FY2017?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block543__row19",
+      "COCACOLA_2017_10K__block543__row15",
+      "COCACOLA_2017_10K__block348__row5",
+      "COCACOLA_2017_10K__block543__row42"
+    ],
+    "hop_groups": {
+      "goodwill": [
+        "COCACOLA_2017_10K__block543__row19"
+      ],
+      "other assets": [
+        "COCACOLA_2017_10K__block543__row15"
+      ],
+      "selling, general and administrative expenses": [
+        "COCACOLA_2017_10K__block348__row5"
+      ],
+      "total equity": [
+        "COCACOLA_2017_10K__block543__row42"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_022",
+    "question": "What was Coca-Cola's goodwill, selling, general and administrative expenses and total equity in FY2021?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "COCACOLA_2021_10K__block446__row16",
+      "COCACOLA_2021_10K__block441__row3",
+      "COCACOLA_2021_10K__block446__row37"
+    ],
+    "hop_groups": {
+      "goodwill": [
+        "COCACOLA_2021_10K__block446__row16"
+      ],
+      "selling, general and administrative expenses": [
+        "COCACOLA_2021_10K__block441__row3"
+      ],
+      "total equity": [
+        "COCACOLA_2021_10K__block446__row37"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_023",
+    "question": "What was Coca-Cola's goodwill, selling, general and administrative expenses and total equity in FY2022?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "COCACOLA_2022_10K__block442__row16",
+      "COCACOLA_2022_10K__block437__row3",
+      "COCACOLA_2022_10K__block442__row37"
+    ],
+    "hop_groups": {
+      "goodwill": [
+        "COCACOLA_2022_10K__block442__row16"
+      ],
+      "selling, general and administrative expenses": [
+        "COCACOLA_2022_10K__block437__row3"
+      ],
+      "total equity": [
+        "COCACOLA_2022_10K__block442__row37"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_024",
+    "question": "What was Kraft Heinz's goodwill, selling, general and administrative expenses and total equity in FY2019?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block324__row10",
+      "KRAFTHEINZ_2019_10K__block320__row6",
+      "KRAFTHEINZ_2019_10K__block324__row38"
+    ],
+    "hop_groups": {
+      "goodwill": [
+        "KRAFTHEINZ_2019_10K__block324__row10"
+      ],
+      "selling, general and administrative expenses": [
+        "KRAFTHEINZ_2019_10K__block320__row6"
+      ],
+      "total equity": [
+        "KRAFTHEINZ_2019_10K__block324__row38"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_025",
+    "question": "What was Lockheed Martin's accounts payable, goodwill and total equity in FY2020?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2020_10K__block448__row16",
+      "LOCKHEEDMARTIN_2020_10K__block448__row9",
+      "LOCKHEEDMARTIN_2020_10K__block448__row33"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "LOCKHEEDMARTIN_2020_10K__block448__row16"
+      ],
+      "goodwill": [
+        "LOCKHEEDMARTIN_2020_10K__block448__row9"
+      ],
+      "total equity": [
+        "LOCKHEEDMARTIN_2020_10K__block448__row33"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_026",
+    "question": "What was Lockheed Martin's accounts payable, goodwill and total equity in FY2021?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2021_10K__block403__row16",
+      "LOCKHEEDMARTIN_2021_10K__block403__row9",
+      "LOCKHEEDMARTIN_2021_10K__block403__row33"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "LOCKHEEDMARTIN_2021_10K__block403__row16"
+      ],
+      "goodwill": [
+        "LOCKHEEDMARTIN_2021_10K__block403__row9"
+      ],
+      "total equity": [
+        "LOCKHEEDMARTIN_2021_10K__block403__row33"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_027",
+    "question": "What was Lockheed Martin's accounts payable and goodwill in FY2022?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "LOCKHEEDMARTIN_2022_10K__block409__row16",
+      "LOCKHEEDMARTIN_2022_10K__block409__row9"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "LOCKHEEDMARTIN_2022_10K__block409__row16"
+      ],
+      "goodwill": [
+        "LOCKHEEDMARTIN_2022_10K__block409__row9"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_028",
+    "question": "What was MGM Resorts's accounts payable and goodwill in FY2018?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2018_10K__block361__row18",
+      "MGMRESORTS_2018_10K__block361__row11"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "MGMRESORTS_2018_10K__block361__row18"
+      ],
+      "goodwill": [
+        "MGMRESORTS_2018_10K__block361__row11"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_029",
+    "question": "What was MGM Resorts's accounts payable and goodwill in FY2020?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2020_10K__block410__row20",
+      "MGMRESORTS_2020_10K__block410__row12"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "MGMRESORTS_2020_10K__block410__row20"
+      ],
+      "goodwill": [
+        "MGMRESORTS_2020_10K__block410__row12"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_030",
+    "question": "What was Nike's accounts payable, accrued liabilities and goodwill in FY2018?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "NIKE_2018_10K__block371__row17",
+      "NIKE_2018_10K__block371__row18",
+      "NIKE_2018_10K__block371__row10"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "NIKE_2018_10K__block371__row17"
+      ],
+      "accrued liabilities": [
+        "NIKE_2018_10K__block371__row18"
+      ],
+      "goodwill": [
+        "NIKE_2018_10K__block371__row10"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_031",
+    "question": "What was Nike's accounts payable, accrued liabilities and goodwill in FY2019?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "NIKE_2019_10K__block342__row17",
+      "NIKE_2019_10K__block342__row18",
+      "NIKE_2019_10K__block342__row10"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "NIKE_2019_10K__block342__row17"
+      ],
+      "accrued liabilities": [
+        "NIKE_2019_10K__block342__row18"
+      ],
+      "goodwill": [
+        "NIKE_2019_10K__block342__row10"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_032",
+    "question": "What was Nike's accounts payable, accrued liabilities and goodwill in FY2021?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "NIKE_2021_10K__block377__row18",
+      "NIKE_2021_10K__block377__row20",
+      "NIKE_2021_10K__block377__row11"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "NIKE_2021_10K__block377__row18"
+      ],
+      "accrued liabilities": [
+        "NIKE_2021_10K__block377__row20"
+      ],
+      "goodwill": [
+        "NIKE_2021_10K__block377__row11"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_033",
+    "question": "What was Nike's accounts payable, accrued liabilities and goodwill in FY2023?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "NIKE_2023_10K__block347__row18",
+      "NIKE_2023_10K__block347__row20",
+      "NIKE_2023_10K__block347__row11"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "NIKE_2023_10K__block347__row18"
+      ],
+      "accrued liabilities": [
+        "NIKE_2023_10K__block347__row20"
+      ],
+      "goodwill": [
+        "NIKE_2023_10K__block347__row11"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_034",
+    "question": "What was Paypal's accounts payable, goodwill, other assets and total equity in FY2022?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "PAYPAL_2022_10K__block381__row17",
+      "PAYPAL_2022_10K__block381__row11",
+      "PAYPAL_2022_10K__block381__row13",
+      "PAYPAL_2022_10K__block381__row33"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "PAYPAL_2022_10K__block381__row17"
+      ],
+      "goodwill": [
+        "PAYPAL_2022_10K__block381__row11"
+      ],
+      "other assets": [
+        "PAYPAL_2022_10K__block381__row13"
+      ],
+      "total equity": [
+        "PAYPAL_2022_10K__block381__row33"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_035",
+    "question": "What was PepsiCo's goodwill, other assets, selling, general and administrative expenses and total equity in FY2021?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "PEPSICO_2021_10K__block348__row11",
+      "PEPSICO_2021_10K__block348__row15",
+      "PEPSICO_2021_10K__block336__row3",
+      "PEPSICO_2021_10K__block348__row36"
+    ],
+    "hop_groups": {
+      "goodwill": [
+        "PEPSICO_2021_10K__block348__row11"
+      ],
+      "other assets": [
+        "PEPSICO_2021_10K__block348__row15"
+      ],
+      "selling, general and administrative expenses": [
+        "PEPSICO_2021_10K__block336__row3"
+      ],
+      "total equity": [
+        "PEPSICO_2021_10K__block348__row36"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_036",
+    "question": "What was PepsiCo's goodwill, other assets, selling, general and administrative expenses and total equity in FY2022?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block355__row11",
+      "PEPSICO_2022_10K__block355__row15",
+      "PEPSICO_2022_10K__block345__row3",
+      "PEPSICO_2022_10K__block355__row36"
+    ],
+    "hop_groups": {
+      "goodwill": [
+        "PEPSICO_2022_10K__block355__row11"
+      ],
+      "other assets": [
+        "PEPSICO_2022_10K__block355__row15"
+      ],
+      "selling, general and administrative expenses": [
+        "PEPSICO_2022_10K__block345__row3"
+      ],
+      "total equity": [
+        "PEPSICO_2022_10K__block355__row36"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_037",
+    "question": "What was Ulta Beauty's accounts payable, accrued liabilities, goodwill and selling, general and administrative expenses in FY2023?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023_10K__block330__row17",
+      "ULTABEAUTY_2023_10K__block330__row18",
+      "ULTABEAUTY_2023_10K__block330__row10",
+      "ULTABEAUTY_2023_10K__block332__row3"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "ULTABEAUTY_2023_10K__block330__row17"
+      ],
+      "accrued liabilities": [
+        "ULTABEAUTY_2023_10K__block330__row18"
+      ],
+      "goodwill": [
+        "ULTABEAUTY_2023_10K__block330__row10"
+      ],
+      "selling, general and administrative expenses": [
+        "ULTABEAUTY_2023_10K__block332__row3"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_038",
+    "question": "What was Walmart's accounts payable, accrued liabilities, goodwill and total equity in FY2018?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block404__row21",
+      "WALMART_2018_10K__block404__row22",
+      "WALMART_2018_10K__block404__row15",
+      "WALMART_2018_10K__block404__row38"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "WALMART_2018_10K__block404__row21"
+      ],
+      "accrued liabilities": [
+        "WALMART_2018_10K__block404__row22"
+      ],
+      "goodwill": [
+        "WALMART_2018_10K__block404__row15"
+      ],
+      "total equity": [
+        "WALMART_2018_10K__block404__row38"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_039",
+    "question": "What was Walmart's accounts payable, accrued liabilities, goodwill and total equity in FY2019?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "WALMART_2019_10K__block371__row21",
+      "WALMART_2019_10K__block371__row22",
+      "WALMART_2019_10K__block371__row15",
+      "WALMART_2019_10K__block371__row38"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "WALMART_2019_10K__block371__row21"
+      ],
+      "accrued liabilities": [
+        "WALMART_2019_10K__block371__row22"
+      ],
+      "goodwill": [
+        "WALMART_2019_10K__block371__row15"
+      ],
+      "total equity": [
+        "WALMART_2019_10K__block371__row38"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "val_precise_multi_040",
+    "question": "What was Walmart's accounts payable, accrued liabilities, goodwill and total equity in FY2020?",
+    "source": "synthetic_multi_metric_val",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block350__row17",
+      "WALMART_2020_10K__block350__row18",
+      "WALMART_2020_10K__block350__row11",
+      "WALMART_2020_10K__block350__row38"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "WALMART_2020_10K__block350__row17"
+      ],
+      "accrued liabilities": [
+        "WALMART_2020_10K__block350__row18"
+      ],
+      "goodwill": [
+        "WALMART_2020_10K__block350__row11"
+      ],
+      "total equity": [
+        "WALMART_2020_10K__block350__row38"
+      ]
+    },
+    "has_redundant_hops": false
+  },
+  {
+    "id": "financebench_id_02987",
+    "question": "What is the FY2019 fixed asset turnover ratio for Activision Blizzard? Fixed asset turnover ratio is defined as: FY2019 revenue / (average PP&E between FY2018 and FY2019). Round your answer to two decimal places. Base your judgments on the information provided primarily in the statement of income and the statement of financial position.",
+    "source": "natural_tightened_val",
+    "gold_chunk_ids": [
+      "ACTIVISIONBLIZZARD_2019_10K__block231__row3",
+      "ACTIVISIONBLIZZARD_2019_10K__block456__row8",
+      "ACTIVISIONBLIZZARD_2019_10K__block458__row3",
+      "ACTIVISIONBLIZZARD_2019_10K__block590__row7"
+    ],
+    "hop_groups": {
+      "property and equipment, net": [
+        "ACTIVISIONBLIZZARD_2019_10K__block456__row8",
+        "ACTIVISIONBLIZZARD_2019_10K__block590__row7"
+      ],
+      "total net revenues": [
+        "ACTIVISIONBLIZZARD_2019_10K__block231__row3",
+        "ACTIVISIONBLIZZARD_2019_10K__block458__row3"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "financebench_id_10499",
+    "question": "What is Kraft Heinz's FY2019 inventory turnover ratio? Inventory turnover ratio is defined as: (FY2019 COGS) / (average inventory between FY2018 and FY2019). Round your answer to two decimal places. Please base your judgments on the information provided primarily in the balance sheet and the P&L statement.",
+    "source": "natural_tightened_val",
+    "gold_chunk_ids": [
+      "KRAFTHEINZ_2019_10K__block324__row15",
+      "KRAFTHEINZ_2019_10K__block379__row2",
+      "KRAFTHEINZ_2019_10K__block797__row19"
+    ],
+    "hop_groups": {
+      "cost of products sold": [
+        "KRAFTHEINZ_2019_10K__block320__row1",
+        "KRAFTHEINZ_2019_10K__block794__row1",
+        "KRAFTHEINZ_2019_10K__block795__row1",
+        "KRAFTHEINZ_2019_10K__block796__row1"
+      ],
+      "inventories": [
+        "KRAFTHEINZ_2019_10K__block324__row4",
+        "KRAFTHEINZ_2019_10K__block410__row2",
+        "KRAFTHEINZ_2019_10K__block428__row3",
+        "KRAFTHEINZ_2019_10K__block797__row5",
+        "KRAFTHEINZ_2019_10K__block798__row5"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "financebench_id_04481",
+    "question": "What is the FY2022 unadjusted EBITDA % margin for PepsiCo? Calculate unadjusted EBITDA using unadjusted operating income and D&A (from cash flow statement). Give a response to the question by relying on the details shown in the statement of cash flows and the P&L statement.",
+    "source": "natural_tightened_val",
+    "gold_chunk_ids": [
+      "PEPSICO_2022_10K__block1201__row31",
+      "PEPSICO_2022_10K__block183__row3"
+    ],
+    "hop_groups": {
+      "net revenue": [
+        "PEPSICO_2022_10K__block177__row0",
+        "PEPSICO_2022_10K__block345__row0"
+      ],
+      "operating profit": [
+        "PEPSICO_2022_10K__block177__row1",
+        "PEPSICO_2022_10K__block345__row6"
+      ],
+      "depreciation and amortization": [
+        "PEPSICO_2022_10K__block351__row2"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "financebench_id_06247",
+    "question": "What is FY2018 days payable outstanding (DPO) for Walmart? DPO is defined as: 365 * (average accounts payable between FY2017 and FY2018) / (FY2018 COGS + change in inventory between FY2017 and FY2018). Round your answer to two decimal places. Please base your judgments on the information provided primarily in the statement of financial position and the P&L statement.",
+    "source": "natural_tightened_val",
+    "gold_chunk_ids": [
+      "WALMART_2018_10K__block246__row15",
+      "WALMART_2018_10K__block280__row26",
+      "WALMART_2018_10K__block402__row5",
+      "WALMART_2018_10K__block404__row21",
+      "WALMART_2018_10K__block404__row4",
+      "WALMART_2018_10K__block406__row9",
+      "WALMART_2018_10K__block605__row2",
+      "WALMART_2018_10K__block606__row2"
+    ],
+    "hop_groups": {
+      "cost of sales": [
+        "WALMART_2018_10K__block402__row5",
+        "WALMART_2018_10K__block605__row2",
+        "WALMART_2018_10K__block606__row2"
+      ],
+      "inventories": [
+        "WALMART_2018_10K__block246__row15",
+        "WALMART_2018_10K__block404__row4",
+        "WALMART_2018_10K__block406__row9"
+      ],
+      "accounts payable": [
+        "WALMART_2018_10K__block280__row26",
+        "WALMART_2018_10K__block404__row21"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "financebench_id_06741",
+    "question": "What is the FY2018 - FY2020 3 year average unadjusted EBITDA % margin for Walmart? Define unadjusted EBITDA as unadjusted operating income + depreciation and amortization from the cash flow statement. Answer in units of percents and round to one decimal place. Calculate what was asked by utilizing the line items clearly shown in the P&L statement and the cash flow statement.",
+    "source": "natural_tightened_val",
+    "gold_chunk_ids": [
+      "WALMART_2020_10K__block188__row1",
+      "WALMART_2020_10K__block188__row10",
+      "WALMART_2020_10K__block221__row8",
+      "WALMART_2020_10K__block232__row0",
+      "WALMART_2020_10K__block232__row6",
+      "WALMART_2020_10K__block253__row4",
+      "WALMART_2020_10K__block348__row4",
+      "WALMART_2020_10K__block348__row8",
+      "WALMART_2020_10K__block352__row3",
+      "WALMART_2020_10K__block543__row16",
+      "WALMART_2020_10K__block543__row25",
+      "WALMART_2020_10K__block543__row7",
+      "WALMART_2020_10K__block545__row3",
+      "WALMART_2020_10K__block556__row0",
+      "WALMART_2020_10K__block557__row0"
+    ],
+    "hop_groups": {
+      "total revenues": [
+        "WALMART_2020_10K__block188__row1",
+        "WALMART_2020_10K__block232__row0",
+        "WALMART_2020_10K__block348__row4",
+        "WALMART_2020_10K__block545__row3",
+        "WALMART_2020_10K__block556__row0",
+        "WALMART_2020_10K__block557__row0"
+      ],
+      "operating income": [
+        "WALMART_2020_10K__block188__row10",
+        "WALMART_2020_10K__block221__row8",
+        "WALMART_2020_10K__block232__row6",
+        "WALMART_2020_10K__block253__row4",
+        "WALMART_2020_10K__block348__row8"
+      ],
+      "depreciation and amortization": [
+        "WALMART_2020_10K__block352__row3",
+        "WALMART_2020_10K__block543__row16",
+        "WALMART_2020_10K__block543__row25",
+        "WALMART_2020_10K__block543__row7"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "redundant_mined_val_001",
+    "question": "What was MGM Resorts's goodwill in FY2022?",
+    "source": "redundant_mined",
+    "gold_chunk_ids": [
+      "MGMRESORTS_2022Q4_EARNINGS__block52__row13",
+      "MGMRESORTS_2022_10K__block387__row13"
+    ],
+    "hop_groups": {
+      "goodwill": [
+        "MGMRESORTS_2022Q4_EARNINGS__block52__row13",
+        "MGMRESORTS_2022_10K__block387__row13"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "redundant_mined_val_002",
+    "question": "What was Ulta Beauty's accounts payable, accrued liabilities, goodwill and selling, general and administrative expenses in FY2023?",
+    "source": "redundant_mined",
+    "gold_chunk_ids": [
+      "ULTABEAUTY_2023Q4_EARNINGS__block21__row17",
+      "ULTABEAUTY_2023_10K__block330__row17",
+      "ULTABEAUTY_2023Q4_EARNINGS__block21__row18",
+      "ULTABEAUTY_2023_10K__block330__row18",
+      "ULTABEAUTY_2023Q4_EARNINGS__block21__row10",
+      "ULTABEAUTY_2023_10K__block330__row10",
+      "ULTABEAUTY_2023Q4_EARNINGS__block20__row3",
+      "ULTABEAUTY_2023_10K__block332__row3"
+    ],
+    "hop_groups": {
+      "accounts payable": [
+        "ULTABEAUTY_2023Q4_EARNINGS__block21__row17",
+        "ULTABEAUTY_2023_10K__block330__row17"
+      ],
+      "accrued liabilities": [
+        "ULTABEAUTY_2023Q4_EARNINGS__block21__row18",
+        "ULTABEAUTY_2023_10K__block330__row18"
+      ],
+      "goodwill": [
+        "ULTABEAUTY_2023Q4_EARNINGS__block21__row10",
+        "ULTABEAUTY_2023_10K__block330__row10"
+      ],
+      "selling, general and administrative expenses": [
+        "ULTABEAUTY_2023Q4_EARNINGS__block20__row3",
+        "ULTABEAUTY_2023_10K__block332__row3"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "redundant_mined_val_003",
+    "question": "What was JPMorgan's other assets in FY2022?",
+    "source": "redundant_mined",
+    "gold_chunk_ids": [
+      "JPMORGAN_2022Q2_10Q__block124__row15",
+      "JPMORGAN_2022Q2_10Q__block786__row15"
+    ],
+    "hop_groups": {
+      "other assets": [
+        "JPMORGAN_2022Q2_10Q__block124__row15",
+        "JPMORGAN_2022Q2_10Q__block786__row15"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "redundant_mined_val_004",
+    "question": "What was JPMorgan's other assets in FY2022?",
+    "source": "redundant_mined",
+    "gold_chunk_ids": [
+      "JPMORGAN_2022_10K__block1446__row15",
+      "JPMORGAN_2022_10K__block516__row15"
+    ],
+    "hop_groups": {
+      "other assets": [
+        "JPMORGAN_2022_10K__block1446__row15",
+        "JPMORGAN_2022_10K__block516__row15"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "redundant_mined_val_005",
+    "question": "What was JPMorgan's other assets in FY2023?",
+    "source": "redundant_mined",
+    "gold_chunk_ids": [
+      "JPMORGAN_2023Q2_10Q__block148__row15",
+      "JPMORGAN_2023Q2_10Q__block882__row15"
+    ],
+    "hop_groups": {
+      "other assets": [
+        "JPMORGAN_2023Q2_10Q__block148__row15",
+        "JPMORGAN_2023Q2_10Q__block882__row15"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "redundant_mined_val_006",
+    "question": "What was Coca-Cola's selling, general and administrative expenses in FY2017?",
+    "source": "redundant_mined",
+    "gold_chunk_ids": [
+      "COCACOLA_2017_10K__block348__row5",
+      "COCACOLA_2017_10K__block536__row4"
+    ],
+    "hop_groups": {
+      "selling, general and administrative expenses": [
+        "COCACOLA_2017_10K__block348__row5",
+        "COCACOLA_2017_10K__block536__row4"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "redundant_mined_val_007",
+    "question": "What was Amcor's goodwill in FY2020?",
+    "source": "redundant_mined",
+    "gold_chunk_ids": [
+      "AMCOR_2020_10K__block287",
+      "AMCOR_2020_10K__block302__row14"
+    ],
+    "hop_groups": {
+      "goodwill": [
+        "AMCOR_2020_10K__block287",
+        "AMCOR_2020_10K__block302__row14"
+      ]
+    },
+    "has_redundant_hops": true
+  },
+  {
+    "id": "redundant_mined_val_008",
+    "question": "What was Best Buy's goodwill in FY2023?",
+    "source": "redundant_mined",
+    "gold_chunk_ids": [
+      "BESTBUY_2023_10K__block328",
+      "BESTBUY_2023_10K__block340__row16"
+    ],
+    "hop_groups": {
+      "goodwill": [
+        "BESTBUY_2023_10K__block328",
+        "BESTBUY_2023_10K__block340__row16"
+      ]
+    },
+    "has_redundant_hops": true
+  }
+]
