@@ -29,12 +29,12 @@ Concretely, the question sets used:
 
 **Baseline model** (stage 1, `scripts/pipeline_best.py::retrieve_fusion`) - unmodified, no learned reranking of any kind:
 - **Sparse**: BM25 (`bm25s` library), each chunk's text prefixed with `entity, FYyear, section_title:` context, NLTK's 198-word stopword list.
-- **Dense**: `all-mpnet-base-v2` embeddings, same contextual prefix, cosine similarity.
+- **Dense**: embedding model **`sentence-transformers/all-mpnet-base-v2`** (768-dim, off-the-shelf, not fine-tuned), same contextual prefix, cosine similarity.
 - **Entity/year filtering**: regex-based company-name and fiscal-year detection restrict candidates to the detected company/year, addressing a diagnosed cross-company and cross-year confusion problem (generic line-item labels like "Dividends paid to shareholders" are nearly identical across companies).
 - **Fusion**: convex combination of min-max normalized BM25 and dense scores (`alpha=0.4`, found via sweep) - beats plain BM25, plain dense, and reciprocal rank fusion on this corpus.
 
 **Final model(s)** - two separate learned stages, each independently validated, *not* combined into one serving pipeline (a beta-sweep found pure cross-encoder always beats any blend with LambdaMART, even on the redundant-hop questions LambdaMART targets - see `RQ2_RESULTS.md`):
-1. **RQ1's final pipeline** = baseline + query decomposition for multi-metric questions (`retrieve_decomposed`/`retrieve_auto` - splitting a bundled multi-metric query into per-metric sub-questions, since bundling dilutes term-overlap scoring per metric) + cross-encoder reranking (RankNetLoss fine-tuned on domain-informed hard negatives - the pipeline's own top-ranked *wrong* answers, not random negatives) + beta-blending (`beta=1.0` for same-distribution deployment, `beta=0.3` as the dual-distribution-safe default).
+1. **RQ1's final pipeline** = baseline + query decomposition for multi-metric questions (`retrieve_decomposed`/`retrieve_auto` - splitting a bundled multi-metric query into per-metric sub-questions, since bundling dilutes term-overlap scoring per metric) + cross-encoder reranking (base model **`cross-encoder/ms-marco-MiniLM-L-6-v2`**, fine-tuned via RankNetLoss on domain-informed hard negatives - the pipeline's own top-ranked *wrong* answers, not random negatives - on 591 questions / 3,682 question-document pairs, 5 epochs) + beta-blending (`beta=1.0` for same-distribution deployment, `beta=0.3` as the dual-distribution-safe default).
 2. **RQ2's final model** = baseline + a from-scratch coverage-aware LambdaMART (custom Δcoverage@k gradient, generalizing the standard ΔNDCG LambdaRank gradient to a different, exactly-computable target metric), built entirely on features with no prior fine-tuning history - a cheaper alternative to the cross-encoder when it isn't available, not a per-question routing choice when it is.
 
 ### The LambdaMART objective, and how it's modified for coverage
