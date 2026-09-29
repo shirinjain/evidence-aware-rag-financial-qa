@@ -22,19 +22,23 @@ Full writeups: [`PROJECT_SUMMARY.md`](PROJECT_SUMMARY.md) (unifying overview), [
 
 ## RQ1: domain-informed hard-negative cross-encoder reranking
 
+Evaluated on the 185-question held-out set (n=185; mostly single/multi-metric factual questions, only 5 with any redundant hop):
+
 | | Recall@10 | Coverage@10 | NDCG@10 |
 |---|---|---|---|
-| Baseline (stage 1 only) | 0.738 | 0.741 | 0.522 |
-| **+ cross-encoder (beta=1.0)** | **0.942 (+27.6%)** | **0.945 (+27.5%)** | **0.842 (+61.3%)** |
+| Baseline (stage 1 only), n=185 | 0.738 | 0.741 | 0.522 |
+| **+ cross-encoder (beta=1.0), n=185** | **0.942 (+27.6%)** | **0.945 (+27.5%)** | **0.842 (+61.3%)** |
 
 Key methodological finding: an earlier fine-tuning attempt on 1/13th the data produced a textbook-normal loss curve while the resulting model had *inverted* score preferences on direct inspection - a converging loss curve does not guarantee a useful model. Also found: `beta=1.0` (full trust in the reranker) is optimal on same-distribution held-out data but regresses on cross-distribution (analytically-phrased) questions - resolved via `beta=0.3` as a dual-distribution-safe default.
 
 ## RQ2: coverage-aware ranking for multi-hop questions
 
+Evaluated on a separate 32-question redundant-hop set (n=32; every question here has facts restated across multiple chunks by construction, unlike the RQ1 table above — this is *why* the same baseline pipeline's recall@10 looks much lower here (0.35 vs. 0.74): redundant copies dilute the denominator, which is exactly the failure mode this metric pair is designed to expose (note coverage@10 for this same baseline is 0.497, much closer to the RQ1 numbers, since coverage isn't fooled by the redundancy)):
+
 | | Recall@10 | Coverage@10 | NDCG@5 |
 |---|---|---|---|
-| Baseline (stage 1 only) | 0.352 | 0.497 | 0.260 |
-| **+ coverage-aware LambdaMART** | **0.438 (+24.4%)** | **0.576 (+15.9%)** | **0.331 (+27.1%)** |
+| Baseline (stage 1 only), n=32 | 0.352 | 0.497 | 0.260 |
+| **+ coverage-aware LambdaMART, n=32** | **0.438 (+24.4%)** | **0.576 (+15.9%)** | **0.331 (+27.1%)** |
 
 Getting here required diagnosing three failed attempts in sequence: a feature set including the cross-encoder's own score mostly just copied that feature (no real generalization); digging into why surfaced a genuine contamination bug (44% of mined training questions' gold chunks were the same chunks the cross-encoder was itself fine-tuned on); removing the cross-encoder entirely and using only features with no fine-tuning history, plus warm-starting from the stage-1 score with heavy regularization, is what finally produced a real, cross-validated effect (3 improved / 28 unchanged / 1 worsened across 32 questions, out-of-fold).
 
