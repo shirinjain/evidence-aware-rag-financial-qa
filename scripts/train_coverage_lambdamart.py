@@ -87,6 +87,7 @@ def prep(groups, feature_cols=None, warm_start_col=None):
     all_df = pd.concat(dfs, ignore_index=True)
     X = all_df[feature_cols].to_numpy(dtype=float)
     hop_labels_flat = all_df["hop_label"].tolist()
+    labels_flat = all_df["label"].to_numpy(dtype=float)
     warm_start_scores = all_df[warm_start_col].to_numpy(dtype=float)
     boundaries = []
     num_hops_per_group = []
@@ -96,7 +97,7 @@ def prep(groups, feature_cols=None, warm_start_col=None):
         boundaries.append((start, start + n))
         num_hops_per_group.append(len(g["hop_groups"]))
         start += n
-    return X, boundaries, hop_labels_flat, num_hops_per_group, warm_start_scores
+    return X, boundaries, hop_labels_flat, num_hops_per_group, warm_start_scores, labels_flat
 
 
 def compute_lambdas_for_group(scores: np.ndarray, hop_labels: list, num_hops: int, k: int, sigma: float = SIGMA):
@@ -134,20 +135,83 @@ def compute_lambdas_for_group(scores: np.ndarray, hop_labels: list, num_hops: in
     return grad, hess
 
 
+def compute_ndcg_lambdas_for_group(scores: np.ndarray, labels: np.ndarray, k: int, sigma: float = SIGMA):
+    """Standard NDCG@k LambdaRank gradient (binary relevance) - the
+    textbook objective LambdaMART was originally paired with, used here
+    ONLY as a controlled ablation baseline: identical features,
+    warm-start, and regularization as the coverage-aware version, the
+    ONE thing that differs is this swaps Δcoverage@k for ΔNDCG@k. Any
+    gap between the two isolates what the coverage-specific modification
+    itself is contributing, versus generic "a boosted-tree reranker
+    helps" effects from the features/warm-start alone.
+
+    ΔNDCG@k for swapping ranks i,j is computed exactly (not
+    approximated): removing i and j's old DCG@k contributions (0 if
+    their rank is >=k) and adding their new ones after the swap,
+    normalized by IDCG@k."""
+    n = len(scores)
+    if n == 0:
+        return np.zeros(n), np.zeros(n)
+    order = np.argsort(-scores)
+    rank_of = np.empty(n, dtype=int)
+    rank_of[order] = np.arange(n)
+
+    ideal = np.sort(labels)[::-1]
+    k_eff = min(k, n)
+    idcg = sum(ideal[r] / np.log2(r + 2) for r in range(k_eff))
+    if idcg == 0:
+        return np.zeros(n), np.zeros(n)
+
+    grad = np.zeros(n)
+    hess = np.zeros(n)
+    for i in range(n):
+        for j in range(n):
+            if labels[i] <= labels[j]:
+                continue
+            ri, rj = rank_of[i], rank_of[j]
+            delta_dcg = 0.0
+            if ri < k_eff:
+                delta_dcg -= labels[i] / np.log2(ri + 2)
+            if rj < k_eff:
+                delta_dcg -= labels[j] / np.log2(rj + 2)
+            if rj < k_eff:
+                delta_dcg += labels[i] / np.log2(rj + 2)
+            if ri < k_eff:
+                delta_dcg += labels[j] / np.log2(ri + 2)
+            delta = delta_dcg / idcg
+            if delta == 0:
+                continue
+            winner, loser = (i, j) if delta > 0 else (j, i)
+            s_diff = scores[winner] - scores[loser]
+            rho = 1.0 / (1.0 + np.exp(sigma * s_diff))
+            lam = sigma * rho * abs(delta)
+            grad[winner] += lam
+            grad[loser] -= lam
+            h = sigma * sigma * rho * (1 - rho) * abs(delta)
+            hess[winner] += h
+            hess[loser] += h
+    return grad, hess
+
+
 def train(groups, n_rounds=N_ROUNDS, lr=LEARNING_RATE, max_depth=MAX_DEPTH, verbose=True,
-          warm_start=False, feature_cols=None, min_samples_leaf=10, warm_start_col=None):
+          warm_start=False, feature_cols=None, min_samples_leaf=10, warm_start_col=None, objective="coverage"):
     """warm_start=True: ensemble is initialized to warm_start_col's own
     score (not zero), and trees are fit to learn a small correction on
-    top of it - see WARM_START_*/NO_CE_* constants and module-level notes."""
+    top of it - see WARM_START_*/NO_CE_* constants and module-level notes.
+    objective="coverage" (default) or "ndcg" - see compute_ndcg_lambdas_for_group
+    for why the "ndcg" option exists (ablation, not a recommended setting)."""
     feature_cols = feature_cols or FEATURE_COLS
-    X, boundaries, hop_labels_flat, num_hops_per_group, warm_start_scores = prep(groups, feature_cols, warm_start_col)
+    X, boundaries, hop_labels_flat, num_hops_per_group, warm_start_scores, labels_flat = prep(groups, feature_cols, warm_start_col)
     n_total = X.shape[0]
     ensemble_scores = warm_start_scores.copy() if warm_start else np.zeros(n_total)
     trees = []
     for round_i in range(n_rounds):
         grad = np.zeros(n_total)
         for (start, end), num_hops in zip(boundaries, num_hops_per_group):
-            g, _ = compute_lambdas_for_group(ensemble_scores[start:end], hop_labels_flat[start:end], num_hops, K)
+            if objective == "ndcg":
+                g, _ = compute_ndcg_lambdas_for_group(ensemble_scores[start:end], labels_flat[start:end], K)
+            else:
+                g, _ = compute_lambdas_for_group(ensemble_scores[start:end], hop_labels_flat[start:end], num_hops, K)
             grad[start:end] = g
         tree = DecisionTreeRegressor(max_depth=max_depth, min_samples_leaf=min_samples_leaf)
         tree.fit(X, grad)

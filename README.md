@@ -117,6 +117,37 @@ Evaluated on a separate 32-question redundant-hop set (n=32; every question here
 
 Getting here required diagnosing three failed attempts in sequence: a feature set including the cross-encoder's own score mostly just copied that feature (no real generalization); digging into why surfaced a genuine contamination bug (44% of mined training questions' gold chunks were the same chunks the cross-encoder was itself fine-tuned on); removing the cross-encoder entirely and using only features with no fine-tuning history, plus warm-starting from the stage-1 score with heavy regularization, is what finally produced a real, cross-validated effect (3 improved / 28 unchanged / 1 worsened across 32 questions, out-of-fold).
 
+## Full comparison across question types
+
+Stacking baseline → +LambdaMART → +CE, evaluated separately per question tier (all held-out; LambdaMART trained only on data disjoint from every tier shown here):
+
+| Tier (n) | Baseline | +LambdaMART | +CE |
+|---|---|---|---|
+| Easy (single-metric, 139), NDCG@5 | 0.557 | 0.652 | **0.888** |
+| Multihop (multi-metric, 40), NDCG@5 | 0.297 | 0.434 | **0.719** |
+| Redundant (32), NDCG@5 | 0.260 | 0.331 | **0.483** |
+
+| Tier (n) | Baseline | +LambdaMART | +CE |
+|---|---|---|---|
+| Easy (single-metric, 139), Recall@5 | 0.727 | 0.842 | **0.993** |
+| Multihop (multi-metric, 40), Recall@5 | 0.348 | 0.508 | **0.740** |
+| Redundant (32), Recall@5 | 0.238 | 0.316 | **0.392** |
+
+CE is the strongest single scorer on every tier tested here - LambdaMART's value isn't beating the cross-encoder, it's being a much cheaper alternative that still meaningfully beats the raw baseline when the cross-encoder isn't available (see Beta-blending above for why combining the two doesn't help either).
+
+### Ablation: does the coverage-specific objective modification actually matter?
+
+To isolate whether Δcoverage@k itself is doing the work (rather than just the feature set or warm-starting), a second LambdaMART was trained with **identical features, warm-start, and regularization**, swapping only the objective back to the textbook **ΔNDCG@k** LambdaRank gradient:
+
+| Tier (n) | Baseline | Coverage-aware LambdaMART | Plain NDCG-objective LambdaMART |
+|---|---|---|---|
+| Multihop (n=40), NDCG@5 | 0.297 | **0.434** | 0.181 (worse than baseline) |
+| Multihop (n=40), Coverage@5 | 0.348 | **0.508** | 0.171 (worse than baseline) |
+| Redundant (n=6, val-only), NDCG@5 | - | **0.316** | 0.057 |
+| Redundant (n=6, val-only), Coverage@5 | 0.375 | **0.708** | 0.042 (worse than baseline) |
+
+The plain-NDCG version doesn't just underperform the coverage-aware one - it performs **worse than doing no reranking at all**. This is a stronger result than "the modification helps a bit": it shows Δcoverage@k isn't incidental to getting a working model here, it's load-bearing. Best available explanation (an interpretation, not a proven mechanism): standard NDCG's gradient is *denser* than coverage's - it fires on every pair where one candidate is more relevant and either is within the top-k, rewarding fine-grained position among all relevant items, not just top-k membership. With only 145 training questions, that richer gradient has much more surface area to overfit to company-specific quirks than coverage@k's sparse, boundary-crossing-only signal, which - by only ever asking "in the top-k or not" - acts as an implicit regularizer given how little training data is available.
+
 ## Repository structure
 
 ```
