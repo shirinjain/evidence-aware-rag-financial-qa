@@ -52,7 +52,19 @@ The candidate that *should* rank higher gets `+lambda`; the other gets `-lambda`
 
 **Training setup**: implemented from scratch (`scripts/train_coverage_lambdamart.py`) using `sklearn.tree.DecisionTreeRegressor` as the weak learner in a manual gradient-boosting loop, rather than LightGBM/XGBoost - their macOS wheels need `libomp` via Homebrew, a bigger environment dependency than warranted, and a custom objective needs full gradient control that off-the-shelf libraries don't expose a clean hook for anyway. Two design choices were load-bearing for actually getting a result that generalizes:
 - **Warm-starting**: the ensemble is initialized to the stage-1 fused score (not zero), and boosting only learns a small additive *correction* on top of it, using shallow, heavily-regularized trees (`max_depth=2`, `min_samples_leaf=25`, `learning_rate=0.05`). An earlier, un-warm-started version with richer features (including the cross-encoder's own score) could and did memorize company-specific score patterns from the ~26 available training examples that didn't transfer to new companies' filings.
-- **Feature set with no fine-tuning history**: BM25/dense/fusion scores, entity/year match flags, table-vs-narrative type, lexical overlap, and one purpose-built signal - `is_value_dup_of_higher_ranked`, a company-agnostic flag for "does this candidate share a numeric value with something already ranked above it" (reusing the same value-extraction logic that mined the RQ2 training data itself). Excluding the cross-encoder's score specifically avoided a contamination path discovered mid-investigation: some of the mined training questions' gold chunks were the same chunks the cross-encoder had itself been fine-tuned on, so including its score partly measured memorization rather than a fair signal.
+- **Feature set with no fine-tuning history** - deliberately excludes the cross-encoder's own score. An earlier version that included it mostly just learned to copy that one already-strong column (no real generalization), and it turned out to double as a contamination path: some of the mined training questions' gold chunks are the same chunks the cross-encoder was itself fine-tuned on in RQ1, so its score partly measured memorization rather than a fair signal. The features actually used:
+
+  | Feature | What it captures |
+  |---|---|
+  | `bm25_norm` | Min-max normalized BM25 score |
+  | `dense_norm` | Min-max normalized dense (mpnet) cosine score |
+  | `cc_score` | Stage-1's convex-combination fused score - also the warm-start value |
+  | `is_value_dup_of_higher_ranked` | **The core coverage-specific signal.** Does this candidate share an extracted numeric value with another candidate already ranked above it (in stage-1 order)? A company-agnostic, structural "someone already reported this exact fact" flag, reusing the same value-extraction/normalization logic that mined the RQ2 training data itself. Needed two bug fixes to be reliable: matching the label-adjacent value correctly for table rows, and, for narrative text, excluding bare years and percentages (an early version flagged two unrelated chunks as "duplicates" purely because both happened to mention "fiscal 2018") |
+  | `entity_match` / `year_match` | Whether the candidate's detected company/fiscal-year matches the question's |
+  | `is_table_row` | Table row vs. narrative chunk type |
+  | `lexical_overlap` | Fraction of the question's content words appearing in the candidate's text |
+
+  Of these, `is_value_dup_of_higher_ranked` is the only one purpose-built for this problem; the rest are the same signals stage 1 already produces, just exposed directly to the tree instead of only being combined via the fixed `alpha=0.4` formula.
 
 ## RQ1: domain-informed hard-negative cross-encoder reranking
 
