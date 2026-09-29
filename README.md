@@ -37,6 +37,21 @@ Concretely, the question sets used:
 1. **RQ1's final pipeline** = baseline + query decomposition for multi-metric questions (`retrieve_decomposed`/`retrieve_auto` - splitting a bundled multi-metric query into per-metric sub-questions, since bundling dilutes term-overlap scoring per metric) + cross-encoder reranking (base model **`cross-encoder/ms-marco-MiniLM-L-6-v2`**, fine-tuned via RankNetLoss on domain-informed hard negatives - the pipeline's own top-ranked *wrong* answers, not random negatives - on 591 questions / 3,682 question-document pairs, 5 epochs) + beta-blending (`beta=1.0` for same-distribution deployment, `beta=0.3` as the dual-distribution-safe default).
 2. **RQ2's final model** = baseline + a from-scratch coverage-aware LambdaMART (custom Δcoverage@k gradient, generalizing the standard ΔNDCG LambdaRank gradient to a different, exactly-computable target metric), built entirely on features with no prior fine-tuning history - a cheaper alternative to the cross-encoder when it isn't available, not a per-question routing choice when it is.
 
+### The RankNetLoss objective (RQ1's cross-encoder fine-tuning)
+
+For a pair of candidates (i, j) retrieved for the same question, where i is truly more relevant than j (i is gold, j is a mined hard negative), the cross-encoder produces a raw scalar score for each - `s_i`, `s_j` - from its joint (query, passage) self-attention forward pass. RankNetLoss (Burges et al., 2005) converts the score difference into a predicted probability that i should outrank j, via a sigmoid, and minimizes ordinary binary cross-entropy against the true target (1, since i genuinely should rank above j here):
+
+```
+P_ij = 1 / (1 + exp(-sigma * (s_i - s_j)))
+L = -log(P_ij) = log(1 + exp(-sigma * (s_i - s_j)))
+```
+
+Minimizing this loss pushes `s_i - s_j` to be large and positive - i.e. pushes the gold document's score up and the hard negative's score down whenever the model doesn't already separate them enough. Trained via ordinary backprop, since the cross-encoder is a neural network, not a tree ensemble.
+
+**Why this loss, not an embedding-distance contrastive loss (e.g. InfoNCE)**: a cross-encoder fuses the query and passage into one joint representation and outputs a single scalar score - there's no separate query-embedding and passage-embedding to take a distance between (unlike a bi-encoder, which is what contrastive losses are built for). RankNetLoss operates directly on the scalar *scores* the model actually produces, comparing pairs of scores rather than pairs of embeddings, which is exactly what a cross-encoder can give you.
+
+**The connection to LambdaMART below, worth stating explicitly**: differentiating RankNet's loss with respect to the scores produces exactly the `rho_ij = 1/(1+exp(sigma*(s_i-s_j)))` term the LambdaMART section below is built on - LambdaRank *is* RankNet's gradient, just with each pair's contribution additionally scaled by `|ΔMetric|` (ΔNDCG classically, Δcoverage@k in RQ2's modification). RQ1's loss and RQ2's loss aren't two unrelated ideas - one is the foundation the other generalizes.
+
 ### The LambdaMART objective, and how it's modified for coverage
 
 Standard LambdaRank doesn't optimize NDCG by writing it directly into a loss - NDCG is a sorting-based function of the ranking, and you can't backpropagate through "sort these items." Instead, for every pair of candidates (i, j) in a query's group, it computes how much a target metric would change if their ranks were swapped, and uses that magnitude to scale an ordinary pairwise gradient:
