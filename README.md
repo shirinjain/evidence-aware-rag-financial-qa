@@ -9,7 +9,13 @@ Full writeups: [`PROJECT_SUMMARY.md`](PROJECT_SUMMARY.md) (unifying overview), [
 
 ## Dataset
 
-**Corpus**: 146,821 chunks from 84 SEC filings across 32 companies (2015-2024). PDFs converted with Docling, restricted per-document to page ranges around known evidence locations to keep conversion tractable.
+**From raw PDFs to a queryable corpus**:
+1. **Conversion**: each SEC filing PDF (10-K/10-Q/8-K/earnings release) is converted to structured markdown using [Docling](https://github.com/docling-project/docling), restricted per-document to the page range around known evidence locations to keep conversion tractable across 84 filings.
+2. **Chunking**: the converted markdown is split into child chunks - individual table rows and narrative paragraphs (see Chunking strategy below) - each tagged with metadata extracted during conversion: company (`entity`), fiscal year (`fiscal_period`), and the section/subsection heading it came from.
+3. **Indexing**: every child chunk is indexed twice - into a BM25 sparse index and, via `all-mpnet-base-v2`, into a dense embedding index - which is what `retrieve_fusion` (below) queries at retrieval time.
+4. **Question construction**: the precise question sets (single-metric, multi-metric) are then built directly from this indexed, metadata-tagged corpus - a (company, year, metric) triple is located in the chunks, and the question is written to match it exactly, rather than searching for chunks that match a pre-existing question.
+
+**Corpus**: 146,821 chunks from 84 SEC filings across 32 companies (2015-2024).
 
 **Chunking strategy (parent-child)**: two different granularities, chosen deliberately per content type, not chunked at a single uniform size.
 - **Child chunks (the actual retrieval unit)**: table **rows** are split individually - one row = one chunk, with the entity/fiscal-year/section-title context and column headers preserved alongside it. This granularity is needed because financial questions need the *exact* row (the right row and the wrong row can be a single word apart, e.g. "Net income" vs "Net income attributable to noncontrolling interest"), not a whole table. Narrative text is kept at **paragraph** granularity, not sentence-split, since narrative evidence in this domain tends to be coherent multi-sentence explanations rather than atomic single-sentence facts.
