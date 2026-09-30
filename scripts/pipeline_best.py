@@ -73,6 +73,25 @@ def _load_reranker():
     return _reranker
 
 
+_id_to_embedding_idx = None
+_embeddings = None
+
+
+def _load_embeddings():
+    """Lazy-loaded chunk_id -> row index into mpnet_embeddings.npy (the
+    same all-mpnet-base-v2 vectors stage-1 dense retrieval already uses),
+    reused here as the similarity kernel for facility_location_rerank -
+    no new embedding model, no new index, just a different use of an
+    artifact already built."""
+    global _id_to_embedding_idx, _embeddings
+    if _embeddings is None:
+        import numpy as np
+        _embeddings = np.load(ROOT / "data" / "processed" / "mpnet_embeddings.npy", mmap_mode="r")
+        ids = pd.read_csv(ROOT / "data" / "processed" / "mpnet_chunk_ids.csv")["chunk_id"]
+        _id_to_embedding_idx = {cid: i for i, cid in enumerate(ids)}
+    return _id_to_embedding_idx, _embeddings
+
+
 def retrieve_fusion(
     question_text: str,
     k: int = 50,
@@ -123,6 +142,116 @@ def rerank(question_text: str, candidates: list[str], beta: float = DEFAULT_BETA
     ce_norm_map = {cid: (s - lo) / rng for cid, s in zip(candidates, ce_scores)}
     blended = {cid: beta * ce_norm_map[cid] + (1 - beta) * orig_rank_map[cid] for cid in candidates}
     return sorted(candidates, key=lambda c: blended[c], reverse=True)
+
+
+def value_penalized_rerank(question_text: str, candidates: list[str], penalty: float = 0.2) -> list[str]:
+    """Value-Penalized Greedy Reranking (VPGR) - a training-free,
+    tunable alternative to DPP-style diversity reranking, built from
+    this project's own already-validated pieces rather than a generic
+    embedding-similarity kernel. Greedily builds the final ranking by
+    picking, at each step, the candidate maximizing
+        ce_score_norm(c) - penalty * [c shares an exact numeric value
+                                       with anything already selected]
+    instead of DPP's embedding-cosine diversity kernel: in structured
+    financial tables, exact-value matching (reusing
+    extract_lambdamart_features._extract_values, the same logic that
+    mined RQ2's training data) is a much lower-noise redundancy signal
+    than semantic similarity - two DIFFERENT metrics in similar table
+    rows can embed similarly, while genuine restatements can sit in
+    differently-worded contexts.
+
+    Deliberately a SOFT, tunable penalty rather than the hard oracle-
+    based swap the earlier greedy-MMR heuristic used (which needed true
+    hop-group membership, unavailable at real inference time, and cost
+    -22% precision by always demoting a redundant candidate regardless
+    of cost). penalty=0.0 reduces to pure cross-encoder order."""
+    from extract_lambdamart_features import _extract_values
+
+    if not candidates:
+        return candidates
+    _, _, id_to_text = _load_metadata()
+    model = _load_reranker()
+
+    pairs = [(question_text, id_to_text.get(cid, "")) for cid in candidates]
+    ce_scores = model.predict(pairs, show_progress_bar=False)
+    lo, hi = min(ce_scores), max(ce_scores)
+    rng = (hi - lo) if hi > lo else 1.0
+    ce_norm = {cid: (s - lo) / rng for cid, s in zip(candidates, ce_scores)}
+    values_by_chunk = {cid: _extract_values(id_to_text.get(cid, "")) for cid in candidates}
+
+    remaining = list(candidates)
+    selected = []
+    selected_values = set()
+    while remaining:
+        best_c, best_score = None, float("-inf")
+        for c in remaining:
+            is_dup = bool(values_by_chunk[c] & selected_values)
+            adj = ce_norm[c] - (penalty if is_dup else 0.0)
+            if adj > best_score:
+                best_score, best_c = adj, c
+        selected.append(best_c)
+        selected_values |= values_by_chunk[best_c]
+        remaining.remove(best_c)
+    return selected
+
+
+def facility_location_rerank(question_text: str, candidates: list[str], lam: float = 0.5) -> list[str]:
+    """Greedy maximization of a monotone submodular objective combining
+    relevance and coverage:
+        F(S) = lam * sum_{c in S} relevance(c)
+             + (1-lam) * sum_{i in V} max_{j in S} sim(i, j)
+    V = candidates (the stage-1 pool), sim = cosine similarity between
+    mpnet embeddings (reusing the same vectors dense retrieval already
+    computes - no new embedding model). The second (Facility Location)
+    term is the textbook submodular "representativeness/coverage"
+    function from the summarization literature (Lin & Bilmes); the sum
+    of a modular relevance term and a submodular coverage term is
+    itself submodular, so the standard greedy algorithm carries the
+    classic (1-1/e) approximation guarantee for maximizing it.
+
+    This supersedes value_penalized_rerank's binary "exact value match"
+    redundancy proxy with a continuous similarity kernel - the value-
+    match signal only fires on literal numeric duplicates and says
+    nothing about near-duplicates or redundancy between differently-
+    phrased restatements of the same fact; cosine similarity degrades
+    gracefully instead of being a hard 0/1 flag."""
+    import numpy as np
+
+    if not candidates:
+        return candidates
+    _, _, id_to_text = _load_metadata()
+    model = _load_reranker()
+    id_to_emb_idx, embeddings = _load_embeddings()
+
+    pairs = [(question_text, id_to_text.get(cid, "")) for cid in candidates]
+    ce_scores = np.array(model.predict(pairs, show_progress_bar=False))
+    lo, hi = ce_scores.min(), ce_scores.max()
+    rng = (hi - lo) if hi > lo else 1.0
+    relevance = (ce_scores - lo) / rng
+
+    idxs = [id_to_emb_idx.get(cid) for cid in candidates]
+    vecs = np.array([embeddings[i] if i is not None else np.zeros(embeddings.shape[1]) for i in idxs], dtype=np.float32)
+    norms = np.linalg.norm(vecs, axis=1, keepdims=True)
+    norms[norms == 0] = 1.0
+    vecs = vecs / norms
+    sim = vecs @ vecs.T  # cosine similarity matrix, since vectors are L2-normalized
+
+    n = len(candidates)
+    best_coverage = np.zeros(n)  # best_coverage[i] = max_{j in S} sim[i,j], updated as S grows
+    remaining = set(range(n))
+    order = []
+    while remaining:
+        best_idx, best_gain = None, float("-inf")
+        for c in remaining:
+            new_coverage = np.maximum(best_coverage, sim[:, c])
+            coverage_gain = (new_coverage - best_coverage).sum()
+            gain = lam * relevance[c] + (1 - lam) * coverage_gain
+            if gain > best_gain:
+                best_gain, best_idx = gain, c
+        order.append(best_idx)
+        best_coverage = np.maximum(best_coverage, sim[:, best_idx])
+        remaining.discard(best_idx)
+    return [candidates[i] for i in order]
 
 
 def retrieve(

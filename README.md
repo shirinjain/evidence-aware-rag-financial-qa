@@ -3,7 +3,7 @@
 Retrieval-augmented QA over SEC filings (10-Ks, 10-Qs, 8-Ks, earnings releases), built on the [FinanceBench](https://arxiv.org/abs/2311.11944) dataset. Financial documents are dominated by tables (where the right row and the wrong row can differ by a single word or sign convention) and many real questions are multi-hop, requiring several distinct facts that are sometimes restated in more than one place in the corpus. This project addresses both problems as two research questions:
 
 - **RQ1** — can a domain-informed, hard-negative-mined cross-encoder reranker meaningfully improve retrieval? **Yes: +56.3% recall@10** on a genuinely held-out test set.
-- **RQ2** — can a coverage-aware ranking objective (avoiding redundant restatements of an already-covered fact in favor of a still-missing one) be learned and generalize? **Yes, modestly: +32.9% recall@10** on a redundant-hop test set, validated via cross-validation after diagnosing and discarding two failed approaches.
+- **RQ2** — can a coverage-aware ranking objective (avoiding redundant restatements of an already-covered fact in favor of a still-missing one) be learned and generalize? **Yes, modestly: +32.9% recall@10** on a redundant-hop test set, validated via cross-validation.
 
 Full writeups: [`PROJECT_SUMMARY.md`](PROJECT_SUMMARY.md) (unifying overview), [`RQ1_RESULTS.md`](RQ1_RESULTS.md), [`RQ2_RESULTS.md`](RQ2_RESULTS.md).
 
